@@ -17616,6 +17616,22 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 1212,
+    label = "Cds-HH_Cds-HO2s_Cs",
+    group = 
+"""
+1 *1 Cd  u0 {2,D} {5,S} {6,S}
+2 *2 Cd  u0 {1,D} {4,S} {7,S}
+3    Cs  u0 {4,S}
+4    O2s u0 {2,S} {3,S}
+5    H   u0 {1,S}
+6    H   u0 {1,S}
+7    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: R_R
@@ -17829,6 +17845,7 @@ L1: R_R
                     L6: Cds-HH_Cds-Cs\H3/H
                 L5: Cds-HH_Cds-CsCs
                 L5: Cds-HH_Cds-OsH
+                    L6: Cds-HH_Cds-HO2s_Cs
                 L5: Cds-HH_Cds-OsCs
                 L5: Cds-HH_Cds-OsOs
                 L5: Cds-HH_Cds-SsH

@@ -6483,3 +6483,191 @@ u"""
 
 """,
 )
+
+forbidden(
+    label = "alpha_qooh_small",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S}
+2 *3 H u0 p0 {1,S}
+3 *4 O u0 p2 {4,S} {1,S}
+4 *1 O u1 p2 {3,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_1",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {6,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_2",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {7,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_3",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {8,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *5 R!H ux px {7,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_4",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {9,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *5 R!H ux px {8,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_5",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {10,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *7 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *5 R!H ux px {9,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_6",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {11,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *8 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *7 R!H ux px {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *5 R!H ux px {10,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_7",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {12,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *8 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *9 R!H ux px {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *7 R!H ux px {10,[S,D,T,B]} {12,[S,D,T,B]}
+12 *5 R!H ux px {11,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
+
+forbidden(
+    label = "alpha_qooh_8",
+    group =
+"""
+1 *2 R!H u0 px {2,S} {3,S} {13,[S,D,T,B]}
+2 *3 H u0 {1,S}
+3    O u0 p2 {4,S} {1,S}
+4    O u0 p2 {3,S} {5,S}
+5    H u0 p0 {4,S}
+6 *1 R!H u1 px {7,[S,D,T,B]}
+7 *4 R!H ux px {6,[S,D,T,B]} {8,[S,D,T,B]}
+8 *6 R!H ux px {7,[S,D,T,B]} {9,[S,D,T,B]}
+9 *8 R!H ux px {8,[S,D,T,B]} {10,[S,D,T,B]}
+10 *10 R!H ux px {9,[S,D,T,B]} {11,[S,D,T,B]}
+11 *9 R!H ux px {10,[S,D,T,B]} {12,[S,D,T,B]}
+12 *7 R!H ux px {11,[S,D,T,B]} {13,[S,D,T,B]}
+13 *5 R!H ux px {12,[S,D,T,B]} {1,[S,D,T,B]}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)

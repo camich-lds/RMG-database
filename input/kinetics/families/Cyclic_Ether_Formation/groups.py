@@ -782,21 +782,116 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 60,
+    label = "R2OO_SSO",
+    group = 
+"""
+1 *4 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *2 O2s        u0 {1,S} {4,S}
+3 *1 R!H        u1 {1,S} {5,S}
+4 *3 [O2s,S]    ux {2,S}
+5 *5 O2s        u0 {3,S} {6,S}
+6 *6 R!H        u0 {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 61,
+    label = "R4OO_SSOS",
+    group = 
+"""
+1 *6 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *5 [Cd,Cs,CO] u0 {1,S} {4,S}
+3 *4 O2s        u0 {1,S} {5,S}
+4 *2 O2s        u0 {2,S} {6,S}
+5 *1 R!H        u1 {3,S}
+6 *3 [O2s,S]    ux {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 62,
+    label = "R5OO_SSOSS",
+    group = 
+"""
+1 *7 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *6 O2s        u0 {1,S} {4,S}
+3 *5 [Cd,Cs,CO] u0 {1,S} {5,S}
+4 *4 [Cd,Cs,CO] u0 {2,S} {6,S}
+5 *2 O2s        u0 {3,S} {7,S}
+6 *1 R!H        u1 {4,S}
+7 *3 [O2s,S]    ux {5,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 63,
+    label = "R3OO_SOS",
+    group = 
+"""
+1 *5 [Cd,Cs,CO] u0 {2,S} {3,S}
+2 *4 O2s        u0 {1,S} {4,S}
+3 *2 O2s        u0 {1,S} {5,S}
+4 *1 R!H        u1 {2,S}
+5 *3 [O2s,S]    ux {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 64,
+    label = "R4OO_SOSS",
+    group = 
+"""
+1 *6 O2s        u0 {2,S} {3,S}
+2 *5 [Cd,Cs,CO] u0 {1,S} {4,S}
+3 *4 [Cd,Cs,CO] u0 {1,S} {5,S}
+4 *2 O2s        u0 {2,S} {6,S}
+5 *1 R!H        u1 {3,S}
+6 *3 [O2s,S]    ux {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 65,
+    label = "R2OO_S_O",
+    group = 
+"""
+1 *4 [Cd,Cs,CO] u0 {2,S} {3,S} {5,S}
+2 *2 O2s        u0 {1,S} {4,S}
+3 *1 R!H        u1 {1,S}
+4 *3 [O2s,S]    ux {2,S}
+5 *5 O2s        u0 {1,S} {6,S}
+6 *6 R!H        u0 {5,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: RnOO
     L2: R2OO
         L3: R2OO_S
             L4: R2OO_SCO
+            L4: R2OO_SSO
+            L4: R2OO_S_O
         L3: R2OO_D
     L2: R3OO
         L3: R3OO_SS
             L4: R3OO_SSCO
+            L4: R3OO_SOS
         L3: R3OO_SD
         L3: R3OO_DS
     L2: R4OO
         L3: R4OO_SSS
             L4: R4OO_SSSCO
+            L4: R4OO_SSOS
+            L4: R4OO_SOSS
         L3: R4OO_SSD
         L3: R4OO_SDS
         L3: R4OO_DSS
@@ -804,6 +899,7 @@ L1: RnOO
     L2: R5OO
         L3: R5OO_SSSS
             L4: R5OO_SSSSCO
+            L4: R5OO_SSOSS
         L3: R5OO_SSSD
         L3: R5OO_SSDS
         L3: R5OO_SDSS

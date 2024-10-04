@@ -7182,6 +7182,238 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 534,
+    label = "C/H2/CsO2s\Cs",
+    group = 
+"""
+1 *1 C   u0 {2,S} {4,S} {5,S} {6,S}
+2    Cs  u0 {1,S}
+3    Cs  u0 {4,S}
+4    O2s u0 {1,S} {3,S}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 535,
+    label = "C/H3/Cs\H2\O2sCs",
+    group = 
+"""
+1 *1 C   u0 {2,S} {5,S} {6,S} {7,S}
+2    Cs  u0 {1,S} {4,S} {8,S} {9,S}
+3    Cs  u0 {4,S}
+4    O2s u0 {2,S} {3,S}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+7    H   u0 {1,S}
+8    H   u0 {2,S}
+9    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 536,
+    label = "C/H3/Cs\H2\OdC",
+    group = 
+"""
+1 *1 C   u0 {2,S} {5,S} {6,S} {7,S}
+2    Cs  u0 {1,S} {3,S} {8,S} {9,S}
+3    Cd  u0 {2,S} {4,D}
+4    O   u0 {3,D}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+7    H   u0 {1,S}
+8    H   u0 {2,S}
+9    H   u0 {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 537,
+    label = "C/H2/Cs\Cd\Od",
+    group = 
+"""
+1 *1 C   u0 {2,S} {3,S} {5,S} {6,S}
+2    Cs  u0 {1,S}
+3    Cd  u0 {1,S} {4,D}
+4    O   u0 {3,D}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 538,
+    label = "C/H3/Cd\Od\Cs",
+    group = 
+"""
+1 *1 C   u0 {2,S} {5,S} {6,S} {7,S}
+2    Cd  u0 {1,S} {3,S} {4,D}
+3    Cs  u0 {2,S}
+4    O   u0 {2,D}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+7    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 539,
+    label = "C/H3/Cd\Od\O2s",
+    group = 
+"""
+1 *1 C   u0 {2,S} {5,S} {6,S} {7,S}
+2    Cd  u0 {1,S} {3,S} {4,D}
+3    O2s u0 {2,S}
+4    O   u0 {2,D}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+7    H   u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 540,
+    label = "C/H2/Cs/O2s\Cd/Od",
+    group = 
+"""
+1 *1 C   u0 {2,S} {5,S} {6,S} {7,S}
+2    O2s u0 {1,S} {3,S}
+3    Cd  u0 {2,S} {4,D}
+4    O   u0 {3,D}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+7    Cs  u0 {1,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 541,
+    label = "C/H3/Cs\O2s\Cd/Od",
+    group = 
+"""
+1 *1 C   u0 {2,S} {5,S} {6,S} {7,S}
+2    Cs  u0 {1,S} {8,S} 
+3    Cd  u0 {8,S} {4,D}
+4    O   u0 {3,D}
+5 *2 H   u0 (1,S}
+6    H   u0 {1,S}
+7    H   u0 {1,S}
+8    O2s u0 {2,S} {3,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 542,
+    label = "C/H/Cs\O2s/CO",
+    group = 
+"""
+1 *1 C     u0 {2,S} {3,S}
+2    Cs    u0 {1,S} {4,S}
+3 *2 H     u0 {1,S}
+4    O2s   u0 {2,S} {5,S}
+5    CO    u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 543,
+    label = "Cs/Cs\H\O2s/CO",
+    group = 
+"""
+1    Cs    u0 {2,S}
+2 *1 Cs    u0 {1,S} {3,S} {4,S}
+3 *2 H     u0 {2,S}
+4    O2s   u0 {2,S} {5,S}
+5    CO    u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 544,
+    label = "Cs/Cs\H\CO/O2s",
+    group = 
+"""
+1    Cs    u0 {2,S}
+2 *1 Cs    u0 {1,S} {3,S} {5,S}
+3 *2 H     u0 {2,S}
+4    O2s   u0 {5,S}
+5    CO    u0 {4,S} {2,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 545,
+    label = "Cs/CO/H/Cs\CO/O2s",
+    group = 
+"""
+1 *1 Cs    u0 {2,S} {3,S} {6,S}
+2    Cs    u0 {1,S} {5,S}
+3 *2 H     u0 {1,S}
+4    O2s   u0 {5,S}
+5    CO    u0 {4,S} {2,S}
+6    CO    u0 {1,S}
+
+""",
+    kinetics = None,
+)
+
+
+entry(
+    index = 546,
+    label = "Cs/H/CO\Cs/Cs",
+    group = 
+"""
+1 *1 Cs u0 {2,S} {3,S}
+2 *2 H  u0 {1,S}
+3 CO u0 {1,S} {4,S}
+4 Cs u0 {3,S} {5,S}
+5 Cs u0 {4,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 547,
+    label = "Cs/CO\Cs/H/Cs",
+    group = 
+"""
+1 Cs u0 {3,S}
+2 *2 H  u0 {4,S}
+3 CO u0 {1,S} {4,S}
+4 *1 Cs u0 {3,S} {5,S} {2,S}
+5 Cs u0 {4,S}
+""",
+    kinetics = None,
+)
+             
+entry(
+    index = 548,
+    label = "Cs/CO\Cs/Cs\H",
+    group = 
+"""
+1 Cs u0 {3,S}
+2 *2 H  u0 {5,S}
+3 CO u0 {1,S} {4,S}
+4 Cs u0 {3,S} {5,S}
+5 *1 Cs u0 {4,S} {2,S}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -7315,7 +7547,14 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Cs\OneNonDe
                         L7: C/H3/Cs\H2\Cs
                             L8: C/H3/Cs\H2\Cs|O
+                            L8: C/H3/Cs\O2s\Cd/Od
                         L7: C/H3/Cs\H2\O
+                            L8: C/H3/Cs\H2\O2sCs
+                            L8: C/H3/Cs\H2\OdC
+                            L8: C/H/Cs\O2s/CO
+                            L8: Cs/Cs\H\O2s/CO
+                            L8: Cs/Cs\H\CO/O2s
+                            L8: Cs/CO/H/Cs\CO/O2s
                     L6: C/H3/Cs\TwoNonDe
                         L7: C/H3/Cs\H\Cs\O
                         L7: C/H3/Cs\H\Cs\Cs|O
@@ -7327,6 +7566,9 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                     L6: C/H3/Ct
                     L6: C/H3/Cb
                     L6: C/H3/CO
+                        L7: Cs/H/CO\Cs/Cs
+                        L7: Cs/CO\Cs/H/Cs
+                        L7: Cs/CO\Cs/Cs\H
                     L6: C/H3/CS
                     L6: C/H3/Cd
                         L7: 2_methyl_CPD
@@ -7334,11 +7576,14 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                         L7: C/H3/Cd\H_Cd\H2
                         L7: C/H3/Cd\H_Cd\H\Cs
                         L7: C/H3/Cd\Cs_Cd\H2
+                        L7: C/H3/Cd\Od\Cs
+                        L7: C/H3/Cd\Od\O2s
                 L5: Cs/H3/NonDeN
                 L5: Cs/H3/OneDeN
             L4: C_sec
                 L5: C/H2/NonDeC
                     L6: C/H2/Cs/Cs\O
+                    L6: C/H2/Cs\Cd\Od
                     L6: C/H2/Cs/Cs\Cs|O
                     L6: C/H2/NonDeC_5ring
                         L7: C/H2/NonDeC_5ring_fused6_1
@@ -7349,6 +7594,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
                 L5: C/H2/NonDeO
                     L6: C/H2/CsO
                         L7: C/H2/Cs\Cs2/O
+                        L7: C/H2/CsO2s\Cs
+                        L7: C/H2/Cs/O2s\Cd/Od
                     L6: C/H2/O2
                 L5: C/H2/NonDeS
                     L6: C/H2/CsS

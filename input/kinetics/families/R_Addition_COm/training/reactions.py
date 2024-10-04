@@ -531,3 +531,32 @@ where only 1500, 2000, 2500 K rates were reported.
 """,
 )
 
+entry(
+    index = 15,
+    label = "C3H5O3 <=> CO + C2H5O2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(2.26e+17,'s^-1'), n=-0.725, Ea=(8.914,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: CC(OO)[C]=O <=> C[CH]OO + CO
+Mark Nimlos CBS-QB3 HR
+""",
+)
+
+entry(
+    index = 16,
+    label = "C3H5O3-2 <=> CO + C2H5O2-2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(3.41e+11,'s^-1'), n=1.009, Ea=(13.402,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: C(OO)C[C]=O <=> [CH2]COO + CO
+Mark Nimlos CBS-QB3 HR
+""",
+)

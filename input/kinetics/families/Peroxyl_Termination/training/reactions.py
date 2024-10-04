@@ -233,3 +233,49 @@ https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rat
 T range: 286-323K
 """,
 )
+entry(
+    index = 14,
+    label = "C2H5O2-2 + C4H9O3 <=> C4H8O2 + O2 + C2H6O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.4e+16,'cm^3/(mol*s)'), n=-1.61, Ea=(2.5,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Ether_training/Peroxyl_Termination
+Original entry: C4H9ObOO + C2H5O2 <=> EA + C2H5OH + O2
+!/2 BECAUSE TWO POSSIBILITIES
+""",
+)
+
+entry(
+    index = 15,
+    label = "C4H9O3-2 + C2H5O2 <=> C2H4O + O2 + C4H10O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.4e+16,'cm^3/(mol*s)'), n=-1.61, Ea=(1.5,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Training reaction from kinetics library: Ether_training/Peroxyl_Termination
+Original entry: C4H9ObOO + C2H5O2 <=> C4H9OHb + CH3CHO + O2
+!/2 BECAUSE TWO POSSIBILITIES
+""",
+)
+

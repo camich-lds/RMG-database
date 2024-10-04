@@ -9,21 +9,32 @@ entry(
     index = 1,
     label = "Combined",
     kinetics = SurfaceArrheniusBEP(
-        A = (1.187E12, '1/s'),
-        n = 0.0, 
-        alpha = 0.842,
-        E0 = (145.69, 'kJ/mol'),
+        A = (8.96e10, '1/s'),
+        n = 0.422,
+        alpha = 0,
+        E0 = (0.0, 'kcal/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-A factors are averages of training reactions 1-4 and the reverse direction of training reactions 5-7, 
-and alpha and E0 are BEP parameters from training reactions 1-4 and the reverse of training reactions 5-7.
+Pre-exponential value, n and E0 are from R42 in Table 1 of "A Catalytic Reaction Mechanism for Methane 
+Partial Oxidation at Short ContactTimes, Reforming, and Combustion, and 
+for Oxygenate Decomposition and Oxidation on Platinum"
+Authors:  A.B. Mhadeshwar and D.G. Vlachos
+doi:10.1021/ie070322c
 
-Details on the computational method to derive the rate constants for the BEP relation are provided in "Automatic mechanism generation involving 
-kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
-doi:10.1039/d3dd00184a
+The reaction is
+   HCOO** -> CO2* + H*
+They report a nonlinear dependence of the activation energy on specific coverage (of H*)
+and temperature, but don't say what this dependence is.
+Note that this reaction is not actually an example of this reaction family!
+It the dissociation of a bidentate adsorbate, but the H* that ends up adsorbed was not 
+one of the initial adatoms.
+However, in the absence of better data, it is currently our best estimate. (KB, CFG, RHW, 2020-11-30).
 """
 )
+
+
+

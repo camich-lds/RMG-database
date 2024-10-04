@@ -1,0 +1,839 @@
+ELEMENTS
+C
+H
+O
+N
+AR
+HE
+END
+
+SPECIES
+
+nBL !CCCCOC(=O)CCC(C)=O
+nBL1J ![CH2]C(=O)CCC(=O)OCCCC
+nBL3J !CCCCOC(=O)C[CH]C(C)=O
+nBL4J !CCCCOC(=O)[CH]CC(C)=O
+nBL6J !CCC[CH]OC(=O)CCC(C)=O
+nBL7J !CC[CH]COC(=O)CCC(C)=O
+nBL8J !C[CH]CCOC(=O)CCC(C)=O
+nBL9J ![CH2]CCCOC(=O)CCC(C)=O
+
+nBL1OO !CCCCOC(=O)CCC(=O)CO[O]
+nBL3OO !CCCCOC(=O)CC(O[O])C(C)=O
+nBL4OO !CCCCOC(=O)C(CC(C)=O)O[O]
+nBL6OO !CCCC(O[O])OC(=O)CCC(C)=O
+nBL7OO !CCC(COC(=O)CCC(C)=O)O[O]
+nBL8OO !CC(=O)CCC(=O)OCCC(C)O[O]
+nBL9OO !CC(=O)CCC(=O)OCCCCO[O]
+
+nBL1OOH3J !CCCCOC(=O)C[CH]C(=O)COO
+nBL1OOH4J !CCCCOC(=O)[CH]CC(=O)COO
+nBL3OOH1J ![CH2]C(=O)C(CC(=O)OCCCC)OO
+nBL3OOH4J !CCCCOC(=O)[CH]C(OO)C(C)=O
+nBL3OOH6J !CCC[CH]OC(=O)CC(OO)C(C)=O
+nBL3OOH7J !CC[CH]COC(=O)CC(OO)C(C)=O
+nBL4OOH1J ![CH2]C(=O)CC(OO)C(=O)OCCCC
+nBL4OOH3J !CCCCOC(=O)C([CH]C(C)=O)OO
+nBL4OOH6J !CCC[CH]OC(=O)C(CC(C)=O)OO
+nBL4OOH7J !CC[CH]COC(=O)C(CC(C)=O)OO
+nBL4OOH8J !C[CH]CCOC(=O)C(CC(C)=O)OO
+nBL6OOH3J !CCCC(OO)OC(=O)C[CH]C(C)=O
+nBL6OOH4J !CCCC(OO)OC(=O)[CH]CC(C)=O
+nBL6OOH7J !CC[CH]C(OO)OC(=O)CCC(C)=O
+nBL6OOH8J !C[CH]CC(OO)OC(=O)CCC(C)=O
+nBL6OOH9J ![CH2]CCC(OO)OC(=O)CCC(C)=O
+nBL7OOH3J !CCC(COC(=O)C[CH]C(C)=O)OO
+nBL7OOH4J !CCC(COC(=O)[CH]CC(C)=O)OO
+nBL7OOH6J !CCC([CH]OC(=O)CCC(C)=O)OO
+nBL7OOH8J !C[CH]C(COC(=O)CCC(C)=O)OO
+nBL7OOH9J ![CH2]CC(COC(=O)CCC(C)=O)OO
+nBL8OOH4J !CC(=O)C[CH]C(=O)OCCC(C)OO
+nBL8OOH6J !CC(=O)CCC(=O)O[CH]CC(C)OO
+nBL8OOH7J !CC(=O)CCC(=O)OC[CH]C(C)OO
+nBL8OOH9J ![CH2]C(CCOC(=O)CCC(C)=O)OO
+nBL9OOH6J !CC(=O)CCC(=O)O[CH]CCCOO
+nBL9OOH7J !CC(=O)CCC(=O)OC[CH]CCOO
+nBL9OOH8J !CC(=O)CCC(=O)OCC[CH]COO
+
+nBL34D !CCCCOC(=O)C=CC(C)=O
+nBL67D !CCC=COC(=O)CCC(C)=O
+nBL78D !CC=CCOC(=O)CCC(C)=O
+nBL89D !C=CCCOC(=O)CCC(C)=O
+
+nBL1OD !C(=O)C(=O)CCC(=O)OCCCC
+nBL1OJ !C([O])C(=O)CCC(=O)OCCCC
+nBL3OD !CC(=O)C(=O)CC(=O)OCCCC
+nBL3OJ !CC(=O)C([O])CC(=O)OCCCC
+nBL4OD !CCCCOC(=O)C(=O)CC(C)=O
+nBL6OD !CCCC(=O)OC(=O)CCC(C)=O
+nBL7OD !CCC(=O)COC(=O)CCC(C)=O
+
+nBL13CY !CCCCOC(=O)CC1OCC1=O
+nBL14CY !CCCCOC(=O)C1CC(=O)CO1
+nBL34CY !CCCCOC(=O)C1OC1C(C)=O
+nBL36CY !CCCC1OC(=O)CC1C(C)=O
+nBL46CY !CCCC1OC(=O)C1CC(C)=O
+nBL67CY !CCC1OC1OC(=O)CCC(C)=O
+nBL3O6CY !CCCC1OC(=O)CC(C(C)=O)O1
+nBL4O6CY !CCCC1OC(=O)C(CC(C)=O)O1
+
+nBL1OOH3OO !CCCCOC(=O)CC(O[O])C(=O)COO
+nBL1OOH4OO !CCCCOC(=O)C(O[O])CC(=O)COO
+nBL3OOH1OO !CCCCOC(=O)CC(OO)C(=O)CO[O]
+nBL3OOH4OO !CCCCOC(=O)C(O[O])C(OO)C(C)=O
+nBL3OOH6OO !CCCC(O[O])OC(=O)CC(OO)C(C)=O
+nBL3OOH7OO !CCC(O[O])COC(=O)CC(OO)C(C)=O
+nBL4OOH1OO !CCCCOC(=O)C(CC(=O)CO[O])OO
+nBL4OOH3OO !CCCCOC(=O)C(OO)C(O[O])C(C)=O
+nBL4OOH6OO !CCCC(O[O])OC(=O)C(OO)CC(C)=O
+nBL4OOH7OO !CCC(O[O])COC(=O)C(OO)CC(C)=O
+nBL4OOH8OO !CC(O[O])CCOC(=O)C(OO)CC(C)=O
+nBL6OOH3OO !CCCC(OO)OC(=O)CC(O[O])C(C)=O
+nBL6OOH4OO !CCCC(OO)OC(=O)C(O[O])CC(C)=O
+nBL6OOH7OO !CCC(O[O])C(OO)OC(=O)CCC(C)=O
+nBL6OOH8OO !CC(O[O])CC(OO)OC(=O)CCC(C)=O
+nBL6OOH9OO !C(O[O])CCC(OO)OC(=O)CCC(C)=O
+nBL7OOH3OO !CCC(COC(=O)CC(O[O])C(C)=O)OO
+nBL7OOH4OO !CCC(COC(=O)C(O[O])CC(C)=O)OO
+nBL7OOH6OO !CCC(C(O[O])OC(=O)CCC(C)=O)OO
+nBL7OOH8OO !CC(O[O])C(COC(=O)CCC(C)=O)OO
+nBL7OOH9OO !C(O[O])CC(COC(=O)CCC(C)=O)OO
+nBL8OOH4OO !CC(=O)CC(O[O])C(=O)OCCC(C)OO
+nBL8OOH6OO !CC(=O)CCC(=O)OC(O[O])CC(C)OO
+nBL8OOH7OO !CC(=O)CCC(=O)OCC(O[O])C(C)OO
+nBL8OOH9OO !CC(=O)CCC(=O)OCCC(C(O[O]))OO
+nBL9OOH6OO !CC(=O)CCC(=O)OC(CCCOO)O[O]
+nBL9OOH7OO !CC(=O)CCC(=O)OCC(CCOO)O[O]
+nBL9OOH8OO !CC(=O)CCC(=O)OCCC(COO)O[O]
+
+nBL1OOH34D !CCCCOC(=O)C=CC(=O)COO
+nBL3OOH34D !CCCCOC(=O)C=C(OO)C(C)=O
+nBL3OOH67D !CCC=COC(=O)CC(OO)C(C)=O
+nBL4OOH34D !CCCCOC(=O)C(OO)=CC(C)=O
+nBL4OOH67D !CCC=COC(=O)C(OO)CC(C)=O
+nBL4OOH78D !CC=CCOC(=O)C(OO)CC(C)=O
+nBL4OOH89D !C=CCCOC(=O)C(OO)CC(C)=O
+nBL6OOH34D !CCCC(OO)OC(=O)C=CC(C)=O
+nBL6OOH67D !CCC=C(OO)OC(=O)CCC(C)=O
+nBL6OOH78D !CC=CC(OO)OC(=O)CCC(C)=O
+nBL6OOH89D !C=CCC(OO)OC(=O)CCC(C)=O
+nBL7OOH34D !CCC(OO)COC(=O)C=CC(C)=O
+nBL7OOH67D !CCC(OO)=COC(=O)CCC(C)=O
+nBL7OOH78D !CC=C(OO)COC(=O)CCC(C)=O
+nBL7OOH89D !C=CC(OO)COC(=O)CCC(C)=O
+nBL8OOH34D !CC(OO)CCOC(=O)C=CC(C)=O
+nBL8OOH67D !CC(OO)C=COC(=O)CCC(C)=O
+nBL8OOH78D !CC(OO)=CCOC(=O)CCC(C)=O
+nBL8OOH89D !C=C(OO)CCOC(=O)CCC(C)=O
+nBL9OOH67D !CC(=O)CCC(=O)OC=CCCOO
+nBL9OOH78D !CC(=O)CCC(=O)OCC=CCOO
+nBL9OOH89D !CC(=O)CCC(=O)OCCC=COO
+
+EL !CCOC(=O)CCC(C)=O
+LA !CC(=O)CCC(=O)O
+C2H3C2H5 !C=CCC
+PC4H9 ![CH2]CCC
+CH3COCH2CH2CO-OJ !CC(=O)CCC([O])=O
+PC4H9O !CCCC[O]
+CH3COCH2CH2COJ !CC(=O)CC[C]=O
+C4H9OCOJ !CCCCO[C]=O
+CH2CH2COCH3 ![CH2]CC(C)=O
+nBLCOJ !CCCCOC(=O)CC[C]=O
+nBP1J ![CH2]CC(=O)OCCCC
+CH3COCH2 ![CH2]C(C)=O
+CH2COOC4H9 ![CH2]C(=O)OCCCC
+COCHCH2CO2C4H9 !CCCCOC(=O)CC=C=O
+C2H3COCH3 !C=CC(C)=O
+
+H
+CH3
+CH3CO
+h2
+h2o
+co
+co2
+ch4
+c2h6
+
+END
+
+REACTIONS
+
+!###########################################################!
+!############## Butyl Levulinate Submechanism ##############!
+!###########################################################!
+
+!*****************************************!
+!***** Class #01 C-H Unimol. Decomp. *****!
+!*****************************************!
+nBL1J+H=nBL	9.17499E+13 0.12 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_3R!H->C_Sp-3C-2CN_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C
+
+nBL3J+H=nBL	1.76637E+13 0.15 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_Ext-2CN-R
+
+nBL4J+H=nBL	1.76637E+13 0.15 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_Ext-2CN-R
+
+nBL6J+H=nBL	9.17499E+13 0.12 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_3R!H->C_Sp-3C-2CN_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C
+
+nBL7J+H=nBL	1.76637E+13 0.15 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_Ext-2CN-R
+
+nBL8J+H=nBL	1.76637E+13 0.15 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_Ext-2CN-R
+
+nBL9J+H=nBL	9.17499E+13 0.12 0.0 !RMG rate rule: R_recombination, Estimated from node Root_1R->H_N-2R->S_N-2CHNO->H_N-2CNO-inRing_Ext-2CNO-R_N-Sp-3R!H=2CCNNOO_N-2CNO->O_3R!H->C_Sp-3C-2CN_Ext-3C-R_N-Sp-4R!H=3C_Sp-4R!H-3C
+
+!*****************************************!
+!*** Class #02 C-C/C-O Unimol. Decomp. ***!
+!*****************************************!
+!nBL=C2H3C2H5+LA					5.24807E+02 -3.59 17.94 !As ethyl levulinate !AlAbbad et al., 2017: 10.1016/j.proci.2016.06.034
+!PLOG/	0.0000	5.24807E+02 -3.59 17.94 /
+!PLOG/	0.0001	1.38038E+78 -20.18 72.57/
+!PLOG/	0.0013	1.58489E+85 -21.73 81.67/
+!PLOG/	0.0133	2.75422E+85 -21.33 87.20/
+!PLOG/	0.1333	1.20226E+85 -20.82 92.07/
+!PLOG/	1.0133	6.16595E+41 -8.20 67.12 /
+!PLOG/	1.1999	6.16595E+39 -7.62 66.01 /
+!PLOG/	100.00	2.08929E+13 0.00 49.52  /
+
+!nBL=PC4H9+CH3COCH2CH2CO-OJ		4.003E+83	-20.748 	1.122E+02 !Analogy to ethyl propanoate (EP = C2H5+C2H5CO2): Sun et al., 2017, https://doi.org/10.1016/j.combustflame.2017.07.013 !CCSD(T)/CBS//M06-2X/cc-pVTZ
+!PLOG/      0.0100     4.003E+83	-20.748 	1.122E+02/
+!PLOG/      0.1000     1.363E+73	-17.080 	1.109E+02/
+!PLOG/      1.0000     2.160E+55	-11.482 	1.047E+02/
+!PLOG/     10.0000     1.845E+38	 -6.282 	9.766E+01/
+!PLOG/    100.0000     8.326E+26	 -2.871 	9.260E+01/
+
+!nBL=PC4H9O+CH3COCH2CH2COJ		6.116E+84	  -21.657 	1.206E+02 !Analogy to ethyl propanoate (EP = C2H5O+C2H5CO): Sun et al., 2017, https://doi.org/10.1016/j.combustflame.2017.07.013 !CCSD(T)/CBS//M06-2X/cc-pVTZ
+!PLOG/      0.0100     6.116E+84	-21.657 	1.206E+02/
+!PLOG/      0.1000     1.931E+79	-19.291 	1.222E+02/
+!PLOG/      1.0000     3.957E+62	-13.904 	1.173E+02/
+!PLOG/     10.0000     4.131E+43	 -8.077 	1.097E+02/
+!PLOG/    100.0000     5.511E+29	 -3.893 	1.036E+02/
+
+!nBL=C4H9OCOJ+CH2CH2COCH3		3.762E+84	  -21.199 	1.150E+02 !Analogy to ethyl propanoate (EP = C2H5+C2H5OCO): Sun et al., 2017, https://doi.org/10.1016/j.combustflame.2017.07.013 !CCSD(T)/CBS//M06-2X/cc-pVTZ
+!PLOG/      0.0100     3.762E+84	-21.199 	1.150E+02/
+!PLOG/      0.1000     2.416E+75	-17.863 	1.145E+02/
+!PLOG/      1.0000     6.164E+57	-12.296 	1.086E+02/
+!PLOG/     10.0000     1.547E+40	 -6.923 	1.014E+02/
+!PLOG/    100.0000     1.619E+28	 -3.319 	9.607E+01/
+
+!nBL(+M)=CH3+nBLCOJ(+M)			2.243E+24    -2.477     87.6462 !Analogy to methyl ethyl ketone (c2h5coch3(+m)<=>ch3coch2+ch3 (+m)): Thion et al., 2017, https://doi.org/10.1016/j.proci.2016.05.022 !G3//MP2/aug-cc-pVDZ
+!LOW / 4.417E+69   -14.656     94.7557 /
+!TROE / 0.1244  1057.9  1043025.4  6112.9 /
+!h2/2.00/ h2o/6.00/ co/1.50/ co2/2.00/ ch4/2.00/ c2h6/3.00/
+
+!nBL(+M)=CH3CO+nBP1J(+M)			3.557E+27    -3.184     85.7481 !Analogy to methyl ethyl ketone (c2h5coch3(+m)<=>c2h5+ch3co(+m)): Thion et al., 2017, https://doi.org/10.1016/j.proci.2016.05.022 !G3//MP2/aug-cc-pVDZ
+!LOW / 2.578E+79   -17.020     96.8754 /
+!TROE / 0.0002  910.7  22707.2  5635.5 /
+!h2/2.00/ h2o/6.00/ co/1.50/ co2/2.00/ ch4/2.00/ c2h6/3.00/
+
+!nBL=CH3COCH2+CH2COOC4H9			4.03E+15 -0.1844 77.7 !Analogy to methyl butanoate: Ali & Violi, 2013, https://doi.org/10.1021/jo400569d !G3B3+VTST/RRKM/ME
+
+!*****************************************!
+!****** Class #03 R' Beta-Scission  ******!
+!*****************************************!
+!nBL1J=CH2CO+nBP1J			3.50E+11 0.58 35.2 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR6=CH2CO+CH3OCOCH2CH2 !G3//MP2/aug-cc-pVDZ
+
+!nBL3J=CH3+COCHCH2CO2C4H9	8.15E+12 0.3 41.5 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR4=CH3+CH3OCOCH2CHCO !G3//MP2/aug-cc-pVDZ
+
+!nBL3J=C4H9OCOJ+C2H3COCH3	4.29E+12 0.3 35.4 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR4=CH3OCO+C2H3COCH3 !G3//MP2/aug-cc-pVDZ
+
+!nBL4J=CH3CO+EP1D			6.78E+12 0.22 23.8 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR3=CH3OCOCHCH2+CH3CO !G3//MP2/aug-cc-pVDZ
+
+!nBL4J=C2H5O+CH3COCH2CHCO	8.45E+11 0.51 48.9 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR3=CH3O+CH3COCH2CHCO !G3//MP2/aug-cc-pVDZ
+
+!*****************************************!
+!****** Class #04 R' Isomerisation  ******!
+!*****************************************!
+nBL1J=nBL4J		4.39E+10 0.58 22.31 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR6=MLR3 !G3//MP2/aug-cc-pVDZ
+
+nBL3J=nBL6J		4.22E+09 0.52 22.59 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR4=MLR1 !G3//MP2/aug-cc-pVDZ
+
+nBL4J=nBL6J		4.13E+10 0.60 28.03 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR3=MLR1 !G3//MP2/aug-cc-pVDZ
+
+nBL4J=nBL1J		3.54E+10 0.54 23.37 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !MLR3=MLR6 !G3//MP2/aug-cc-pVDZ
+
+nBL6J=nBL9J		5.88E+10 0.57 25.90 !Analogy to n-butyl formate: Zaras et al., 2017, https://doi.org/10.1021/acs.energyfuels.7b00686 !G3//MP2/aug-cc-pVDZ+TST
+
+!*****************************************!
+!**** Class #05 Hydrogen Abstraction  ****!
+!*****************************************!
+!H
+nBL+H=nBL1J+H2		1.205E+07 2.225 6.94 !Analogy to methyl ethyl ketone (c2h5coch3+h<=>c2h5coch2+h2): Thion et al., 2017, https://doi.org/10.1016/j.proci.2016.05.022 !TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+
+nBL+H=nBL3J+H2		1.988E+06 2.256 4.08 !Analogy to methyl ethyl ketone (c2h5coch3+h<=>ch3chcoch3+h2): Thion et al., 2017, https://doi.org/10.1016/j.proci.2016.05.022 !TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+
+nBL+H=nBL4J+H2		9.12E+09 1.22 4.77 !Analogy to ethyl butanoate: Wang et al., 2014, https://doi.org/10.1016/j.cplett.2014.10.032 !CCSD(T)/CBS//B3LYP/6-311G(d, p)+Eckart tunneling corrections
+
+nBL+H=nBL6J+H2		1.07E+06 2.35 6.24 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+nBL+H=nBL7J+H2		9.04E+06 2.13 7.28 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+nBL+H=nBL8J+H2		6.14E+05 2.46 5.73 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+nBL+H=nBL9J+H2		1.15E+06 2.43 8.08 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+!HO2
+nBL+HO2=nBL1J+H2O2		5.580e-03 4.320 13.4 !Analogy to methyl ethyl ketone (c2h5coch3+ho2<=>c2h5coch2+h2o2): Thion et al., 2017, https://doi.org/10.1016/j.proci.2016.05.022 !TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+
+nBL+HO2=nBL3J+H2O2		8.420E-02 3.930 10.4 !Analogy to methyl ethyl ketone (c2h5coch3+ho2<=>ch3chcoch3+h2o2): Thion et al., 2017, https://doi.org/10.1016/j.proci.2016.05.022 !TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+
+nBL+HO2=nBL4J+H2O2		1.53E-03 4.22 11.05 !Analogy to methyl pentanoate: Mendes et al., 2013, https://doi.org/10.1021/jp409133x !CCSD(T)/cc-pVTZ
+
+nBL+HO2=nBL6J+H2O2		2.84E-01 4.54 11.90 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+nBL+HO2=nBL7J+H2O2		7.63E+00 4.35 13.50 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+nBL+HO2=nBL8J+H2O2		4.33E-02 4.52 10.27 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+nBL+HO2=nBL9J+H2O2		1.15E+01 4.30 15.05 !Analogy to n-butyl formate: Kopp et al., 2013, https://doi.org/10.1021/jp4063675 !B2KPLYP/aug-cc-pvtz
+
+!OH
+nBL+OH=nBL1J+H2O		4.06E+03 2.84 0.07 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !G3//MP2/aug-cc-pVDZ
+
+nBL+OH=nBL3J+H2O		3.25E+03 2.89 -1.50 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !G3//MP2/aug-cc-pVDZ
+
+nBL+OH=nBL4J+H2O		2.87E+02 3.06 -2.32 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !G3//MP2/aug-cc-pVDZ
+
+nBL+OH=nBL6J+H2O		7.82E+02 2.91 -2.55 !Analogy to n-butyl formate: Zaras et al., 2017, https://doi.org/10.1021/acs.energyfuels.7b00686 !G3//MP2/aug-cc-pVDZ+TST
+
+nBL+OH=nBL7J+H2O		7.28E+02 3.18 -0.68 !Analogy to n-butyl formate: Zaras et al., 2017, https://doi.org/10.1021/acs.energyfuels.7b00686 !G3//MP2/aug-cc-pVDZ+TST
+
+nBL+OH=nBL8J+H2O		3.42E+03 2.96 -1.43 !Analogy to n-butyl formate: Zaras et al., 2017, https://doi.org/10.1021/acs.energyfuels.7b00686 !G3//MP2/aug-cc-pVDZ+TST
+
+nBL+OH=nBL9J+H2O		7.02E+03 3.07 1.04 !Analogy to n-butyl formate: Zaras et al., 2017, https://doi.org/10.1021/acs.energyfuels.7b00686 !G3//MP2/aug-cc-pVDZ+TST
+
+!CH3
+nBL+CH3=nBL1J+CH4		3.71E+01 3.12 9.98 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !G3//MP2/aug-cc-pVDZ
+
+nBL+CH3=nBL3J+CH4		1.41E+01 3.29 8.33 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !G3//MP2/aug-cc-pVDZ
+
+nBL+CH3=nBL4J+CH4		5.46E+01 3.13 8.68 !Analogy to methly levulinate: Thion et al., 2015, https://doi.org/10.1039/C5CP04194E !G3//MP2/aug-cc-pVDZ
+
+nBL+CH3=nBL6J+CH4		4.700E-25 11.28 -3.62 !Analogy to ethyl propanoate: Sun et al., 2017, https://doi.org/10.1016/j.combustflame.2017.07.013 !CCSD(T)/CBS//M06-2X/cc-pVTZ
+
+!nBL+CH3=nBL7J+CH4
+
+!nBL+CH3=nBL8J+CH4
+
+!nBL+CH3=nBL9J+CH4
+
+!O
+!nBL+O=nBL1J+OH		
+
+!nBL+O=nBL3J+OH		
+
+nBL+O=nBL4J+OH		4.55E+01 3.60 1.97 !Analogy to methyl propanoate: Tan et al., 2016, https://doi.org/10.1039/C5CP07282D !MRSDCI+DS&TST-Rice–Ramsperger–Kassel–Marcus
+
+nBL+O=nBL6J+OH		2.906E+02 3.60 3.89 !Analogy to ethyl propanoate: Sun et al., 2017, https://doi.org/10.1016/j.combustflame.2017.07.013 !CCSD(T)/CBS//M06-2X/cc-pVTZ
+
+!nBL+O=nBL7J+OH
+
+!nBL+O=nBL8J+OH
+
+!nBL+O=nBL9J+OH
+!*****************************************!
+!********** Class #06 R'+O2=RO2 **********!
+!*****************************************!
+nBL1J+O2=nBL1OO		3.00E+12 0.00 0.00 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL3J+O2=nBL3OO		1.00E+12 0.00 0.00 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, https://doi.org/10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL4J+O2=nBL4OO		1.48E+12 0.00 -0.61 !Analogy to methyl propanoate: Le et al., 2015, https://doi.org/10.1021/jp5128282 !CBS-QB3
+
+nBL6OO=nBL6J+O2		2.450E+18 -0.990 38.60 !Analogy to diethyl ether: Sakai et al., 2017, https://doi.org/10.1016/j.proci.2016.06.037 !CBS-QB3
+
+nBL7J+O2=nBL7OO
+
+nBL8J+O2=nBL8OO
+
+nBL9J+O2=nBL9OO
+!*****************************************!
+!**** Class #07 RO2: HO2 Elimination  ****!
+!*****************************************!
+nBL3OO=nBL34D+HO2		1.78E+13 0.00 18.46 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL4OO=nBL34D+HO2		2.34E+09 1.13 26.63 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+nBL6OO=nBL67D+HO2		3.69E+04 2.61 29.01 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+nBL7OO=nBL67D+HO2
+
+nBL7OO=nBL78D+HO2
+
+nBL8OO=nBL78D+HO2
+
+nBL8OO=nBL89D+HO2
+
+nBL9OO=nBL89D+HO2
+
+!*****************************************!
+!***** Class #08 RO2: Beta-Scission  *****!
+!*****************************************!
+nBL1OO=nBL1OD+OH		8.25E+17 -3.58 44.55 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OO=nBL1OJ+O		9.42E+16 -2.97 47.78 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+!nBL1OO=C2H5COOC2H4COOJ+CH2O		1.34E+16 -3.34 34.46 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL3OO=nBL3OD+OH		8.69E+12 -0.08 39.20 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL3OO=nBL3OJ+O		9.02E+14 0.00 58.50 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p)
+
+!nBL3OO=CH3COCYCHOOCOCH2+C2H5O	1.16E+10 0.47 47.90 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OO=nBL4OD+OH		3.11E-09 6.19 27.20 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL4OO=CH3COCH2CYCHOOCO+C2H5O	5.41E+10 0.52 55.10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!*****************************************!
+!*** Class #09 RO2=QOOH Isomerisation  ***!
+!*****************************************!
+nBL1OO=nBL1OOH3J		8.70E+11 0.00 17.72 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+nBL1OO=nBL1OOH4J		5.18E+11 0.00 11.27 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+nBL3OO=nBL3OOH1J		2.83E+11 0.00 33.38 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,4 H-mig
+
+nBL3OO=nBL3OOH4J		3.19E+11 0.00 19.87 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+!nBL3OO=nBL3OOH6J
+
+!nBL3OO=nBL3OOH7J
+
+nBL4OO=nBL4OOH1J		4.09E+11 0.00 11.29 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+nBL4OO=nBL4OOH3J		7.90E-06 5.00 21.30 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OO=nBL4OOH6J		8.78E-01 3.39 24.10	!Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL4OO=nBL4OOH7J
+
+!nBL4OO=nBL4OOH8J
+
+nBL6OO=nBL6OOH3J		5.25E+01 2.64 17.60 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OO=nBL6OOH4J		1.68E+00 3.33 20.40 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL6OO=nBL6OOH7J
+
+!nBL6OO=nBL6OOH8J
+
+!nBL6OO=nBL6OOH9J
+
+!nBL7OO=nBL7OOH3J
+
+!nBL7OO=nBL7OOH4J
+
+!nBL7OO=nBL7OOH6J
+
+!nBL7OO=nBL7OOH8J
+
+!nBL7OO=nBL7OOH9J
+
+!nBL8OO=nBL8OOH4J
+
+!nBL8OO=nBL8OOH6J
+
+!nBL8OO=nBL8OOH7J
+
+!nBL8OO=nBL8OOH9J
+
+!nBL9OO=nBL9OOH6J
+
+!nBL9OO=nBL9OOH7J
+
+!nBL9OO=nBL9OOH8J
+!*****************************************!
+!**** Class #10 QOOH: HO2 Elimination ****!
+!*****************************************!
+nBL3OOH4J=nBL34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL4OOH3J=nBL34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+nBL4OOH6J=nBL46CY+HO2		8.88E+09 0.74 48.80 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH3J=nBL36CY+HO2		4.38E+08 0.91 43.60 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4J=nBL46CY+HO2		9.41E+09 1.18 59.10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL6OOH7J=nBL67D+HO2
+
+!nBL7OOH6J=nBL67D+HO2
+
+!*****************************************!
+!***** Class #11 QOOH: Beta-Scission *****!
+!*****************************************!
+!nBL1OOH3J=COCHCH2COOC2H5+CH2O+OH		1.40E+08 1.23 28.11 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+!nBL1OOH4J=CJOCH2OOH+C2H4COOC2H4		2.41E+10 0.71 25.52 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+!nBL3OOH1J=C2H5COOCH2CHO+CH2CO+OH		4.06E+38 -8.34 31.14 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL4OOH3J=nBL4OD+OH		7.27E+10 0.87 29.50 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6J=nBL4OD+OH		6.86E-01 3.63 17.30 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL4OOH6J=CH3COCH2CHOOHCJO+C2H4O		9.98E+12 0.25 32.00 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH3J=nBL6OD+OH		1.38E+02 2.66 12.30 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL6OOH3J=CH3COCYCHCH2CO+CH3CHOOHOJ	1.70E+11 0.70 68.90 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4J=nBL6OD+OH		2.10E-03 4.67 22.00 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL6OOH4J=CH3COCH2CHCO+CH3CHOOHOJ	1.43E+13 0.46 46.20 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL6OOH7J=nBL6OD+OH
+
+!nBL7OOH6J=nBL7OD+OH
+
+!*****************************************!
+!**** Class #12 QOOH: OH Elimination  ****!
+!*****************************************!
+nBL1OOH3J=nBL13CY+OH		2.14E+09 0.76 30.39 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OOH4J=nBL14CY+OH		9.22E+12 -0.08 17.72 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL3OOH1J=nBL13CY+OH		2.37E+39 -8.55 35.68 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL3OOH4J=nBL34CY+OH		6.29E+32 -6.60 20.39 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL4OOH1J=nBL14CY+OH		9.22E+12 -0.08 17.72 !As EL1OOH4J=EL14CY+OH !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL4OOH3J=nBL34CY+OH		6.23E+11 0.45 14.30 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6J=nBL4O6CY+OH		4.62E+11 0.40 25.30 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH3J=nBL3O6CY+OH		4.59E+10 0.35 19.90 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4J=nBL4O6CY+OH		4.17E+11 0.60 25.40 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!nBL6OOH7J=nBL67CY+OH
+
+!nBL7OOH6J=nBL67CY+OH
+
+!*****************************************!
+!**** Class #13 QOOH: H2O Elimination ****!
+!*****************************************!
+nBL1OOH3J=nBL34D1OJ+H2O		1.56E+06 1.34 23.6 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+!*****************************************!
+!******* Class #14 QOOH+O2=O2QOOH  *******!
+!*****************************************!
+nBL1OOH3J+O2=nBL1OOH3OO		1.00E+12 0.00 0.00 !As class #06
+
+nBL1OOH4J+O2=nBL1OOH4OO		1.48E+12 0.00 -0.61 !As class #06
+
+nBL3OOH1J+O2=nBL3OOH1OO		3.00E+12 0.00 0.00 !As class #06
+
+nBL3OOH4J+O2=nBL3OOH4OO		1.48E+12 0.00 -0.61 !As class #06
+
+!nBL3OOH6J+O2=nBL3OOH6OO		
+
+!nBL3OOH7J+O2=nBL3OOH7OO		
+
+nBL4OOH1J+O2=nBL4OOH1OO		3.00E+12 0.00 0.00 !As class #06
+
+nBL4OOH3J+O2=nBL4OOH3OO		1.00E+12 0.00 0.00 !As class #06
+
+nBL4OOH6OO=nBL4OOH6J+O2		2.450E+18 -0.990 38.60 !As class #06
+
+!nBL4OOH7J+O2=nBL4OOH7OO		
+
+!nBL4OOH8J+O2=nBL4OOH8OO		
+
+nBL6OOH3J+O2=nBL6OOH3OO		1.00E+12 0.00 0.00 !As class #06
+
+nBL6OOH4J+O2=nBL6OOH4OO		1.48E+12 0.00 -0.61 !As class #06
+
+!nBL6OOH7OO=nBL6OOH7J+O2
+
+!nBL6OOH8J+O2=nBL6OOH8OO		
+
+!nBL6OOH9J+O2=nBL6OOH9OO
+
+!nBL7OOH3J+O2=nBL7OOH3OO		
+
+!nBL7OOH4J+O2=nBL7OOH4OO		
+
+nBL7OOH6OO=nBL7OOH6J+O2		2.450E+18 -0.990 38.60 !As class #06
+
+!nBL7OOH8J+O2=nBL7OOH8OO		
+
+!nBL7OOH9J+O2=nBL7OOH9OO		
+
+!nBL8OOH4J+O2=nBL8OOH4OO
+
+!nBL8OOH6J+O2=nBL8OOH6OO
+
+!nBL8OOH7J+O2=nBL8OOH7OO
+
+!nBL8OOH9J+O2=nBL8OOH9OO
+
+!nBL9OOH6J+O2=nBL9OOH6OO
+
+!nBL9OOH7J+O2=nBL9OOH7OO
+
+!nBL9OOH8J+O2=nBL9OOH8OO
+
+!*****************************************!
+!*** Class #15 O2QOOH: HO2 Elimination ***!
+!*****************************************!
+nBL1OOH3OO=nBL1OOH34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL1OOH4OO=nBL1OOH34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+nBL3OOH4OO=nBL3OOH34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+!nBL3OOH6OO=nBL3OOH67D+HO2
+
+!nBL3OOH7OO=nBL3OOH67D+HO2
+
+nBL4OOH3OO=nBL4OOH34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+!nBL4OOH6OO=nBL4OOH67D+HO2
+
+!nBL4OOH7OO=nBL4OOH67D+HO2
+
+!nBL4OOH7OO=nBL4OOH78D+HO2
+
+!nBL4OOH8OO=nBL4OOH78D+HO2
+
+!nBL4OOH8OO=nBL4OOH89D+HO2
+
+nBL6OOH3OO=nBL6OOH34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL6OOH4OO=nBL6OOH34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+!nBL6OOH7OO=nBL6OOH67D+HO2
+
+!nBL6OOH7OO=nBL6OOH78D+HO2
+
+!nBL6OOH8OO=nBL6OOH78D+HO2
+
+!nBL6OOH8OO=nBL6OOH89D+HO2
+
+!nBL6OOH9OO=nBL6OOH89D+HO2
+
+!nBL7OOH3OO=nBL7OOH34D+HO2
+
+!nBL7OOH4OO=nBL7OOH34D+HO2
+
+!nBL7OOH6OO=nBL7OOH67D+HO2
+
+!nBL7OOH8OO=nBL7OOH78D+HO2
+
+!nBL7OOH8OO=nBL7OOH89D+HO2
+
+!nBL7OOH9OO=nBL7OOH89D+HO2
+
+!nBL8OOH4OO=nBL8OOH34D+HO2
+
+!nBL8OOH6OO=nBL8OOH67D+HO2
+
+!nBL8OOH7OO=nBL8OOH67D+HO2
+
+!nBL8OOH7OO=nBL8OOH78D+HO2
+
+!nBL8OOH9OO=nBL8OOH89D+HO2
+
+!nBL9OOH6OO=nBL9OOH67D+HO2
+
+!nBL9OOH7OO=nBL9OOH67D+HO2
+
+!nBL9OOH7OO=nBL9OOH78D+HO2
+
+!nBL9OOH8OO=nBL9OOH78D+HO2
+
+!nBL9OOH8OO=nBL9OOH89D+HO2
+
+!*****************************************!
+!**** Class #16 O2QOOH: Beta-Scission ****!
+!*****************************************!
+nBL3OOH1OO=EL3OOH1OD+OH		8.25E+17 -3.58 44.55 !As class #08 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL4OOH1OO=nBL4OOH1OD+OH		8.25E+17 -3.58 44.55 !As class #08 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OOH3OO=nBL1OOH3OD+OH		8.69E+12 -0.08 39.20 !As class #08 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL4OOH3OO=nBL4OOH3OD+OH		8.69E+12 -0.08 39.20 !As class #08 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL6OOH3OO=nBL6OOH3OD+OH		8.69E+12 -0.08 39.20 !As class #08 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OOH4OO=nBL1OOH4OD+OH		3.11E-09 6.19 27.20 !As class #08 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OO=nBL3OOH4OD+OH		3.11E-09 6.19 27.20 !As class #08 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4OO=nBL6OOH4OD+OH		3.11E-09 6.19 27.20 !As class #08 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OO=nBL4OOH6OD+OH		8.44E+07 1.46 33.83 !As class #08 !Analogy to diethyl ether: Duan et al., 2022, https://doi.org/10.1016/j.fuel.2022.125046 !SS-HO-CVT-SCT
+
+nBL7OOH6OO=nBL7OOH6OD+OH		8.44E+07 1.46 33.83 !As class #08 !Analogy to diethyl ether: Duan et al., 2022, https://doi.org/10.1016/j.fuel.2022.125046 !SS-HO-CVT-SCT
+
+!nBL6OOH7OO=nBL6OOH7OD+OH
+
+!*****************************************!
+! Class #17 O2QOOH=P(OOH)2 Isomerisation  !
+!*****************************************!
+nBL1OOH3OO=nBL1OOH3OOH4J		3.19E+11 0.00 19.87 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+nBL1OOH3OO=nBL1OOH3OOH1J		2.83E+11 0.00 33.38 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,4 H-mig
+
+nBL1OOH4OO=nBL1OOH4OOH3J		7.90E-06 5.00 21.30 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL1OOH4OO=nBL1OOH4OOH6J		8.78E-01 3.39 24.10	!As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL1OOH4OO=nBL1OOH4OOH1J		4.09E+11 0.00 11.29 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+nBL3OOH1OO=nBL3OOH1OOH3J		8.70E+11 0.00 17.72 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+nBL3OOH1OO=nBL1OOH3OOH4J		5.18E+11 0.00 11.26 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+nBL3OOH4OO=nBL3OOH4OOH3J		7.90E-06 5.00 21.30 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OO=nBL3OOH4OOH6J		8.78E-01 3.39 24.10	!As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OO=nBL3OOH4OOH1J		4.09E+11 0.00 11.29 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+nBL4OOH1OO=nBL1OOH4OOH3J		8.70E+11 0.00 17.72 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+nBL4OOH1OO=nBL4OOH1OOH4J		5.18E+11 0.00 11.26 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+nBL4OOH3OO=nBL4OOH3OOH4J		3.19E+11 0.00 19.87 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+nBL4OOH3OO=nBL3OOH4OOH1J		2.83E+11 0.00 33.38 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,4 H-mig
+
+nBL4OOH6OO=nBL4OOH6OOH7J		3.43E+03 2.68 30.38 !As class #09 !Analogy to diethyl ether: Duan et al., 2022, https://doi.org/10.1016/j.fuel.2022.125046 !SS-HO-CVT-SCT
+
+nBL4OOH6OO=nBL4OOH6OOH4J		1.68E+00 3.33 20.40 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OO=nBL4OOH6OOH3J		5.25E+01 2.64 17.60 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH3OO=nBL6OOH3OOH4J		3.19E+11 0.00 19.87 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,5 H-mig
+
+nBL6OOH3OO=nBL6OOH3OOH1J		2.83E+11 0.00 33.38 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,4 H-mig
+
+nBL6OOH4OO=nBL4OOH6OOH3J		7.90E-06 5.00 21.30 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4OO=nBL6OOH4OOH6J		8.78E-01 3.39 24.10	!As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4OO=nBL6OOH4OOH1J		4.09E+11 0.00 11.29 !As class #09 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3 !1,6 H-mig
+
+!nBL6OOH7OO=nBL6OOH7OOH6J
+
+nBL7OOH6OO=nBL7OOH6OOH7J		3.43E+03 2.68 30.38 !As class #09 !Analogy to diethyl ether: Duan et al., 2022, https://doi.org/10.1016/j.fuel.2022.125046 !SS-HO-CVT-SCT
+
+nBL7OOH6OO=nBL7OOH6OOH4J		1.68E+00 3.33 20.40 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL7OOH6OO=nBL7OOH6OOH3J		5.25E+01 2.64 17.60 !As class #09 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!*****************************************!
+!** Class #18 P(OOH)2: HO2 Elimination  **!
+!*****************************************!
+nBL1OOH3OOH4J=nBL1OOH34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL4OOH3OOH4J=nBL4OOH34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL6OOH3OOH4J=nBL6OOH34D+HO2		1.78E+13 0.00 18.46 !As class #07 !Analogy to 2-butanone: Kuzhanthaivelan & Rajakumar, 2018, https://doi.org/10.1021/acs.jpca.8b05167 !CBS-QB3
+
+nBL1OOH4OOH3J=nBL1OOH34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+nBL3OOH4OOH3J=nBL3OOH34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+nBL4OOH6OOH3J=nBL6OOH34D+HO2		2.34E+09 1.13 26.63 !As class #07 !Analogy to alkyl esters: Le et al., 2018, https://doi.org/10.1021/acs.jpca.8b05070 !CBS-QB3
+
+!nBL4OOH6OOH7J=nBL4OOH67D+HO2
+
+!nBL7OOH6OOH7J=nBL7OOH67D+HO2
+
+!nBL6OOH7OOH6J=nBL6OOH67D+HO2
+
+nBL1OOH4OOH6J=nBL1OOH46CY+HO2		8.88E+09 0.74 48.80 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OOH6J=nBL3OOH46CY+HO2		8.88E+09 0.74 48.80 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4OOH6J=nBL6OOH46CY+HO2		8.88E+09 0.74 48.80 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OOH3J=nBL4OOH36CY+HO2		4.38E+08 0.91 43.60 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL7OOH6OOH3J=nBL7OOH36CY+HO2		4.38E+08 0.91 43.60 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OOH4J=nBL4OOH46CY+HO2		9.41E+09 1.18 59.10 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH3OOH4J=nBL6OOH46CY+HO2		9.41E+09 1.18 59.10 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL7OOH6OOH4J=nBL7OOH46CY+HO2		9.41E+09 1.18 59.10 !As class #10 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!*****************************************!
+!*** Class #19 P(OOH)2: Beta-Scission  ***!
+!*****************************************!
+
+!*****************************************!
+!*** Class #20 P(OOH)2: OH Elimination ***!
+!*****************************************!
+nBL1OOH4OOH3J=nBL4OOH13CY+OH		2.14E+09 0.76 30.39 !As class #12 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL3OOH1OOH3J=nBL3OOH13CY+OH		2.14E+09 0.76 30.39 !As class #12 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OOH3OOH4J=nBL3OOH14CY+OH		9.22E+12 -0.08 17.72 !As class #12 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL4OOH1OOH4J=nBL4OOH14CY+OH		9.22E+12 -0.08 17.72 !As class #12 !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OOH3OOH1J=nBL1OOH13CY+OH		2.37E+39 -8.55 35.68 !As class #12 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL3OOH4OOH1J=nBL4OOH13CY+OH		2.37E+39 -8.55 35.68 !As class #12 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL6OOH3OOH1J=nBL6OOH13CY+OH		2.37E+39 -8.55 35.68 !As class #12 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL1OOH3OOH4J=nBL1OOH34CY+OH		6.29E+32 -6.60 20.39 !As class #12 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL4OOH3OOH4J=nBL4OOH34CY+OH		6.29E+32 -6.60 20.39 !As class #12 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL6OOH3OOH4J=nBL6OOH34CY+OH		6.29E+32 -6.60 20.39 !As class #12 !Analogy to 2-butanone-3-yl: Sebbar et al., 2011, DOI:10.1524/zpch.2011.0144 !G3MP2B3+B3LYP/6-311g(d,p) !1 atm
+
+nBL1OOH4OOH1J=nBL1OOH14CY+OH		9.22E+12 -0.08 17.72 !As class #12 !As EL1OOH4J=EL14CY+OH !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL3OOH4OOH1J=nBL3OOH14CY+OH		9.22E+12 -0.08 17.72 !As class #12 !As EL1OOH4J=EL14CY+OH !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL6OOH4OOH1J=nBL6OOH14CY+OH		9.22E+12 -0.08 17.72 !As class #12 !As EL1OOH4J=EL14CY+OH !Analogy to 2-butanone-1-yl: Sebbar et al., 2014, https://doi.org/10.1021/jp408708u !G3MP2B3+B3LYP/6-311g(d,p)
+
+nBL1OOH4OOH3J=nBL1OOH34CY+OH		6.23E+11 0.45 14.30 !As class #12 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OOH3J=nBL3OOH34CY+OH		6.23E+11 0.45 14.30 !As class #12 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OOH3J=nBL4OOH34CY+OH		6.23E+11 0.45 14.30 !As class #12 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+!*****************************************!
+!******* Class #21 P(OOH)2=KHP+OH  *******!
+!*****************************************!
+nBL1OOH4OOH3J=nBL1OOH4OD+OH		7.27E+10 0.87 29.50 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OOH3J=nBL3OOH4OD+OH		7.27E+10 0.87 29.50 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OOH3J=nBL6OOH4OD+OH		7.27E+10 0.87 29.50 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL1OOH4OOH6J=nBL1OOH4OD+OH		6.86E-01 3.63 17.30 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL3OOH4OOH6J=nBL3OOH4OD+OH		6.86E-01 3.63 17.30 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH4OOH6J=nBL6OOH4OD+OH		6.86E-01 3.63 17.30 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OOH3J=nBL4OOH6OD+OH		1.38E+02 2.66 12.30 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL7OOH6OOH3J=nBL7OOH6OD+OH		1.38E+02 2.66 12.30 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL4OOH6OOH4J=nBL4OOH6OD+OH		2.10E-03 4.67 22.00 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH3OOH4J=nBL3OOH6OD+OH		2.10E-03 4.67 22.00 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL7OOH6OOH4J=nBL7OOH6OD+OH		2.10E-03 4.67 22.00 !As class #11 !Analogy to methly butanoate: Tao & Lin, 2014, https://doi.org/10.1016/j.combustflame.2014.02.012 !G3MP2B3 
+
+nBL6OOH7OOH6J=nBL6OOH7OD+OH
+
+!*****************************************!
+!* Class #22 KHP: Closed Shell Products  *!
+!*****************************************!
+
+!*****************************************!
+!******** Class #23 KHP=2OH+O=PO  ********!
+!*****************************************!
+
+END

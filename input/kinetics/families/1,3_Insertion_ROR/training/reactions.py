@@ -451,3 +451,18 @@ Converted to training reaction from rate rule: Sd_Cd/H/Cd;H_OH
 """,
 )
 
+entry(
+    index = 23,
+    label = "C4H10O-4 <=> C3H6-2 + CH4O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.451,'s^-1'), n=4.024, Ea=(55.261,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Added from git fork "newecp"
+
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: MPO <=> CH3OH + C3H6
+G4 calculations and HID from RMG
+""",
+)

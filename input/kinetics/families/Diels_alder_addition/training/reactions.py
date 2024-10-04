@@ -11,16 +11,12 @@ entry(
     index = 0,
     label = "C4H6 + C2H4 <=> C6H10",
     degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.65683,'cm^3/(mol*s)'), n=2.97009, Ea=(92.4235,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06288, dn = +|- 0.00809226, dEa = +|- 0.0417279 kJ/mol"""),
-    rank = 4,
-    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
+    kinetics = Arrhenius(A=(1e+10,'cm^3/(mol*s)'), n=0, Ea=(83.68,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
+    rank = 11,
+    shortDesc = """default""",
     longDesc = 
 """
-Original entry: p004630_0 + p004630_1 <=> r004630
-Calculated by Kevin Spiekermann
-opt, freq: wB97X-D3/def2-TZVP
-sp: CCSD(T)-F12a/cc-pVDZ-F12
-All species include systematic conformer search and 1D rotor scans
+Converted to training reaction from rate rule: diene_out;diene_in;ene
 """,
 )
 
@@ -339,72 +335,3 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 """,
 )
 
-entry(
-    index = 19,
-    label = "C4H6O + C2H4 <=> C6H10O",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(1.036612,'cm^3/(mol*s)'), n=3.00269, Ea=(93.9106,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04507, dn = +|- 0.00585007, dEa = +|- 0.030166 kJ/mol"""),
-    rank = 4,
-    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
-"""
-Original entry: p004630_0 + p008426_1 <=> r008426
-Calculated by Kevin Spiekermann
-opt, freq: wB97X-D3/def2-TZVP
-sp: CCSD(T)-F12a/cc-pVDZ-F12
-All species include systematic conformer search and 1D rotor scans
-""",
-)
-
-entry(
-    index = 20,
-    label = "C4H6 + C2H4O <=> C6H10O-2",
-    degeneracy = 2.0,
-    kinetics = Arrhenius(A=(0.0549546,'cm^3/(mol*s)'), n=3.0576, Ea=(111.534,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15407, dn = +|- 0.0190136, dEa = +|- 0.0980442 kJ/mol"""),
-    rank = 4,
-    shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
-"""
-Original entry: r003348 + p004630_1 <=> r009033
-Calculated by Kevin Spiekermann
-opt, freq: wB97X-D3/def2-TZVP
-sp: CCSD(T)-F12a/cc-pVDZ-F12
-All species include systematic conformer search and 1D rotor scans
-""",
-)
-
-entry(
-    index = 21,
-    label = "C4H6-2 + C4H6 <=> C8H12",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (17635, 'cm^3/(mol*s)'),
-        n = 1.8055,
-        Ea = (81.8512, 'kJ/mol'),
-        T0 = (1, 'K')
-    ),
-    rank = 5,
-    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
-u"""
-Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
-""",
-)
-
-entry(
-    index = 22,
-    label = "C4H6-3 + C4H6 <=> C8H12-2",
-    degeneracy = 1.0,
-    kinetics = Arrhenius(
-        A = (17635, 'cm^3/(mol*s)'),
-        n = 1.8055,
-        Ea = (81.8512, 'kJ/mol'),
-        T0 = (1, 'K')
-    ),
-    rank = 5,
-    shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
-u"""
-Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
-""",
-)

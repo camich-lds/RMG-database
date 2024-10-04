@@ -3696,3 +3696,54 @@ CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
 )
 
+entry(
+    index = 137,
+    label = "C4H7O3 + O2 <=> HO2 + C4H6O3",
+    degeneracy = 4.0,
+
+    kinetics = Arrhenius(A=(0.2443,'cm^3/(mol*s)'), n=3.574, Ea=(6.051,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1O-1OJ + O2 <=> MPO1O-1O + HO2
+""",
+)
+
+entry(
+    index = 138,
+    label = "C4H7O3-2 + O2 <=> HO2 + C4H6O3-2",
+    degeneracy = 4.0,
+
+    kinetics = Arrhenius(A=(0.2347,'cm^3/(mol*s)'), n=3.588, Ea=(6.305,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1O3OJ + O2 <=> MPO1O3O + HO2
+""",
+)
+
+entry(
+    index = 139,
+    label = "C3H5O + HO2-2 <=> H2O2 + C3H4O",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(0.01841,'cm^3/(mol*s)'), n=3.264, Ea=(-3.955,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: HO2 + C[CH]C=O <=> H2O2 + C=CC=O
+""",
+)
+
+entry(
+    index = 140,
+    label = "C3H5O-2 + O2 <=> HO2 + C3H4O-2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(2.91e-07,'cm^3/(mol*s)'), n=5.625, Ea=(27.051,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: O2 + C[CH]C=O <=> HO2 + CH3CHCHO
+""",
+)

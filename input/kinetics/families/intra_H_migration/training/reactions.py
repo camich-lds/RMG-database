@@ -9123,3 +9123,503 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+entry(
+    index = 440,
+    label = "C6H13O-11 <=> C6H13O-12",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.39788e-06,'s^-1'), n=5.23859, Ea=(51.7426,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 4.14562, dn = +|- 0.188969, dEa = +|- 0.967947 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc =
+"""
+Original entry: CC(C)C(C)(C)[O] <=> C[C](C)C(C)(C)O
+""",
+)
+
+entry(
+    index = 441,
+    label = "C6H11O2 <=> C6H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00510888,'s^-1'), n=3.75222, Ea=(46.2937,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.29282, dn = +|- 0.110265, dEa = +|- 0.564808 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc =
+"""
+Original entry: C=C(COO)[C](C)C <=> CC(C)=C(C)CO[O]
+""",
+)
+
+entry(
+    index = 442,
+    label = "C6H13O2 <=> C6H13O2-7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.0933e-06,'s^-1'), n=5.11352, Ea=(72.5149,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.81603, dn = +|- 0.137579, dEa = +|- 0.704717 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc =
+"""
+Original entry: CC(C)C(C)(C)O[O] <=> C[C](C)C(C)(C)OO
+""",
+)
+
+entry(
+    index = 443,
+    label = "C6H11O2-3 <=> C6H11O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00102212,'s^-1'), n=3.83547, Ea=(46.0919,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 2.286, dn = +|- 0.109869, dEa = +|- 0.56278 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong""",
+    longDesc =
+"""
+Original entry: C=C(C)[C](C)COO <=> CC(C)=C(C)CO[O]
+""",
+)
+
+entry(
+    index = 444,
+    label = "C4H9O3-9 <=> C4H9O3-10",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(1.33e+10,'s^-1'), n=0.572, Ea=(16.672,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1QJ <=> MPO1Q-1J
+""",
+)
+
+entry(
+    index = 445,
+    label = "C4H9O3-11 <=> C4H9O3-12",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(150.5,'s^-1'), n=2.993, Ea=(22.041,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1QJ <=> MPO1Q2J
+""",
+)
+
+entry(
+    index = 446,
+    label = "C4H9O3-13 <=> C4H9O3-14",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(187400,'s^-1'), n=2.003, Ea=(17.53,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1QJ <=> MPO1Q3J
+""",
+)
+
+entry(
+    index = 447,
+    label = "C4H9O5 <=> C4H9O5-2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(4.552e+08,'s^-1'), n=0.526, Ea=(13.985,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1Q-1QJ <=> MPO1Q2J-1Q
+""",
+)
+
+entry(
+    index = 448,
+    label = "C4H9O5-3 <=> C4H9O5-4",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(282200,'s^-1'), n=2.104, Ea=(25.626,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1Q3QJ <=> MPO1Q2J3Q
+""",
+)
+
+entry(
+    index = 449,
+    label = "C4H9O3-15 <=> C4H9O3-16",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(408,'s^-1'), n=2.867, Ea=(11.522,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCH2CH2CH2OO <=> CH3OCHCH2CH2OOH
+""",
+)
+
+entry(
+    index = 450,
+    label = "C4H9O3-17 <=> C4H9O3-18",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(365.494,'s^-1'), n=2.43777, Ea=(54.2242,'kJ/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CH2CH2OCH2OO <=> CH3CH2CHOCH2OOH
+""",
+)
+
+entry(
+    index = 451,
+    label = "C4H9O3-19 <=> C4H9O3-20",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(1.08e+06,'s^-1'), n=1.318, Ea=(12.857,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CH2CH2OCH2OO <=> CH3CHCH2OCH2OOH
+""",
+)
+
+entry(
+    index = 452,
+    label = "C4H9O3-21 <=> C4H9O3-22",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(266000,'s^-1'), n=1.471, Ea=(17.342,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CH2CH2OCH2OO <=> CH3CH2CH2OCH2OOH
+""",
+)
+
+entry(
+    index = 453,
+    label = "C4H9O3-23 <=> C4H9O3-24",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(229,'s^-1'), n=2.835, Ea=(14.234,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CH2OOdCH2OCH3 <=> CH3CH2OOHCH2OCH2
+""",
+)
+
+entry(
+    index = 454,
+    label = "C4H9O3-25 <=> C4H9O3-26",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(70.8,'s^-1'), n=2.997, Ea=(12.299,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCH2CH2CH2OO <=> HOOCH2CH2CH2OCH2
+""",
+)
+
+entry(
+    index = 455,
+    label = "C4H9O5-5 <=> C4H9O5-6",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(1.001e+06,'s^-1'), n=1.787, Ea=(12.758,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCHOOdCH2CH2OOH <=> CH2OCHOOHCH2CH2OOH
+""",
+)
+
+entry(
+    index = 456,
+    label = "C4H9O5-7 <=> C4H9O5-8",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(576200,'s^-1'), n=2.192, Ea=(12.76,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCHOOdCH2CH2OOH <=> CH3OCHOOHCH2CHOOH
+""",
+)
+
+entry(
+    index = 457,
+    label = "C4H9O5-9 <=> C4H9O5-10",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(7.233e+07,'s^-1'), n=1.052, Ea=(15.218,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CH2CHOOdOCH2OOH <=> CH2CH2CHOOHOCH2OOH
+""",
+)
+
+entry(
+    index = 458,
+    label = "C4H9O5-11 <=> C4H9O5-12",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(805600,'s^-1'), n=1.921, Ea=(13.702,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CH2CHOOdOCH2OOH <=> CH3CH2CHOOHOCHOOH
+""",
+)
+
+entry(
+    index = 459,
+    label = "C3H5O3 <=> C3H5O3-2",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(60,'s^-1'), n=3.061, Ea=(11.936,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CCC(O[O])=O <=> [CH2]CC(OO)=O
+""",
+)
+
+entry(
+    index = 460,
+    label = "C3H5O3-3 <=> C3H5O3-4",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(4.99e+08,'s^-1'), n=0.586, Ea=(13.751,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CC(O[O])C=O <=> CC(OO)[C]=O
+""",
+)
+
+entry(
+    index = 461,
+    label = "C3H5O3-5 <=> C3H5O3-6",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(4290,'s^-1'), n=2.615, Ea=(9.271,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: C(O[O])CC=O <=> C(OO)C[C]=O
+""",
+)
+
+entry(
+    index = 462,
+    label = "C3H5O4 <=> C3H5O4-2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(3.951e+06,'s^-1'), n=1.665, Ea=(36.775,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: [O]OCC(O)C=O <=> O=[C]C(O)COO
+""",
+)
+
+entry(
+    index = 463,
+    label = "C4H9O5-13 <=> C4H9O5-14",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(3.797e+10,'s^-1'), n=0.071, Ea=(35.51,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CC(COCO[O])OO <=> CC([CH]OCOO)OO
+""",
+)
+
+entry(
+    index = 464,
+    label = "C4H7O3 <=> C4H7O3-2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(4052.73,'s^-1'), n=2.61055, Ea=(46.1583,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1O-1OJ <=> C[CH]C(=O)OCO
+""",
+)
+
+entry(
+    index = 465,
+    label = "C4H7O4 <=> C4H7O4-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(7520,'s^-1'), n=2.54, Ea=(28.56,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP1OO <=> MP1OOH2J
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 466,
+    label = "C4H7O4-3 <=> C4H7O4-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(487,'s^-1'), n=2.35, Ea=(23.73,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP1OO <=> MP1OOH3J
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 467,
+    label = "C4H7O4-5 <=> C4H7O4-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.52e+08,'s^-1'), n=1.38, Ea=(28.01,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP1OOH2J <=> MP1OOH3J
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 468,
+    label = "C4H7O4-7 <=> C4H7O4-8",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1390,'s^-1'), n=2.52, Ea=(26.59,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP2OO <=> MP2OOH3J
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 469,
+    label = "C4H7O4-9 <=> C4H7O4-10",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.14e+06,'s^-1'), n=1.96, Ea=(32.18,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP2OO <=> MP2OOH1J
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 470,
+    label = "C4H7O4-11 <=> C4H7O4-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(11500,'s^-1'), n=2.24, Ea=(22.19,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP3OO <=> MP3OOH2J
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 471,
+    label = "C4H7O4-13 <=> C4H7O4-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(553,'s^-1'), n=2.18, Ea=(21.33,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP3OO <=> MP3OOH1J
+QRRK + MSC + CBS-QB3
+""",
+)
+

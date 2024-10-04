@@ -5936,6 +5936,30 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+# entry(
+    # index = 257,
+    # label = "Cds-O2d(Cds-Cds)O2s",
+    # group = 
+# """
+# 1 * CO  u0 {2,S} {3,D} {4,S}
+# 2   Cd  u0 {1,S} {5,D}
+# 3   O2d u0 {1,D}
+# 4   O2s u0 {1,S}
+# 5   Cd  u0 {2,D}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([5.97,6.7,7.4,8.02,8.87,9.36,9.36],'cal/(mol*K)','+|-',[0.15,0.15,0.15,0.15,0.15,0.15,0.15]),
+        # H298 = (-32.1,'kcal/mol','+|-',0.3),
+        # S298 = (14.78,'cal/(mol*K)','+|-',0.15),
+    # ),
+    # shortDesc = """CO-OCd RPS + S Coreected !!!WARNING! Cp1500 value taken as Cp1000""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 257,
     label = "Cds-O2d(Cds-Cds)O2s",
@@ -5949,14 +5973,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.97,6.7,7.4,8.02,8.87,9.36,9.36],'cal/(mol*K)','+|-',[0.15,0.15,0.15,0.15,0.15,0.15,0.15]),
-        H298 = (-32.1,'kcal/mol','+|-',0.3),
-        S298 = (14.78,'cal/(mol*K)','+|-',0.15),
+        Cpdata = ([28.33,37.84,44.54,49.34,55.45,58.73,60.61],'J/(mol*K)','+|-',[7.46,7.46,7.46,7.46,7.46,7.46,7.46]),
+        H298 = (-218.6,'kJ/mol','+|-',6.36),
+        S298 = (34.44,'J/(mol*K)','+|-',8.7),
     ),
-    shortDesc = """CO-OCd RPS + S Coreected !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 """
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -6173,6 +6199,30 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+# entry(
+    # index = 268,
+    # label = "Cds-O2d(Cds-Cds)Cs",
+    # group = 
+# """
+# 1 * CO  u0 {2,S} {3,D} {4,S}
+# 2   Cd  u0 {1,S} {5,D}
+# 3   O2d u0 {1,D}
+# 4   Cs  u0 {1,S}
+# 5   Cd  u0 {2,D}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([5.46,6.32,7.17,7.88,9,9.77,9.77],'cal/(mol*K)','+|-',[0.15,0.15,0.15,0.15,0.15,0.15,0.15]),
+        # H298 = (-30.9,'kcal/mol','+|-',0.3),
+        # S298 = (14.6,'cal/(mol*K)','+|-',0.15),
+    # ),
+    # shortDesc = """CO-CdCs Hf BENSON =3D CO/Cb/C S,Cp !!!WARNING! Cp1500 value taken as Cp1000""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 268,
     label = "Cds-O2d(Cds-Cds)Cs",
@@ -6186,14 +6236,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([5.46,6.32,7.17,7.88,9,9.77,9.77],'cal/(mol*K)','+|-',[0.15,0.15,0.15,0.15,0.15,0.15,0.15]),
-        H298 = (-30.9,'kcal/mol','+|-',0.3),
-        S298 = (14.6,'cal/(mol*K)','+|-',0.15),
+        Cpdata = ([25.26,30.66,34.68,37.69,41.62,43.93,46.69],'J/(mol*K)','+|-',[4.9,4.9,4.9,4.9,4.9,4.9,4.9]),
+        H298 = (-130.4,'kJ/mol','+|-',4.17),
+        S298 = (47.38,'J/(mol*K)','+|-',5.71),
     ),
-    shortDesc = """CO-CdCs Hf BENSON =3D CO/Cb/C S,Cp !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 """
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -7206,6 +7258,29 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+# entry(
+    # index = 318,
+    # label = "Cds-CdsOsH",
+    # group = 
+# """
+# 1 * Cd  u0 {2,D} {3,S} {4,S}
+# 2   Cd  u0 {1,D}
+# 3   O2s u0 {1,S}
+# 4   H   u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.75,6.46,7.64,8.35,9.1,9.56,10.46],'cal/(mol*K)','+|-',[0.07,0.07,0.07,0.07,0.07,0.07,0.07]),
+        # H298 = (2.03,'kcal/mol','+|-',0.19),
+        # S298 = (6.2,'cal/(mol*K)','+|-',0.1),
+    # ),
+    # shortDesc = """Cd-OH BOZZELLI Hf vin-oh RADOM + C/Cd/H, S&Cp LAY""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 318,
     label = "Cds-CdsOsH",
@@ -7216,13 +7291,8 @@ entry(
 3   O2s u0 {1,S}
 4   H   u0 {1,S}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.75,6.46,7.64,8.35,9.1,9.56,10.46],'cal/(mol*K)','+|-',[0.07,0.07,0.07,0.07,0.07,0.07,0.07]),
-        H298 = (2.03,'kcal/mol','+|-',0.19),
-        S298 = (6.2,'cal/(mol*K)','+|-',0.1),
-    ),
-    shortDesc = """Cd-OH BOZZELLI Hf vin-oh RADOM + C/Cd/H, S&Cp LAY""",
+    thermo = "Cds-CdOsH",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -7665,6 +7735,29 @@ entry(
 """,
 )
 
+# entry(
+    # index = 341,
+    # label = "Cds-CdsCsH",
+    # group = 
+# """
+# 1 * Cd u0 {2,D} {3,S} {4,S}
+# 2   Cd u0 {1,D}
+# 3   Cs u0 {1,S}
+# 4   H  u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.16,5.03,5.81,6.5,7.65,8.45,9.62],'cal/(mol*K)','+|-',[0.06,0.06,0.06,0.06,0.06,0.06,0.06]),
+        # H298 = (8.59,'kcal/mol','+|-',0.17),
+        # S298 = (7.97,'cal/(mol*K)','+|-',0.1),
+    # ),
+    # shortDesc = """Cd-CsH BENSON""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 341,
     label = "Cds-CdsCsH",
@@ -7677,11 +7770,11 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.16,5.03,5.81,6.5,7.65,8.45,9.62],'cal/(mol*K)','+|-',[0.06,0.06,0.06,0.06,0.06,0.06,0.06]),
-        H298 = (8.59,'kcal/mol','+|-',0.17),
-        S298 = (7.97,'cal/(mol*K)','+|-',0.1),
+        Cpdata = ([4.31,5.22,6.03,6.74,7.87,8.67,9.84],'cal/(mol*K)','+|-',[0.06,0.06,0.06,0.06,0.06,0.06,0.06]),
+        H298 = (8.65,'kcal/mol','+|-',0.17),
+        S298 = (7.83,'cal/(mol*K)','+|-',0.1),
     ),
-    shortDesc = """Cd-CsH BENSON""",
+    shortDesc = """Burke et al., 2015,  https://doi.org/10.1063/1.4902535""",
     longDesc = 
 """
 
@@ -9343,6 +9436,7 @@ entry(
 
 """,
 )
+
 
 entry(
     index = 421,
@@ -20727,6 +20821,30 @@ entry(
 """,
 )
 
+# entry(
+    # index = 921,
+    # label = "Cs-CsHHH",
+    # group = 
+# """
+# 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cs u0 {1,S}
+# 3   H  u0 {1,S}
+# 4   H  u0 {1,S}
+# 5   H  u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([6.19,7.84,9.4,10.79,13.02,14.77,17.58],'cal/(mol*K)','+|-',[0.08,0.08,0.08,0.08,0.08,0.08,0.08]),
+        # H298 = (-10.2,'kcal/mol','+|-',0.12),
+        # S298 = (30.41,'cal/(mol*K)','+|-',0.08),
+    # ),
+    # shortDesc = """Cs-CsHHH BENSON""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 921,
     label = "Cs-CsHHH",
@@ -20741,10 +20859,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([6.19,7.84,9.4,10.79,13.02,14.77,17.58],'cal/(mol*K)','+|-',[0.08,0.08,0.08,0.08,0.08,0.08,0.08]),
-        H298 = (-10.2,'kcal/mol','+|-',0.12),
+        H298 = (-10.16,'kcal/mol','+|-',0.12),
         S298 = (30.41,'cal/(mol*K)','+|-',0.08),
     ),
-    shortDesc = """Cs-CsHHH BENSON""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
 
@@ -20841,6 +20959,7 @@ entry(
 
 """,
 )
+#other vals in lit. are similar (no updates)
 
 entry(
     index = 926,
@@ -21032,6 +21151,32 @@ entry(
 """,
 )
 
+# entry(
+    # index = 934,
+    # label = "Cs-OsHHH",
+    # group = 
+# """
+# 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+# 2   O2s u0 {1,S}
+# 3   H   u0 {1,S}
+# 4   H   u0 {1,S}
+# 5   H   u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([25.31,32.07,38.44,44.06,53.36,60.63,72.47],'J/(mol*K)'),
+        # H298 = (-42.9,'kJ/mol'),
+        # S298 = (127.12,'J/(mol*K)'),
+    # ),
+    # shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    # longDesc = 
+# """
+# Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+# optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+# DOI: 10.1002/chem.201301381
+# """,
+# )
+
 entry(
     index = 934,
     label = "Cs-OsHHH",
@@ -21046,15 +21191,13 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([25.31,32.07,38.44,44.06,53.36,60.63,72.47],'J/(mol*K)'),
-        H298 = (-42.9,'kJ/mol'),
+        H298 = (-9.1,'kcal/mol'),
         S298 = (127.12,'J/(mol*K)'),
     ),
-    shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
+
 """,
 )
 
@@ -21467,6 +21610,30 @@ entry(
 """,
 )
 
+# entry(
+    # index = 953,
+    # label = "Cs-CsCsHH",
+    # group = 
+# """
+# 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cs u0 {1,S}
+# 3   Cs u0 {1,S}
+# 4   H  u0 {1,S}
+# 5   H  u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([5.5,6.95,8.25,9.35,11.07,12.34,14.25],'cal/(mol*K)','+|-',[0.04,0.04,0.04,0.04,0.04,0.04,0.04]),
+        # H298 = (-4.93,'kcal/mol','+|-',0.05),
+        # S298 = (9.42,'cal/(mol*K)','+|-',0.13),
+    # ),
+    # shortDesc = """Cs-CsCsHH BENSON""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 953,
     label = "Cs-CsCsHH",
@@ -21481,10 +21648,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([5.5,6.95,8.25,9.35,11.07,12.34,14.25],'cal/(mol*K)','+|-',[0.04,0.04,0.04,0.04,0.04,0.04,0.04]),
-        H298 = (-4.93,'kcal/mol','+|-',0.05),
+        H298 = (-4.91,'kcal/mol','+|-',0.05),
         S298 = (9.42,'cal/(mol*K)','+|-',0.13),
     ),
-    shortDesc = """Cs-CsCsHH BENSON""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
 
@@ -21745,6 +21912,32 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+# entry(
+    # index = 965,
+    # label = "Cs-(Cds-O2d)(Cds-Cds)HH",
+    # group = 
+# """
+# 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+# 2   CO  u0 {1,S} {7,D}
+# 3   Cd  u0 {1,S} {6,D}
+# 4   H   u0 {1,S}
+# 5   H   u0 {1,S}
+# 6   Cd  u0 {3,D}
+# 7   O2d u0 {2,D}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.75,7.11,8.92,10.32,12.16,13.61,13.61],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
+        # H298 = (-3.8,'kcal/mol','+|-',0.16),
+        # S298 = (6.31,'cal/(mol*K)','+|-',0.1),
+    # ),
+    # shortDesc = """Cs-COCdHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 965,
     label = "Cs-(Cds-O2d)(Cds-Cds)HH",
@@ -21758,13 +21951,8 @@ entry(
 6   Cd  u0 {3,D}
 7   O2d u0 {2,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.75,7.11,8.92,10.32,12.16,13.61,13.61],'cal/(mol*K)','+|-',[0.1,0.1,0.1,0.1,0.1,0.1,0.1]),
-        H298 = (-3.8,'kcal/mol','+|-',0.16),
-        S298 = (6.31,'cal/(mol*K)','+|-',0.1),
-    ),
-    shortDesc = """Cs-COCdHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
+    thermo = "Cs-(Cds-O2d)(Cds-Cd)HH",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -22794,6 +22982,30 @@ entry(
 """,
 )
 
+# entry(
+    # index = 1012,
+    # label = "Cs-CsCsCsH",
+    # group = 
+# """
+# 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cs u0 {1,S}
+# 3   Cs u0 {1,S}
+# 4   Cs u0 {1,S}
+# 5   H  u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.54,6,7.17,8.05,9.31,10.05,11.17],'cal/(mol*K)','+|-',[0.07,0.07,0.07,0.07,0.07,0.07,0.07]),
+        # H298 = (-1.9,'kcal/mol','+|-',0.15),
+        # S298 = (-12.07,'cal/(mol*K)','+|-',0.07),
+    # ),
+    # shortDesc = """Cs-CsCsCsH BENSON""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 1012,
     label = "Cs-CsCsCsH",
@@ -22808,10 +23020,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.54,6,7.17,8.05,9.31,10.05,11.17],'cal/(mol*K)','+|-',[0.07,0.07,0.07,0.07,0.07,0.07,0.07]),
-        H298 = (-1.9,'kcal/mol','+|-',0.15),
+        H298 = (-1.68,'kcal/mol','+|-',0.15),
         S298 = (-12.07,'cal/(mol*K)','+|-',0.07),
     ),
-    shortDesc = """Cs-CsCsCsH BENSON""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
 
@@ -26986,6 +27198,30 @@ entry(
 """,
 )
 
+# entry(
+    # index = 1201,
+    # label = "Cs-CsCsCsCs",
+    # group = 
+# """
+# 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cs u0 {1,S}
+# 3   Cs u0 {1,S}
+# 4   Cs u0 {1,S}
+# 5   Cs u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.37,6.13,7.36,8.12,8.77,8.76,8.12],'cal/(mol*K)','+|-',[0.13,0.13,0.13,0.13,0.13,0.13,0.13]),
+        # H298 = (0.5,'kcal/mol','+|-',0.27),
+        # S298 = (-35.1,'cal/(mol*K)','+|-',0.15),
+    # ),
+    # shortDesc = """Cs-CsCsCsCs BENSON""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 1201,
     label = "Cs-CsCsCsCs",
@@ -27000,10 +27236,10 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([4.37,6.13,7.36,8.12,8.77,8.76,8.12],'cal/(mol*K)','+|-',[0.13,0.13,0.13,0.13,0.13,0.13,0.13]),
-        H298 = (0.5,'kcal/mol','+|-',0.27),
+        H298 = (0.14,'kcal/mol','+|-',0.27),
         S298 = (-35.1,'cal/(mol*K)','+|-',0.15),
     ),
-    shortDesc = """Cs-CsCsCsCs BENSON""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
 
@@ -38211,6 +38447,32 @@ entry(
 """,
 )
 
+# entry(
+    # index = 1699,
+    # label = "Cs-CsCsCsOs",
+    # group = 
+# """
+# 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cs  u0 {1,S}
+# 3   Cs  u0 {1,S}
+# 4   Cs  u0 {1,S}
+# 5   O2s u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([23.99,31.2,34.89,36.47,36.78,36.05,34.4],'J/(mol*K)','+|-',[3.81,3.81,3.81,3.81,3.81,3.81,3.81]),
+        # H298 = (-20.3,'kJ/mol','+|-',3.24),
+        # S298 = (-144.38,'J/(mol*K)','+|-',4.44),
+    # ),
+    # shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    # longDesc = 
+# """
+# Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+# optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+# DOI: 10.1002/chem.201301381
+# """,
+# )
+
 entry(
     index = 1699,
     label = "Cs-CsCsCsOs",
@@ -38225,15 +38487,13 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([23.99,31.2,34.89,36.47,36.78,36.05,34.4],'J/(mol*K)','+|-',[3.81,3.81,3.81,3.81,3.81,3.81,3.81]),
-        H298 = (-20.3,'kJ/mol','+|-',3.24),
+        H298 = (-6.91,'kcal/mol','+|-',0.77),
         S298 = (-144.38,'J/(mol*K)','+|-',4.44),
     ),
-    shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
+
 """,
 )
 
@@ -42230,6 +42490,7 @@ entry(
 
 """,
 )
+#no better data available
 
 entry(
     index = 1887,
@@ -42668,6 +42929,32 @@ entry(
 """,
 )
 
+# entry(
+    # index = 1908,
+    # label = "Cs-CsCsOsH",
+    # group = 
+# """
+# 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cs  u0 {1,S}
+# 3   Cs  u0 {1,S}
+# 4   O2s u0 {1,S}
+# 5   H   u0 {1,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([21.99,29.03,34.22,37.78,41.96,44.27,47.11],'J/(mol*K)','+|-',[3.32,3.32,3.32,3.32,3.32,3.32,3.32]),
+        # H298 = (-25.1,'kJ/mol','+|-',2.83),
+        # S298 = (-52.05,'J/(mol*K)','+|-',3.88),
+    # ),
+    # shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    # longDesc = 
+# """
+# Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+# optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+# DOI: 10.1002/chem.201301381
+# """,
+# )
+
 entry(
     index = 1908,
     label = "Cs-CsCsOsH",
@@ -42682,15 +42969,13 @@ entry(
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([21.99,29.03,34.22,37.78,41.96,44.27,47.11],'J/(mol*K)','+|-',[3.32,3.32,3.32,3.32,3.32,3.32,3.32]),
-        H298 = (-25.1,'kJ/mol','+|-',2.83),
+        H298 = (-6.97,'kcal/mol','+|-',0.68),
         S298 = (-52.05,'J/(mol*K)','+|-',3.88),
     ),
-    shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
+    shortDesc = """Ghosh et al., 2022, https://doi.org/10.1016/j.combustflame.2022.112492""",
     longDesc = 
 """
-Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
-optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
-DOI: 10.1002/chem.201301381
+
 """,
 )
 
@@ -42713,6 +42998,31 @@ entry(
 """,
 )
 
+# entry(
+    # index = 1910,
+    # label = "Cs-(Cds-O2d)CsOsH",
+    # group = 
+# """
+# 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+# 2   CO  u0 {1,S} {6,D}
+# 3   Cs  u0 {1,S}
+# 4   O2s u0 {1,S}
+# 5   H   u0 {1,S}
+# 6   O2d u0 {2,D}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.47,6.82,8.45,9.17,10.24,10.8,11.02],'cal/(mol*K)','+|-',[0.12,0.12,0.12,0.12,0.12,0.12,0.12]),
+        # H298 = (-6,'kcal/mol','+|-',0.24),
+        # S298 = (-11.1,'cal/(mol*K)','+|-',0.12),
+    # ),
+    # shortDesc = """Cs-OCOCsH BOZZELLI""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 1910,
     label = "Cs-(Cds-O2d)CsOsH",
@@ -42727,14 +43037,16 @@ entry(
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.47,6.82,8.45,9.17,10.24,10.8,11.02],'cal/(mol*K)','+|-',[0.12,0.12,0.12,0.12,0.12,0.12,0.12]),
-        H298 = (-6,'kcal/mol','+|-',0.24),
-        S298 = (-11.1,'cal/(mol*K)','+|-',0.12),
+        Cpdata = ([29.84,38.86,43.83,46.37,48.34,49.06,49.94],'J/(mol*K)','+|-',[3.74,3.74,3.74,3.74,3.74,3.74,3.74]),
+        H298 = (-23.99,'kJ/mol','+|-',3.19),
+        S298 = (-61.06,'J/(mol*K)','+|-',4.36),
     ),
-    shortDesc = """Cs-OCOCsH BOZZELLI""",
+    shortDesc = """\Derived from CBS-QB3 calculation with 1DHR treatment""",
     longDesc = 
 """
-
+Derived using calculations at B3LYP/6-311G(d,p)/CBS-QB3 level of theory. 1DH-rotors
+optimized at the B3LYP/6-31G(d).Paraskevas et al, Chem. Eur. J. 2013, 19, 16431-16452,
+DOI: 10.1002/chem.201301381
 """,
 )
 
@@ -42765,6 +43077,31 @@ DOI: 10.1002/chem.201301381
 """,
 )
 
+# entry(
+    # index = 1912,
+    # label = "Cs-(Cds-Cds)CsOsH",
+    # group = 
+# """
+# 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
+# 2   Cd  u0 {1,S} {6,D}
+# 3   Cs  u0 {1,S}
+# 4   O2s u0 {1,S}
+# 5   H   u0 {1,S}
+# 6   Cd  u0 {2,D}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([4.47,6.82,8.45,9.17,10.24,10.8,11.02],'cal/(mol*K)','+|-',[0.12,0.12,0.12,0.12,0.12,0.12,0.12]),
+        # H298 = (-6,'kcal/mol','+|-',0.24),
+        # S298 = (-11.1,'cal/(mol*K)','+|-',0.12),
+    # ),
+    # shortDesc = """Cs-OCdCsH BOZZELLI""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 1912,
     label = "Cs-(Cds-Cds)CsOsH",
@@ -42777,13 +43114,8 @@ entry(
 5   H   u0 {1,S}
 6   Cd  u0 {2,D}
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([4.47,6.82,8.45,9.17,10.24,10.8,11.02],'cal/(mol*K)','+|-',[0.12,0.12,0.12,0.12,0.12,0.12,0.12]),
-        H298 = (-6,'kcal/mol','+|-',0.24),
-        S298 = (-11.1,'cal/(mol*K)','+|-',0.12),
-    ),
-    shortDesc = """Cs-OCdCsH BOZZELLI""",
+    thermo = "Cs-(Cds-Cd)CsOsH",
+    shortDesc = """""",
     longDesc = 
 """
 
@@ -56379,7 +56711,7 @@ entry(
 """
 1 * S6ddd u0
 """,
-    thermo = 'S6ddd-OdXdXd',
+    thermo = 'S6ddd-XdXdXd',
     shortDesc = """Sulfur/Oxygen Extension, Ryan Gillis""",
     longDesc = 
 """

@@ -401,3 +401,204 @@ Converted to training reaction from rate rule: R2OO_0H_2H
 """,
 )
 
+entry(
+    index = 16,
+    label = "C4H9O3 <=> C4H8O + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.15e+09,'s^-1'), n=1.06, Ea=(31.2766,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Y. Sakai', 'H. Ando', 'H.K. Chakravarty', 'H. Pitsch', 'R.X. Fernandes'],
+        title = 'A computational study on the kinetics of unimolecular reactions of ethoxyethylperoxy radicals employing CTST and VTST',
+        journal = 'Proc. Combust. Inst.',
+        volume = '35',
+        pages = '161-169',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C4H9OaOO <=> C4H8O + HO2
+!Sakai:PCI35(2015)161-169:pRO2:*ho2
+""",
+)
+
+entry(
+    index = 17,
+    label = "C4H9O5 <=> C4H8O3 + HO2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(1.132e+13,'s^-1'), n=-0.199, Ea=(28.052,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1Q3QJ <=> MPO1Q2Star + HO2
+""",
+)
+
+entry(
+    index = 18,
+    label = "HO2 + C3H6 <=> C3H7O2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(0.0193036,'cm^3/(mol*s)'), n=3.57899, Ea=(37.5196,'kJ/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: C3H6 + HO2 <=> CH3CH2CH2OO
+""",
+)
+
+entry(
+    index = 19,
+    label = "C3H5O3 <=> C3H4O + HO2",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(9.59e+07,'s^-1'), n=1.574, Ea=(23.045,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CC(O[O])C=O <=> C=CC=O + HO2
+""",
+)
+
+entry(
+    index = 20,
+    label = "C3H5O3-2 <=> C3H4O-2 + HO2",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(671000,'s^-1'), n=2.14, Ea=(19.879,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: C(O[O])CC=O <=> C=CC=O + HO2
+""",
+)
+
+entry(
+    index = 21,
+    label = "C4H9O3-2 <=> C4H8O-2 + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.46e+11,'s^-1'), n=0.56, Ea=(29.5736,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Y. Sakai', 'H. Ando', 'H.K. Chakravarty', 'H. Pitsch', 'R.X. Fernandes'],
+        title = 'A computational study on the kinetics of unimolecular reactions of ethoxyethylperoxy radicals employing CTST and VTST',
+        journal = 'Proc. Combust. Inst.',
+        volume = '35',
+        pages = '161-169',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C4H9ObOO <=> C4H8O + HO2
+!Sakai:PCI35(2015)161-169:pRO2:*ho2
+""",
+)
+
+entry(
+    index = 22,
+    label = "HO2 + C4H8-4 <=> C4H9O2-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.195,'cm^3/(mol*s)'), n=3.37, Ea=(9.1,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
+    longDesc = 
+"""
+Original entry: C4H8-1 + HO2 <=> C4H9O2-J
+High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
+Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
+The Journal of Physical Chemistry A 2011 115 (46), 13425-13442
+dx.doi.org/10.1021/jp2079204
+
+Method CBS-QB3 w/ 1-d Hindered rotor corrections
+""",
+)
+
+entry(
+    index = 23,
+    label = "HO2 + C5H10-3 <=> C5H11O2-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.153,'cm^3/(mol*s)'), n=3.42, Ea=(9,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
+    longDesc = 
+"""
+Original entry: C5H10-1 + HO2 <=> C5H11O2-J
+High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
+Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
+The Journal of Physical Chemistry A 2011 115 (46), 13425-13442
+dx.doi.org/10.1021/jp2079204
+
+Method CBS-QB3 w/ 1-d Hindered rotor corrections
+""",
+)
+
+entry(
+    index = 24,
+    label = "HO2 + C5H10-4 <=> C5H11O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0494,'cm^3/(mol*s)'), n=3.53, Ea=(10.9,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    shortDesc = """Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
+    longDesc = 
+"""
+Original entry: C5H10-i + HO2 <=> C5H11O2-i
+High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
+Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
+The Journal of Physical Chemistry A 2011 115 (46), 13425-13442
+dx.doi.org/10.1021/jp2079204
+
+Method CBS-QB3 w/ 1-d Hindered rotor corrections
+""",
+)
+
+entry(
+    index = 25,
+    label = "C4H7O4 <=> C4H6O2 + HO2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(893000,'s^-1'), n=1.92, Ea=(25.05,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP1OO <=> MP12D + HO2
+QRRK + MSC + CBS-QB3
+""",
+)
+
+entry(
+    index = 26,
+    label = "C4H7O4-2 <=> C4H6O2-2 + HO2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(589000,'s^-1'), n=1.94, Ea=(25.39,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Xuan T. Le', 'Tam V. T. Mai', 'Artur Ratkiewicz', 'Lam K. Huynh'],
+        title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '3689-3703',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP2OO <=> MP12D + HO2
+QRRK + MSC + CBS-QB3
+""",
+)
+

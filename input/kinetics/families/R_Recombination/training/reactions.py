@@ -2839,28 +2839,47 @@ entry(
     label = "OH + CH3O <=> CH4O2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2e+13, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (0, 'kJ/mol'),
+        A = (8.21491e+9, 'cm^3/(mol*s)'),
+        n = 0.94,
+        Ea = (2.365, 'kcal/mol'),
         T0 = (1, 'K'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
     rank = 11,
-    shortDesc = u"""Curran's [159] estimation.""",
+    shortDesc = u"""AramcoMech2.0: REF:LIGHTFOOT ET AL. J. CHEM. SOC. FARA TRANS. 1991, 87(19), 3213--3220.""",
     longDesc = 
 u"""
-[159] Curran, H.J.; Pitz, W.J.; Westbrook, C.K.; Dagaut, P.; Boettner, J.-C.; Cathonnet, M. Int. J. Chem. Kinet. 1998, 30, 229.
-Curran's estimation in DME modeling for ketohydroperoxide decomposition 
-
-Apparently the number comes from estimate for reverse of Rxn. 337: HO2CH2OCHO -> .OCH2OCHO + .OH (2E13) (p. 234); reverse of Rxn. 191 (p. 238) would also be informative, but it doesn't seem to be disucussed in paper
-Verified by Greg Magoon; it is not immediately clear whether this rate constant is for high pressure limit, but based on other references to high pressure limit in the paper, I suspect that it is a high pressure limit value
-
-*NHP = Not necessarily at high pressure limit
-
-Converted to training reaction from rate rule: O_pri_rad;O_sec_rad
 """,
 )
+
+# entry(
+    # index = 103,
+    # label = "OH + CH3O <=> CH4O2",
+    # degeneracy = 1.0,
+    # kinetics = Arrhenius(
+        # A = (2e+13, 'cm^3/(mol*s)'),
+        # n = 0,
+        # Ea = (0, 'kJ/mol'),
+        # T0 = (1, 'K'),
+        # Tmin = (300, 'K'),
+        # Tmax = (1500, 'K'),
+    # ),
+    # rank = 11,
+    # shortDesc = u"""Curran's [159] estimation.""",
+    # longDesc = 
+# u"""
+# [159] Curran, H.J.; Pitz, W.J.; Westbrook, C.K.; Dagaut, P.; Boettner, J.-C.; Cathonnet, M. Int. J. Chem. Kinet. 1998, 30, 229.
+# Curran's estimation in DME modeling for ketohydroperoxide decomposition 
+
+# Apparently the number comes from estimate for reverse of Rxn. 337: HO2CH2OCHO -> .OCH2OCHO + .OH (2E13) (p. 234); reverse of Rxn. 191 (p. 238) would also be informative, but it doesn't seem to be disucussed in paper
+# Verified by Greg Magoon; it is not immediately clear whether this rate constant is for high pressure limit, but based on other references to high pressure limit in the paper, I suspect that it is a high pressure limit value
+
+# *NHP = Not necessarily at high pressure limit
+
+# Converted to training reaction from rate rule: O_pri_rad;O_sec_rad
+# """,
+# )
 
 entry(
     index = 104,
@@ -3351,6 +3370,7 @@ Converted to training reaction from rate rule: O2_birad;CO_pri_rad
 """,
 )
 
+#Dropped rank due to limited data range - creating poor estimates
 entry(
     index = 120,
     label = "O2 + C2H3O <=> C2H3O3",
@@ -3363,7 +3383,7 @@ entry(
         Tmin = (200, 'K'),
         Tmax = (300, 'K'),
     ),
-    rank = 10,
+    rank = 12,
     shortDesc = u"""Atkinson et al [96] literature review.""",
     longDesc = 
 u"""
@@ -4365,7 +4385,7 @@ entry(
     label = "CH3 + C9H19 <=> C10H22",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (4.91e+12, 'cm^3/(mol*s)'),
+        A = (4.91e+12, 'cm^3/(mole*s)'),
         n = 0.217,
         Ea = (-0.007, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4390,7 +4410,7 @@ entry(
     label = "C8H17 + C2H5 <=> C10H22-2",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2.059e+12, 'cm^3/(mol*s)'),
+        A = (2.059e+12, 'cm^3/(mole*s)'),
         n = 0.226,
         Ea = (-0.024, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4415,7 +4435,7 @@ entry(
     label = "C7H15 + C3H7 <=> C10H22-3",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.912e+12, 'cm^3/(mol*s)'),
+        A = (1.912e+12, 'cm^3/(mole*s)'),
         n = 0.218,
         Ea = (-0.008, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4440,7 +4460,7 @@ entry(
     label = "C6H13 + C4H9-2 <=> C10H22-4",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.832e+12, 'cm^3/(mol*s)'),
+        A = (1.832e+12, 'cm^3/(mole*s)'),
         n = 0.216,
         Ea = (-0.003, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4465,7 +4485,7 @@ entry(
     label = "C5H11 + C5H11 <=> C10H22-5",
     degeneracy = 0.5,
     kinetics = Arrhenius(
-        A = (1.808e+12, 'cm^3/(mol*s)'),
+        A = (1.808e+12, 'cm^3/(mole*s)'),
         n = 0.215,
         Ea = (-0.001, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4490,7 +4510,7 @@ entry(
     label = "H + C10H21 <=> C10H22-6",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mol*s)'),
+        A = (3.252e+13, 'cm^3/(mole*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4515,7 +4535,7 @@ entry(
     label = "H + C10H21-2 <=> C10H22-7",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mol*s)'),
+        A = (3.252e+13, 'cm^3/(mole*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4540,7 +4560,7 @@ entry(
     label = "H + C10H21-3 <=> C10H22-8",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mol*s)'),
+        A = (3.252e+13, 'cm^3/(mole*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4565,7 +4585,7 @@ entry(
     label = "H + C10H21-4 <=> C10H22-9",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mol*s)'),
+        A = (3.252e+13, 'cm^3/(mole*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4590,7 +4610,7 @@ entry(
     label = "H + C10H21-5 <=> C10H22-10",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (3.252e+13, 'cm^3/(mol*s)'),
+        A = (3.252e+13, 'cm^3/(mole*s)'),
         n = 0.212,
         Ea = (0.006, 'kcal/mol'),
         T0 = (1, 'K'),
@@ -4710,3 +4730,56 @@ Species are optimized and calculated by the CBS-QB3 method, no hindered rotors c
 """,
 )
 
+entry(
+    index = 177,
+    label = "C4H9OaOO <=> C4H9Oa + O2 ",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (6.97E+25, 's^-1'),
+        n = -3.3600,
+        Ea = (36.0678, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    referenceType = "theory",
+    rank = 6,
+    longDesc = 
+u"""
+!Sakai:PCI36(2017)195-202! 
+""",
+)
+
+entry(
+    index = 178,
+    label = "C4H9ObOO <=> C4H9Ob + O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (2.45E+18, 's^-1'),
+        n = -0.9900,
+        Ea = (38.5955, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    referenceType = "theory",
+    rank = 6,
+    longDesc = 
+u"""
+!Sakai:PCI36(2017)195-202! 
+""",
+)
+
+entry(
+    index = 179,
+    label = "C4H8OaOOHbOO <=> C4H8OaOOHb + O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (2.45E+18, 's^-1'),
+        n = -0.990,
+        Ea = (38.5955, 'kcal/mol'),
+        T0 = (1, 'K'),
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+u"""
+Same as C4H9ObOO=C4H9Ob+O2. Added as training for new group.
+""",
+)

@@ -2542,6 +2542,116 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 191,
+    label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O2",
+    group = 
+"""
+1 * O   u1 r0 {3,S}
+2 * C   u1 {4,[S,D,T,B]} {5,S}
+3   O   ux r0 {1,S}
+4   O   u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+5   C   u0 r0 {2,S}
+6   C   u0 r0 {4,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 192,
+    label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R->O2",
+    group = 
+"""
+1 * O   u1 {3,[S,D,T,B]}
+2 * C   u1 {4,[S,D,T,B]}
+3   O   ux {1,[S,D,T,B]}
+4   C   ux {2,[S,D,T,B]} {5,[S,D,T,B]}
+5   O   u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6   C   u0 {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 193,
+    label = "ethyl-esterC2->O2",
+    group = 
+"""
+1 * O   u1 {3,[S,D,T,B]}
+2 * C   u1 {4,[S,D,T,B]}
+3   O   ux {1,[S,D,T,B]}
+4   C   ux {2,[S,D,T,B]} {6,[S,D,T,B]}
+5   R!H ux {7,[S,D,T,B]}
+6   O   u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+7   CO  u0 {6,[S,D,T,B]} {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 194,
+    label = "ethyl-esterC1->O2",
+    group = 
+"""
+1 * O   u1 {3,[S,D,T,B]}
+2   C   ux {4,[S,D,T,B]}
+3   O   ux {1,[S,D,T,B]}
+4 * C   u1 {2,[S,D,T,B]} {6,[S,D,T,B]}
+5   R!H ux {7,[S,D,T,B]}
+6   O   u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+7   CO  u0 {6,[S,D,T,B]} {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 195,
+    label = "ethyl-esterCalpha->O2",
+    group = 
+"""
+1 * O   u1 {3,[S,D,T,B]}
+2   C   ux {4,[S,D,T,B]}
+3   O   ux {1,[S,D,T,B]}
+4   C   ux {2,[S,D,T,B]} {6,[S,D,T,B]}
+5 * C   u1 {7,[S,D,T,B]}
+6   O   u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+7   CO  u0 {6,[S,D,T,B]} {5,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 196,
+    label = "ketoneCalpha->O2",
+    group = 
+"""
+1 * O   u1 {2,[S,D,T,B]}
+2   O   ux {1,[S,D,T,B]}
+3 * C   u1 {4,[S,D,T,B]}
+4   CO  ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5   C   ux {4,[S,D,T,B]} {6,[S,D,T,B]}
+6   C   ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7   R   ux {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 197,
+    label = "ketoneC1->O2",
+    group = 
+"""
+1 * O   u1 {2,[S,D,T,B]}
+2   O   ux {1,[S,D,T,B]}
+3   C   ux {4,[S,D,T,B]}
+4   CO  ux {3,[S,D,T,B]} {5,[S,D,T,B]}
+5 * C   u1 {4,[S,D,T,B]} {6,[S,D,T,B]}
+6   C   ux {5,[S,D,T,B]} {7,[S,D,T,B]}
+7   R   ux {6,[S,D,T,B]}
+""",
+    kinetics = None,
+)
+
 tree(
 """
 L1: Root
@@ -2626,11 +2736,17 @@ L1: Root
                 L5: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R
                     L6: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R
                         L7: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R
+                            L8: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R->O2
                             L8: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-4R!H-R
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_Ext-5R!H-R_Ext-5R!H-R
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_2R-inRing
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R_N-2R-inRing
+                                L9: ethyl-esterC1->O2
+                                L9: ethyl-esterC2->O2
+                                L9: ethyl-esterCalpha->O2
+                                L9: ketoneCalpha->O2
+                                L9: ketoneC1->O2
                             L8: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_Sp-5R!H-4R!H
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Sp-4R!H-2R_N-Sp-5R!H-4R!H
@@ -2639,6 +2755,7 @@ L1: Root
                             L8: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_N-Sp-4R!H-2R
                         L7: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R
                             L8: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O
+                                L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O2
                             L8: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O
                                 L9: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R
                                     L10: Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_N-4R!H->O_Ext-2R-R_3R!H->O

@@ -165,3 +165,26 @@ Converted to training reaction from rate rule: CO;CsO_H
 """,
 )
 
+entry(
+    index = 8,
+    label = "C2H2O3 <=> CO + CH2O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.24199e+11,'s^-1'), n=0.586164, Ea=(114.882,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Added from git fork "newecp"
+
+Training reaction from kinetics library: Johnson_methyl_propyl_ether_2021
+Original entry: OCHOCHO <=> HCOOH + CO
+Matt Johnson using ARC guess from Mark Nimlos at CBS-QB3 with 1dhr
+Optimized TS geometry:
+C      -1.33347500   -0.39042300    0.00000900
+O      -2.41880900   -0.04041100    0.00000800
+O       1.09196000   -0.88069000    0.00000600
+C       1.02910300    0.37551500   -0.00000700
+O      -0.06516800    1.02306100   -0.00001100
+H       1.96423500    0.95780300   -0.00001700
+H      -0.26784600   -1.04485500    0.00001300
+""",
+)

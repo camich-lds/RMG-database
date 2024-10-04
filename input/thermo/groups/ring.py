@@ -6565,6 +6565,29 @@ CHOF_G4 |         2
 """,
 )
 
+# entry(
+    # index = 255,
+    # label = "Oxetane",
+    # group = 
+# """
+# 1 * O2s      u0 {2,S} {4,S}
+# 2   [Cs,N,S] u0 {1,S} {3,S}
+# 3   [Cs,N,S] u0 {2,S} {4,S}
+# 4   [Cs,N,S] u0 {1,S} {3,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([-4.08,-4.28,-3.636,-3.016,-2.451,-1.896,2.84],'cal/(mol*K)'),
+        # H298 = (25.08,'kcal/mol'),
+        # S298 = (28.5487,'cal/(mol*K)'),
+    # ),
+    # shortDesc = """CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 255,
     label = "Oxetane",
@@ -6572,7 +6595,7 @@ entry(
 """
 1 * O2s      u0 {2,S} {4,S}
 2   [Cs,N,S] u0 {1,S} {3,S}
-3   [Cs,N,S] u0 {2,S} {4,S}
+3   [C,N,S] u0 {2,S} {4,S}
 4   [Cs,N,S] u0 {1,S} {3,S}
 """,
     thermo = ThermoData(
@@ -6586,7 +6609,7 @@ entry(
 """
 
 """,
-)
+)#edited to allow 3-oxetanone
 
 entry(
     index = 256,
@@ -7886,6 +7909,30 @@ entry(
 """,
 )
 
+# entry(
+    # index = 309,
+    # label = "Tetrahydrofuran",
+    # group = 
+# """
+# 1 * O      u0 {2,S} {5,S}
+# 2   [Cs,N] u0 {1,S} {3,S}
+# 3   [Cs,N] u0 {2,S} {4,S}
+# 4   [Cs,N] u0 {3,S} {5,S}
+# 5   [Cs,N] u0 {1,S} {4,S}
+# """,
+    # thermo = ThermoData(
+        # Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        # Cpdata = ([-5.93,-5.71,-4.67,-3.721,-2.689,-1.856,3.213],'cal/(mol*K)'),
+        # H298 = (5.96,'kcal/mol'),
+        # S298 = (21.1624,'cal/(mol*K)'),
+    # ),
+    # shortDesc = """CY/C4O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    # longDesc = 
+# """
+
+# """,
+# )
+
 entry(
     index = 309,
     label = "Tetrahydrofuran",
@@ -7893,8 +7940,8 @@ entry(
 """
 1 * O      u0 {2,S} {5,S}
 2   [Cs,N] u0 {1,S} {3,S}
-3   [Cs,N] u0 {2,S} {4,S}
-4   [Cs,N] u0 {3,S} {5,S}
+3   [C,N] u0 {2,S} {4,S}
+4   [C,N] u0 {3,S} {5,S}
 5   [Cs,N] u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
@@ -7909,6 +7956,7 @@ entry(
 
 """,
 )
+#allow cyclic epoxypentanone
 
 entry(
     index = 310,
@@ -7939,10 +7987,10 @@ entry(
     label = "1,3-Dioxolane",
     group = 
 """
-1 * [Cs,N] u0 {2,S} {5,S}
+1 * [C,N] u0 {2,S} {5,S}
 2   O      u0 {1,S} {3,S}
-3   [Cs,N] u0 {2,S} {4,S}
-4   [Cs,N] u0 {3,S} {5,S}
+3   [C,N] u0 {2,S} {4,S}
+4   [C,N] u0 {3,S} {5,S}
 5   O      u0 {1,S} {4,S}
 """,
     thermo = ThermoData(
@@ -8687,7 +8735,7 @@ entry(
 2 * Cs  u0 {1,S} {3,S}
 3   O2s u0 {2,S} {4,S}
 4   Cs  u0 {3,S} {5,S}
-5   Cs  u0 {4,S} {6,S}
+5   C   u0 {4,S} {6,S}
 6   Cs  u0 {1,S} {5,S}
 """,
     thermo = ThermoData(

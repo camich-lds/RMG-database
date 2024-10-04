@@ -36029,10 +36029,16 @@ entry(
 4   H       u0 {1,S}
 5   [CO,Cd] u0 {2,S}
 """,
-    thermo = 'CCsJOC(O)',
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.83,-0.61,-0.8,-1.28,-2.37,-3.23,-4.49],'cal/(mol*K)'),
+        H298 = (95.01,'kcal/mol'),
+        S298 = (1.63,'cal/(mol*K)'),        
+    ),
+#    thermo = u'CCsJOC(O)',
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
 )
@@ -36093,18 +36099,23 @@ entry(
     label = "CCsJOC(O)C",
     group = 
 """
-1 * Cs  u1 {3,S} {4,S} {5,S}
-2   CO  u0 {3,S} {6,D} {7,S}
+1 * Cs u1 {3,S} {4,S} {5,S}
+2   CO u0 {3,S} {6,D} {7,S}
 3   O2s u0 {1,S} {2,S}
-4   C   u0 {1,S}
-5   H   u0 {1,S}
+4   C  u0 {1,S}
+5   H  u0 {1,S}
 6   O2d u0 {2,D}
-7   C   u0 {2,S}
+7   C  u0 {2,S}
 """,
-    thermo = None,
-    shortDesc = """""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.63,0.52,0.21,-0.28,-1.43,-2.56,-4.49],'cal/(mol*K)'),
+        H298 = (97.56,'kcal/mol'),
+        S298 = (1.85,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""S&Cp:B3D  Hf:CBSQ 6/29/2004""",
     longDesc = 
-"""
+u"""
 
 """,
 )
@@ -54702,6 +54713,132 @@ entry(
 """,
 )
 
+entry(
+    index = 3086,
+    label = "C(O)OCCJ",
+    group = 
+"""
+1 * Cs u1 {2,S} {4,S}
+2   C u0 {1,S} {5,S}
+3   CO u0 {5,S} {6,D}
+4   H u0 {1,S}
+5   O2s u0 {2,S} {3,S}
+6   O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.99,-1.48,-1.99,-2.48,-3.32,-3.94,-4.8],'cal/(mol*K)'),
+        H298 = (102.79,'kcal/mol'),
+        S298 = (3.51,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""S&Cp:B3D  Hf:CBSQ 6/29/2004""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 3087,
+    label = "CCJC(O)OC",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {5,S}
+2   C u0 {1,S}
+3   CO u0 {1,S} {6,S} {7,D}
+4   C u0 {6,S}
+5   H u0 {1,S}
+6   O2s u0 {3,S} {4,S}
+7   O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.3,-0.39,-0.68,-1.03,-1.69,-2.32,-3.63],'cal/(mol*K)'),
+        H298 = (93.64,'kcal/mol'),
+        S298 = (-0.12,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""S&Cp:B3D  Hf:CBSQ 6/29/2004""",
+    longDesc = 
+u"""
+
+""",
+)    
+
+entry(
+    index = 3088,
+    label = "CJC(C)=O",
+    group = 
+"""
+1 * Cs u1 {2,S} {4,S} {5,S}
+2   CO u0 {1,S} {3,S} {6,D}
+3   C u0 {2,S}
+4   H u0 {1,S}
+5   H u0 {1,S}
+6   O2s u0 {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.32,0.19,-0.15,-0.57,-1.43,-2.22,-3.67],'cal/(mol*K)'),
+        H298 = (96.05,'kcal/mol'),
+        S298 = (-1.16,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""li zhu 01/01""",
+    longDesc = 
+u"""
+
+""",
+) 
+
+entry(
+    index = 3090,
+    label = "CCsJC(O)C",
+    group = 
+"""
+1 * Cs u1 {2,S} {3,S} {5,S}
+2   C u0 {1,S}
+3   CO u0 {1,S} {4,S} {6,D}
+4   C u0 {3,S}
+5   H u0 {1,S}
+6   O2d u0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.46,-1.65,-1.78,-1.96,-2.42,-2.87,-3.69],'cal/(mol*K)'),
+        H298 = (90.8,'kcal/mol'),
+        S298 = (-2.15,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""li zhu 01/01""",
+    longDesc = 
+u"""
+
+""",
+) 
+
+entry(
+    index = 3091,
+    label = "CCOCJ",
+    group = 
+"""
+1 * Cs u1 {4,S} {5,S} {6,S}
+2 C u0 {3,S} {6,S}
+3 C u0 {2,S}
+4 H u0 {1,S}
+5 H u0 {1,S}
+6 O2s u0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.36,-1.19,-1.13,-1.28,-1.92,-2.65,-3.98],'cal/(mol*K)'),
+        H298 = (96.39,'kcal/mol'),
+        S298 = (1.07,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""JPC 2003, 107,4531""",
+    longDesc = 
+u"""
+
+""",
+) 
+
 tree(
 """
 L1: Radical
@@ -55512,6 +55649,7 @@ L1: Radical
                             L8: CJC(C)(C=O)O
                         L7: CJC(O)2C
                             L8: C=CC(O)2CJ
+                        L7: CCOCJ
                         L7: Csj(Cs-Br1sBr1sO2s)(H)(H)
                         L7: Csj(Cs-Cl1sO2sH)(H)(H)
                         L7: Csj(Cs-Cl1sCl1sO2s)(H)(H)
@@ -55585,11 +55723,14 @@ L1: Radical
                     L6: Propargyl
                     L6: CJC=O
                         L7: C2JC=O
+                        L7: CJC(C)=O
                 L5: Cs_S
                     L6: CCJCO
                         L7: C=CCJCO
                             L8: C=CCJC(O)C=C
                         L7: CCJCOOH
+                        L7: C(O)OCCJ
+                        L7: CCJC(O)OC
                         L7: Csj(Cs-O2sHH)(Cs-Br1sHH)(H)
                         L7: Csj(Cs-O2sHH)(Cs-Br1sBr1sH)(H)
                         L7: Csj(Cs-Br1sBr1sO2s)(Cs-HHH)(H)
@@ -55892,6 +56033,7 @@ L1: Radical
                     L6: CCJC=O
                         L7: CCJCHO
                         L7: C=OCJC=O
+                        L7: CCsJC(O)C
                 L5: Cs_T
                     L6: CCJ(C)CO
                         L7: C2CJCOOH

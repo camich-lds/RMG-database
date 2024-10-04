@@ -8,8 +8,8 @@ longDesc = """
 """
 entry(
     index = 1,
-    label = "Root",
-    kinetics = ArrheniusBM(A=(3.51258e+21,'m^3/(mol*s)'), n=-4.73433, w0=(662667,'J/mol'), E0=(260353,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.24606408429282084, var=11.431364239445765, Tref=1000.0, N=6, correlation='Root',), comment="""BM rule fitted to 2 training reactions at node Root
+    label = "2+2_cycloaddition_Root",
+    kinetics = ArrheniusBM(A=(3.51258e+21,'m^3/(mol*s)'), n=-4.73433, w0=(662667,'J/mol'), E0=(260353,'J/mol'), Tmin=(300,'K'), Tmax=(1500,'K'), uncertainty=RateUncertainty(mu=0.24606408429282084, var=11.431364239445765, Tref=1000.0, N=6, correlation='2+2_cycloaddition_Root',), comment="""BM rule fitted to 2 training reactions at node Root
     Total Standard Deviation in ln(k): 7.3963210190210456"""),
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root

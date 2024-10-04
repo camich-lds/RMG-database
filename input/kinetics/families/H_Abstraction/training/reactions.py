@@ -43711,3 +43711,5961 @@ Rate calculations using conventional TST, done with Multiwell 2016
 """,
 )
 
+entry(
+    index = 3116,
+    label = "O_rad + C6H12-2 <=> OH_p23 + C6H11-2",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(2.57236e+06,'cm^3/(mol*s)'), n=2.47494, Ea=(10.2597,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.01741, dn = +|- 0.00229333, dEa = +|- 0.011747 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [O] <=> C=C(C)[C](C)C + [OH]
+""",
+)
+
+entry(
+    index = 3117,
+    label = "HO2_r3 + C6H12O <=> H2O2-2 + C6H11O",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(3.82555e-06,'cm^3/(mol*s)'), n=5.0113, Ea=(45.4833,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.11882, dn = +|- 0.0149193, dEa = +|- 0.0764205 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC1(C)OC1(C)C + [O]O <=> OO + [CH2]C1(C)OC1(C)C
+""",
+)
+
+entry(
+    index = 3118,
+    label = "H + C6H12-2 <=> H2_p + C6H11-2",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(226600,'cm^3/(mol*s)'), n=2.75688, Ea=(10.8481,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04604, dn = +|- 0.00598087, dEa = +|- 0.0306356 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [H] <=> C=C(C)[C](C)C + [H][H]
+""",
+)
+
+entry(
+    index = 3119,
+    label = "H + C6H12O <=> H2_p + C6H11O",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(8804,'cm^3/(mol*s)'), n=3.1967, Ea=(25.6194,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.22359, dn = +|- 0.0268145, dEa = +|- 0.137351 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC1(C)OC1(C)C + [H] <=> [CH2]C1(C)OC1(C)C + [H][H]
+""",
+)
+
+entry(
+    index = 3120,
+    label = "HO2_r3 + C6H12-2 <=> H2O2-2 + C6H11-2",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(6.65621e-08,'cm^3/(mol*s)'), n=5.94384, Ea=(14.3024,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.43802, dn = +|- 0.048273, dEa = +|- 0.247267 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [O]O <=> C=C(C)[C](C)C + OO
+""",
+)
+
+entry(
+    index = 3121,
+    label = "O2 + C6H12-2 <=> HO2_p23 + C6H11-2",
+    degeneracy = 24.0,
+    kinetics = Arrhenius(A=(40.5334,'cm^3/(mol*s)'), n=3.91175, Ea=(129.657,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.06057, dn = +|- 0.00781386, dEa = +|- 0.0400246 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC(C)=C(C)C + [O][O] <=> C=C(C)[C](C)C + [O]O
+""",
+)
+
+entry(
+    index = 3122,
+    label = "OH + C6H12O <=> H2O_p + C6H11O",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(1.36561,'cm^3/(mol*s)'), n=3.64035, Ea=(-13.6259,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.051, dn = +|- 0.00661022, dEa = +|- 0.0338593 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub)""",
+    longDesc =
+"""
+Training reaction from kinetics library: dmbene_chemistry
+Original entry: CC1(C)OC1(C)C + [OH] <=> O + [CH2]C1(C)OC1(C)C
+""",
+)
+
+entry(
+    index = 3123,
+    label = "OH + C6H12-3 <=> H2O_p + C6H11-3",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(83705.8,'cm^3/(mol*s)'), n=2.59, Ea=(3.27,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//BHandHLYP/6-311G(d,p) by Yang et al.""",
+    longDesc =
+"""
+Original entry: hexene-3 + OH <=> hex-3-enyl-1 + H2O
+
+Yang, Feiyu, et al. "Kinetics of hydrogen abstraction and addition reactions of 3-hexene by
+OH radicals." The Journal of Physical Chemistry A 121.9 (2017): 1877-1889.
+""",
+)
+
+entry(
+    index = 3124,
+    label = "OH + C6H12-4 <=> H2O_p + C6H11-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1445.28,'cm^3/(mol*s)'), n=3.14, Ea=(3.36,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//BHandHLYP/6-311G(d,p) by Yang et al.""",
+    longDesc =
+"""
+Original entry: hexene-3 + OH <=> hex-3-enyl-3 + H2O
+
+Yang, Feiyu, et al. "Kinetics of hydrogen abstraction and addition reactions of 3-hexene by
+OH radicals." The Journal of Physical Chemistry A 121.9 (2017): 1877-1889.
+""",
+)
+
+entry(
+    index = 3125,
+    label = "O2 + C3H6 <=> HO2_p23 + CH2CHCH2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(17.7,'cm^3/(mol*s)'), n=3.64, Ea=(37.3,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: C3H6 + O2 <=> [CH2]C=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3126,
+    label = "O2 + C4H8 <=> HO2_p23 + C4H7-7",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(1030,'cm^3/(mol*s)'), n=3.19, Ea=(37.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: iC4H8 + O2 <=> [CH2]C(C)=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3127,
+    label = "O2 + C4H8-2 <=> HO2_p23 + aC4H7",
+    degeneracy = 12.0,
+    kinetics = Arrhenius(A=(77.4,'cm^3/(mol*s)'), n=3.52, Ea=(36.2,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: C4H8-2 + O2 <=> [CH2]C=CC + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3128,
+    label = "O2 + C5H6O <=> HO2_p23 + C5H5O",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.981,'cm^3/(mol*s)'), n=3.98, Ea=(37.4,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: O1C(C)=CC=C1 + O2 <=> O1C([CH2])=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3129,
+    label = "O2 + C4H8-4 <=> HO2_p23 + CH2CHCHCH3",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(48.8,'cm^3/(mol*s)'), n=3.48, Ea=(34.8,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: C4H8-1 + O2 <=> [CH2]C=CC + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3130,
+    label = "O2 + C5H10-5 <=> HO2_p23 + C5H9-6",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(60.6,'cm^3/(mol*s)'), n=3.45, Ea=(34.6,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: C5H10-1 + O2 <=> C=C[CH]CC + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3131,
+    label = "O2 + C6H8O <=> HO2_p23 + C6H7O",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(19.5,'cm^3/(mol*s)'), n=3.52, Ea=(35.1,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: O1C(CC)=CC=C1 + O2 <=> O1C([CH]C)=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3132,
+    label = "O2 + C9H12-2 <=> HO2_p23 + C9H11-2",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1800,'cm^3/(mol*s)'), n=2.9, Ea=(37.7,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: CCCC1=CC=CC=C1 + O2 <=> CC[CH]C1=CC=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3133,
+    label = "O2 + C5H10-3 <=> HO2_p23 + C5H9-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(6020,'cm^3/(mol*s)'), n=3.03, Ea=(32.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: isopentene + O2 <=> C[C](C)C=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3134,
+    label = "O2 + C7H10O <=> HO2_p23 + C7H9O",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2980,'cm^3/(mol*s)'), n=2.75, Ea=(32.5,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: O1C(C(C)C)=CC=C1 + O2 <=> O1C([C](C)C)=CC=C1 + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3135,
+    label = "O2 + C5H8-2 <=> HO2_p23 + C5H7-4",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(0.482,'cm^3/(mol*s)'), n=4.16, Ea=(29.9,'kcal/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at G4//M06-2X/6-311++G(d,p) 1DHR by Zhou et al.""",
+    longDesc =
+"""
+Original entry: C=CCC=C + O2 <=> C=C[CH]C=C + HO2
+
+Zhou, Chong-Wen, et al. "Chemical kinetics of hydrogen atom abstraction from allylic sites by 3O2;
+implications for combustion modeling and simulation." The Journal of Physical Chemistry A 121.9 (2017): 1890-1899
+""",
+)
+
+entry(
+    index = 3136,
+    label = "H + C3H6-3 <=> H2_p + vC3H5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.12e+06,'cm^3/(mol*s)'), n=2.43, Ea=(53.96,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + C3H6 <=> [CH]=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3137,
+    label = "H + C4H8-5 <=> H2_p + C4H7-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.01e+06,'cm^3/(mol*s)'), n=2.44, Ea=(54.53,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + C4H8-1 <=> [CH]=CCC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3138,
+    label = "H + C4H8-4 <=> H2_p + CH2CHCHCH3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(237000,'cm^3/(mol*s)'), n=2.56, Ea=(12.24,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + C4H8-1 <=> [CH2]C=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3139,
+    label = "H + C4H8-7 <=> H2_p + pC4H7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(123000,'cm^3/(mol*s)'), n=2.71, Ea=(29.03,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + C4H8-1 <=> C=CC[CH2] + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3140,
+    label = "H + C4H8-2 <=> H2_p + aC4H7",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(26000,'cm^3/(mol*s)'), n=2.95, Ea=(15.36,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + C4H8-2 <=> [CH2]C=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3141,
+    label = "H + C4H8-3 <=> H2_p + C4H7-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(12100,'cm^3/(mol*s)'), n=2.41, Ea=(43.19,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + C4H8-2 <=> C[C]=CC + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3142,
+    label = "H + C4H8-9 <=> H2_p + C4H7-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.6e+06,'cm^3/(mol*s)'), n=2.34, Ea=(57.34,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2000,'K')),
+    rank = 5,
+    shortDesc = """calculated at CCSD(T)/CBS//wb97xd/aug-cc-PVTZ 1DHR(ωB97XD/6-311++G(d,p)) by Power et al.""",
+    longDesc =
+"""
+Original entry: H + iC4H8 <=> [CH]=C(C)C + H2
+
+Power, Jennifer, et al. "Hierarchical Study of the Reactions of Hydrogen Atoms with Alkenes:
+A Theoretical Study of the Reactions of Hydrogen Atoms with C2–C4 Alkenes." The Journal of Physical Chemistry A (2021);
+""",
+)
+
+entry(
+    index = 3143,
+    label = "OH + C3H6O2-6 <=> H2O_p + C3H5O2-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.721,'cm^3/(mol*s)'), n=3.73, Ea=(-1229,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """ME + OH <=> ME-1 + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: ME + OH <=> ME-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+entry(
+    index = 3144,
+    label = "OH + C3H6O2-7 <=> H2O_p + C3H5O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.01668,'cm^3/(mol*s)'), n=4.31, Ea=(-3401,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """ME + OH <=> M-1E + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: ME + OH <=> M-1E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+entry(
+    index = 3145,
+    label = "OH + C4H8O2-2 <=> H2O_p + C4H7O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.53,'cm^3/(mol*s)'), n=3.68, Ea=(-1257,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EE + OH <=> EE-1 + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: EE + OH <=> EE-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+entry(
+    index = 3146,
+    label = "OH + C4H8O2-3 <=> H2O_p + C4H7O2-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.68,'cm^3/(mol*s)'), n=3.66, Ea=(-4095,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EE + OH <=> E-1E + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: EE + OH <=> E-1E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3147,
+    label = "OH + C4H8O2-4 <=> H2O_p + C4H7O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.81,'cm^3/(mol*s)'), n=3.62, Ea=(-273,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EE + OH <=> E-2E + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: EE + OH <=> E-2E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3148,
+    label = "OH + C5H10O2-4 <=> H2O_p + C5H9O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(12.87,'cm^3/(mol*s)'), n=3.54, Ea=(-1080,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + OH <=> PE-1 + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: PE + OH <=> PE-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3149,
+    label = "OH + C5H10O2-5 <=> H2O_p + C5H9O2-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.92,'cm^3/(mol*s)'), n=3.67, Ea=(-4159,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + OH <=> P-1E + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: PE + OH <=> P-1E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3150,
+    label = "OH + C5H10O2-6 <=> H2O_p + C5H9O2-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(85,'cm^3/(mol*s)'), n=3.26, Ea=(-1695,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + OH <=> P-2E + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: PE + OH <=> P-2E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3151,
+    label = "OH + C5H10O2-7 <=> H2O_p + C5H9O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(84900,'cm^3/(mol*s)'), n=2.57, Ea=(941,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + OH <=> P-3E + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: PE + OH <=> P-3E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3152,
+    label = "OH + C5H10O2-8 <=> H2O_p + C5H9O2-8",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(7.83,'cm^3/(mol*s)'), n=3.59, Ea=(-1291,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPE + OH <=> iPE-1 + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: iPE + OH <=> iPE-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3153,
+    label = "OH + C5H10O2-9 <=> H2O_p + C5H9O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.7,'cm^3/(mol*s)'), n=3.52, Ea=(-5487,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPE + OH <=> iP-1E + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iPE + OH <=> iP-1E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3154,
+    label = "OH + C5H10O2-10 <=> H2O_p + C5H9O2-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(1.566,'cm^3/(mol*s)'), n=3.87, Ea=(-505,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPE + OH <=> iP-2E + H2O by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iPE + OH <=> iP-2E + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3155,
+    label = "OH + C4H8O2-5 <=> H2O_p + C4H7O2-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(242,'cm^3/(mol*s)'), n=3.14, Ea=(-2192,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MP + OH <=> MP-1 + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: MP + OH <=> MP-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3156,
+    label = "OH + C4H8O2-6 <=> H2O_p + C4H7O2-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.02763,'cm^3/(mol*s)'), n=4.22, Ea=(-3455,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MP + OH <=> MP-2 + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: MP + OH <=> MP-2 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3157,
+    label = "OH + C4H8O2-7 <=> H2O_p + C4H7O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0309,'cm^3/(mol*s)'), n=4.24, Ea=(-3397,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MP + OH <=> M-1P + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: MP + OH <=> M-1P + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3158,
+    label = "OH + C5H10O2-11 <=> H2O_p + C5H9O2-11",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(974,'cm^3/(mol*s)'), n=2.94, Ea=(-2107,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + OH <=> MB-1 + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: MB + OH <=> MB-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3159,
+    label = "OH + C5H10O2-12 <=> H2O_p + C5H9O2-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.776,'cm^3/(mol*s)'), n=3.76, Ea=(-4890,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + OH <=> MB-2 + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: MB + OH <=> MB-2 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3160,
+    label = "OH + C5H10O2-13 <=> H2O_p + C5H9O2-13",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(43800,'cm^3/(mol*s)'), n=2.61, Ea=(750,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + OH <=> MB-3 + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: MB + OH <=> MB-3 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3161,
+    label = "OH + C5H10O2-14 <=> H2O_p + C5H9O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.01833,'cm^3/(mol*s)'), n=4.28, Ea=(-3443,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + OH <=> M-1B + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: MB + OH <=> M-1B + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3162,
+    label = "OH + C5H10O2-15 <=> H2O_p + C5H9O2-15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4230,'cm^3/(mol*s)'), n=2.7, Ea=(-3199,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MiB + OH <=> MiB-1 + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: MiB + OH <=> MiB-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3163,
+    label = "OH + C5H10O2-16 <=> H2O_p + C5H9O2-16",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.654,'cm^3/(mol*s)'), n=3.91, Ea=(-2805,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MiB + OH <=> MiB-2 + H2O by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: MiB + OH <=> MiB-2 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+entry(
+    index = 3164,
+    label = "OH + C5H10O2-17 <=> H2O_p + C5H9O2-17",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.02751,'cm^3/(mol*s)'), n=4.26, Ea=(-3591,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MiB + OH <=> M-1iB + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: MiB + OH <=> M-1iB + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical study of the
+rate constants for the hydrogen atom abstraction reactions of esters with• OH
+radicals. The Journal of Physical Chemistry A, 118(27), 4889-4899.
+""",
+)
+
+
+entry(
+    index = 3165,
+    label = "HO2_r3 + C2H6O-3 <=> H2O2-2 + C2H5O-4",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.003168,'cm^3/(mol*s)'), n=4.64, Ea=(10555,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MOM + HO2 <=> M-1OM + H2O2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: MOM + HO2 <=> M-1OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3166,
+    label = "HO2_r3 + C3H8O-5 <=> H2O2-2 + C3H7O-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.001755,'cm^3/(mol*s)'), n=4.57, Ea=(10648,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EOM + HO2 <=> EOM-1 + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: EOM + HO2 <=> EOM-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3167,
+    label = "HO2_r3 + C3H8O-6 <=> H2O2-2 + C3H7O-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.82,'cm^3/(mol*s)'), n=4.23, Ea=(9023,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EOM + HO2 <=> E-1OM + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: EOM + HO2 <=> E-1OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3168,
+    label = "HO2_r3 + C3H8O-7 <=> H2O2-2 + C3H7O-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.596e-05,'cm^3/(mol*s)'), n=5.12, Ea=(14871,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EOM + HO2 <=> E-2OM + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: EOM + HO2 <=> E-2OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3169,
+    label = "HO2_r3 + C4H10O-14 <=> H2O2-2 + C4H9O-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.01656,'cm^3/(mol*s)'), n=4.29, Ea=(11014,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """POM + HO2 <=> POM-1 + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: POM + HO2 <=> POM-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3170,
+    label = "HO2_r3 + C4H10O-15 <=> H2O2-2 + C4H9O-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0686,'cm^3/(mol*s)'), n=4.08, Ea=(9106,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """POM + HO2 <=> P-1OM + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: POM + HO2 <=> P-1OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3171,
+    label = "HO2_r3 + C4H10O-16 <=> H2O2-2 + C4H9O-16",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.01504,'cm^3/(mol*s)'), n=4.28, Ea=(13076,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """POM + HO2 <=> P-2OM + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: POM + HO2 <=> P-2OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3172,
+    label = "HO2_r3 + C4H10O-17 <=> H2O2-2 + C4H9O-17",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.435,'cm^3/(mol*s)'), n=3.9, Ea=(16582,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """POM + HO2 <=> P-3OM + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: POM + HO2 <=> P-3OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3173,
+    label = "HO2_r3 + C4H10O-18 <=> H2O2-2 + C4H9O-18",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00651,'cm^3/(mol*s)'), n=4.46, Ea=(10813,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPOM + HO2 <=> iPOM-1 + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: iPOM + HO2 <=> iPOM-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3174,
+    label = "HO2_r3 + C4H10O-19 <=> H2O2-2 + C4H9O-19",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8.6,'cm^3/(mol*s)'), n=3.46, Ea=(9732,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPOM + HO2 <=> iP-1OM + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iPOM + HO2 <=> iP-1OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3175,
+    label = "HO2_r3 + C4H10O-20 <=> H2O2-2 + C4H9O-20",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.001326,'cm^3/(mol*s)'), n=4.61, Ea=(16276,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPOM + HO2 <=> iP-2OM + H2O2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iPOM + HO2 <=> iP-2OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3176,
+    label = "HO2_r3 + C5H12O-2 <=> H2O2-2 + C5H11O-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0687,'cm^3/(mol*s)'), n=4.12, Ea=(11103,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """TBOM + HO2 <=> BOM-1 + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: BOM + HO2 <=> BOM-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3177,
+    label = "HO2_r3 + C5H12O-3 <=> H2O2-2 + C5H11O-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.57,'cm^3/(mol*s)'), n=3.71, Ea=(9168,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """BOM + HO2 <=> B-1OM + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: BOM + HO2 <=> B-1OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3178,
+    label = "HO2_r3 + C5H12O-4 <=> H2O2-2 + C5H11O-4",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0161,'cm^3/(mol*s)'), n=4.17, Ea=(12941,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """BOM + HO2 <=> B-2OM + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: BOM + HO2 <=> B-2OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3179,
+    label = "HO2_r3 + C5H12O-5 <=> H2O2-2 + C5H11O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.61,'cm^3/(mol*s)'), n=3.74, Ea=(13627,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """BOM + HO2 <=> B-3OM + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: BOM + HO2 <=> B-3OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3180,
+    label = "HO2_r3 + C5H12O-6 <=> H2O2-2 + C5H11O-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(176.4,'cm^3/(mol*s)'), n=3.18, Ea=(17197,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """BOM + HO2 <=> B-4OM + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: BOM + HO2 <=> B-4OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3181,
+    label = "HO2_r3 + C5H12O-7 <=> H2O2-2 + C5H11O-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00666,'cm^3/(mol*s)'), n=4.36, Ea=(10307,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iBOM + HO2 <=> iBOM-1 + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: iBOM + HO2 <=> iBOM-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3182,
+    label = "HO2_r3 + C5H12O-8 <=> H2O2-2 + C5H11O-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.998,'cm^3/(mol*s)'), n=3.7, Ea=(9253,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iBOM + HO2 <=> iB-1OM + H2O2 by Mendes et al.  with A multipled by 2""",
+    longDesc =
+"""
+Original entry: iBOM + HO2 <=> iB-1OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3183,
+    label = "HO2_r3 + C5H12O-9 <=> H2O2-2 + C5H11O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00183,'cm^3/(mol*s)'), n=4.36, Ea=(11062,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iBOM + HO2 <=> iB-2OM + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iBOM + HO2 <=> iB-2OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3184,
+    label = "HO2_r3 + C5H12O-10 <=> H2O2-2 + C5H11O-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(2.442,'cm^3/(mol*s)'), n=3.74, Ea=(16432,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iBOM + HO2 <=> iB-3OM + H2O2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iBOM + HO2 <=> iB-3OM + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Rate constant calculations
+of H-atom abstraction reactions from ethers by HO2 radicals. The Journal of
+Physical Chemistry A, 118(8), 1300-1308.
+""",
+)
+
+entry(
+    index = 3185,
+    label = "OH + C4H10O-3 <=> H2O_p + C4H9O-21",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.658,'cm^3/(mol*s)'), n=3.74, Ea=(-4073,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + OH <=> nC4H8OH1-2 + H2O by Zhou et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: nC4H9OH + OH <=> nC4H8OH1-2 + H2O
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2011). Rate constants for
+hydrogen-abstraction by OH from n-butanol. Combustion and Flame, 158(4),
+726-731.
+""",
+)
+
+entry(
+    index = 3186,
+    label = "OH + C4H10O-2 <=> H2O_p + C4H9O-22",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(101.8,'cm^3/(mol*s)'), n=3.35, Ea=(-4357,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + OH <=> nC4H8OH1-3 + H2O by Zhou et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: nC4H9OH + OH <=> nC4H8OH1-3 + H2O
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2011). Rate constants for
+hydrogen-abstraction by OH from n-butanol. Combustion and Flame, 158(4),
+726-731.
+""",
+)
+
+entry(
+    index = 3187,
+    label = "OH + C4H10O <=> H2O_p + C4H9O-23",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(64500,'cm^3/(mol*s)'), n=2.77, Ea=(185,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + OH <=> nC4H8OH1-4 + H2O by Zhou et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: nC4H9OH + OH <=> nC4H8OH1-4 + H2O
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2011). Rate constants for
+hydrogen-abstraction by OH from n-butanol. Combustion and Flame, 158(4),
+726-731.
+""",
+)
+
+entry(
+    index = 3188,
+    label = "OH + C4H10O-21 <=> H2O_p + C4H9O-24",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(588,'cm^3/(mol*s)'), n=2.82, Ea=(-585,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + OH <=> nC4H9O + H2O by Zhou et al.""",
+    longDesc =
+"""
+Original entry: nC4H9OH + OH <=> nC4H9O + H2O
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2011). Rate constants for
+hydrogen-abstraction by OH from n-butanol. Combustion and Flame, 158(4),
+726-731.
+""",
+)
+
+entry(
+    index = 3189,
+    label = "HO2_r3 + C4H10O-4 <=> H2O2-2 + C4H9O-25",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.8e-05,'cm^3/(mol*s)'), n=5.26, Ea=(8268,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + HO2 <=> nC4H8OH1-1 + H2O2 by Zhou et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: nC4H9OH + HO2 <=> nC4H8OH1-1 + H2O2
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2012). Rate constants for
+hydrogen abstraction by HȮ2 from n‐butanol. International Journal of Chemical
+Kinetics, 44(3), 155-164.
+""",
+)
+
+entry(
+    index = 3190,
+    label = "HO2_r3 + C4H10O-3 <=> H2O2-2 + C4H9O-21",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.01502,'cm^3/(mol*s)'), n=4.52, Ea=(14706,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + HO2 <=> nC4H8OH1-2 + H2O2 by Zhou et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: nC4H9OH + HO2 <=> nC4H8OH1-2 + H2O2
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2012). Rate constants for
+hydrogen abstraction by HȮ2 from n‐butanol. International Journal of Chemical
+Kinetics, 44(3), 155-164.
+""",
+)
+
+entry(
+    index = 3191,
+    label = "HO2_r3 + C4H10O-2 <=> H2O2-2 + C4H9O-22",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.000552,'cm^3/(mol*s)'), n=4.76, Ea=(11846,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + HO2 <=> nC4H8OH1-3 + H2O2 by Zhou et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: nC4H9OH + HO2 <=> nC4H8OH1-3 + H2O2
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2012). Rate constants for
+hydrogen abstraction by HȮ2 from n‐butanol. International Journal of Chemical
+Kinetics, 44(3), 155-164.
+""",
+)
+
+entry(
+    index = 3192,
+    label = "HO2_r3 + C4H10O <=> H2O2-2 + C4H9O-23",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.264,'cm^3/(mol*s)'), n=4.31, Ea=(17265,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + HO2 <=> nC4H8OH1-4 + H2O2 by Zhou et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: nC4H9OH + HO2 <=> nC4H8OH1-4 + H2O2
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2012). Rate constants for
+hydrogen abstraction by HȮ2 from n‐butanol. International Journal of Chemical
+Kinetics, 44(3), 155-164.
+""",
+)
+
+entry(
+    index = 3193,
+    label = "HO2_r3 + C4H10O-21 <=> H2O2-2 + C4H9O-24",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6.47e-07,'cm^3/(mol*s)'), n=5.3, Ea=(10533,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """nC4H9OH + HO2 <=> nC4H9O + H2O2 by Zhou et al.""",
+    longDesc =
+"""
+Original entry: nC4H9OH + HO2 <=> nC4H9O + H2O2
+
+Zhou, C. W., Simmie, J. M., & Curran, H. J. (2012). Rate constants for
+hydrogen abstraction by HȮ2 from n‐butanol. International Journal of Chemical
+Kinetics, 44(3), 155-164.
+""",
+)
+
+entry(
+    index = 3194,
+    label = "H + CH2O <=> H2_p + CHO_p1",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(189200,'cm^3/(mol*s)'), n=2.6, Ea=(2569,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCHO + H <=> HCO + H2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: HCHO + H <=> HCO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3195,
+    label = "OH + CH2O <=> H2O_p + CHO_p1",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(56200,'cm^3/(mol*s)'), n=2.7, Ea=(-2808,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCHO + OH <=> HCO + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: HCHO + OH <=> HCO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3196,
+    label = "HO2_r3 + CH2O <=> H2O2-2 + CHO_p1",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.552e-07,'cm^3/(mol*s)'), n=5.8, Ea=(3870,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCHO + HO2 <=> HCO + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: HCHO + HO2 <=> HCO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3197,
+    label = "CH3_r3 + CH2O <=> CH4p + CHO_p1",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.148,'cm^3/(mol*s)'), n=3.8, Ea=(4873,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCHO + CH3 <=> HCO + CH4 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: HCHO + CH3 <=> HCO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3198,
+    label = "CH3_r3 + CH3CHO_r1 <=> CH4p + C2H3O-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.437,'cm^3/(mol*s)'), n=3.7, Ea=(8857,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3CHO + CH3 <=> CH2CHO + CH4 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: CH3CHO + CH3 <=> CH2CHO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3199,
+    label = "H + C3H6O-4 <=> H2_p + C3H5O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(846000,'cm^3/(mol*s)'), n=2.3, Ea=(1545,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + H <=> C2H5CO + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5CHO + H <=> C2H5CO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3200,
+    label = "H + C3H6O <=> H2_p + C3H5O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(157800,'cm^3/(mol*s)'), n=2.6, Ea=(4993,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + H <=> CH3CHCHO + H2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5CHO + H <=> CH3CHCHO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3201,
+    label = "H + C3H6O-5 <=> H2_p + C3H5O-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(54000,'cm^3/(mol*s)'), n=2.9, Ea=(8157,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + H <=> CH2CH2CHO + H2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5CHO + H <=> CH2CH2CHO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3202,
+    label = "OH + C3H6O-4 <=> H2O_p + C3H5O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(106000,'cm^3/(mol*s)'), n=2.6, Ea=(-4597,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + OH <=> C2H5CO + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5CHO + OH <=> C2H5CO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3203,
+    label = "OH + C3H6O <=> H2O_p + C3H5O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2940,'cm^3/(mol*s)'), n=2.8, Ea=(-973,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + OH <=> CH3CHCHO + H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5CHO + OH <=> CH3CHCHO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3204,
+    label = "OH + C3H6O-5 <=> H2O_p + C3H5O-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.01353,'cm^3/(mol*s)'), n=4.4, Ea=(-2615,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + OH <=> CH2CH2CHO + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5CHO + OH <=> CH2CH2CHO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3205,
+    label = "HO2_r3 + C3H6O <=> H2O2-2 + C3H5O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.00684,'cm^3/(mol*s)'), n=4.3, Ea=(14694,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + HO2 <=> CH3CHCHO + H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5CHO + HO2 <=> CH3CHCHO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3206,
+    label = "HO2_r3 + C3H6O-5 <=> H2O2-2 + C3H5O-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.61e-08,'cm^3/(mol*s)'), n=5.9, Ea=(14091,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + HO2 <=> CH2CH2CHO + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5CHO + HO2 <=> CH2CH2CHO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3207,
+    label = "CH3_r3 + C3H6O-4 <=> CH4p + C3H5O-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.99,'cm^3/(mol*s)'), n=3.6, Ea=(4338,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + CH3<=> C2H5CO + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5CHO + CH3<=> C2H5CO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3208,
+    label = "CH3_r3 + C3H6O <=> CH4p + C3H5O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.616,'cm^3/(mol*s)'), n=3.6, Ea=(6581,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + CH3 <=> CH3CHCHO + CH4 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5CHO + CH3 <=> CH3CHCHO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3209,
+    label = "CH3_r3 + C3H6O-5 <=> CH4p + C3H5O-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.1047,'cm^3/(mol*s)'), n=4, Ea=(9253,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5CHO + CH3 <=> CH2CH2CHO + CH4 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5CHO + CH3 <=> CH2CH2CHO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3210,
+    label = "H + C4H8O-8 <=> H2_p + C4H7O-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(866000,'cm^3/(mol*s)'), n=2.3, Ea=(1426,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + H <=> iC3H7CO + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + H <=> iC3H7CO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3211,
+    label = "H + C4H8O <=> H2_p + C4H7O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(608000,'cm^3/(mol*s)'), n=2.3, Ea=(3220,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + H <=> iC3H6CHO-1 + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + H <=> iC3H6CHO-1 + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3212,
+    label = "H + C4H8O-9 <=> H2_p + C4H7O-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(593400,'cm^3/(mol*s)'), n=2.6, Ea=(8382,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + H <=> iC3H6CHO-2 + H2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + H <=> iC3H6CHO-2 + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3213,
+    label = "OH + C4H8O-8 <=> H2O_p + C4H7O-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(94400,'cm^3/(mol*s)'), n=2.6, Ea=(-4873,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + OH <=> iC3H7CO + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + OH <=> iC3H7CO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3214,
+    label = "OH + C4H8O <=> H2O_p + C4H7O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(19800,'cm^3/(mol*s)'), n=2.6, Ea=(-1488,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + OH <=> iC3H6CHO-1 + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + OH <=> iC3H6CHO-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3215,
+    label = "OH + C4H8O-9 <=> H2O_p + C4H7O-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.03534,'cm^3/(mol*s)'), n=4.4, Ea=(-2054,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + OH <=> iC3H6CHO-2 + H2O by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + OH <=> iC3H6CHO-2 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3216,
+    label = "HO2_r3 + C4H8O-8 <=> H2O2-2 + C4H7O-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.000101,'cm^3/(mol*s)'), n=5, Ea=(3429,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + HO2 <=> iC3H7CO + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + HO2 <=> iC3H7CO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3217,
+    label = "HO2_r3 + C4H8O <=> H2O2-2 + C4H7O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00819,'cm^3/(mol*s)'), n=4.3, Ea=(11994,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + HO2 <=> iC3H6CHO-1 + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + HO2 <=> iC3H6CHO-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3218,
+    label = "HO2_r3 + C4H8O-9 <=> H2O2-2 + C4H7O-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(5.748e-07,'cm^3/(mol*s)'), n=5.7, Ea=(15070,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + HO2 <=> iC3H6CHO-2 + H2O2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + HO2 <=> iC3H6CHO-2 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3219,
+    label = "CH3_r3 + C4H8O-8 <=> CH4p + C4H7O-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3.94,'cm^3/(mol*s)'), n=3.6, Ea=(4223,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + CH3 <=> iC3H7CO + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + CH3 <=> iC3H7CO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3220,
+    label = "CH3_r3 + C4H8O <=> CH4p + C4H7O-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.9,'cm^3/(mol*s)'), n=3.4, Ea=(5351,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + CH3 <=> iC3H6CHO-1 + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + CH3 <=> iC3H6CHO-1 + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3221,
+    label = "CH3_r3 + C4H8O-9 <=> CH4p + C4H7O-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.798,'cm^3/(mol*s)'), n=3.9, Ea=(9882,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7CHO + CH3 <=> iC3H6CHO-2 + CH4 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7CHO + CH3 <=> iC3H6CHO-2 + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3222,
+    label = "H + CH2O2 <=> H2_p + CHO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(746000,'cm^3/(mol*s)'), n=2.4, Ea=(7643,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + H <=> COOH + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + H <=> COOH + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3223,
+    label = "H + CH2O2-2 <=> H2_p + CHO2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.09e+06,'cm^3/(mol*s)'), n=2.1, Ea=(15115,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + H <=> HCOO + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + H <=> HCOO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3224,
+    label = "OH + CH2O2 <=> H2O_p + CHO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(6320,'cm^3/(mol*s)'), n=2.8, Ea=(-789,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + OH <=> COOH + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + OH <=> COOH + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3225,
+    label = "OH + CH2O2-2 <=> H2O_p + CHO2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00466,'cm^3/(mol*s)'), n=4.3, Ea=(-3095,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + OH <=> HCOO + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + OH <=> HCOO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3226,
+    label = "HO2_r3 + CH2O2 <=> H2O2-2 + CHO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.72e-08,'cm^3/(mol*s)'), n=5.9, Ea=(9759,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + H2O <=> COOH + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + HO2 <=> COOH + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3227,
+    label = "HO2_r3 + CH2O2-2 <=> H2O2-2 + CHO2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00166,'cm^3/(mol*s)'), n=4.4, Ea=(21866,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + H2O <=> HCOO + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + HO2 <=> HCOO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3228,
+    label = "CH3_r3 + CH2O2 <=> CH4p + CHO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.59,'cm^3/(mol*s)'), n=3.7, Ea=(7963,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """THCOOH + CH3 <=> COOH + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + CH3 <=> COOH + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3229,
+    label = "CH3_r3 + CH2O2-2 <=> CH4p + CHO2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(296,'cm^3/(mol*s)'), n=2.9, Ea=(10637,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """HCOOH + CH3 <=> HCOO + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: HCOOH + CH3 <=> HCOO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3230,
+    label = "H + C2H4O2 <=> H2_p + C2H3O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.79e+06,'cm^3/(mol*s)'), n=2.3, Ea=(15215,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + H <=> CH3COO + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: CH3COOH + H <=> CH3COO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3231,
+    label = "H + C2H4O2-2 <=> H2_p + C2H3O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(16830,'cm^3/(mol*s)'), n=2.9, Ea=(7376,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + H <=> CH2COOH + H2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: CH3COOH + H <=> CH2COOH+ H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3232,
+    label = "OH + C2H4O2 <=> H2O_p + C2H3O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.000106,'cm^3/(mol*s)'), n=4.8, Ea=(-3949,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + OH <=> CH3COO + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: CH3COOH + OH <=> CH3COO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3233,
+    label = "OH + C2H4O2-2 <=> H2O_p + C2H3O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.202,'cm^3/(mol*s)'), n=3.8, Ea=(-725,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + OH <=> CH2COOH + H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: CH3COOH + OH <=> CH2COOH+ H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3234,
+    label = "HO2_r3 + C2H4O2 <=> H2O2-2 + C2H3O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0141,'cm^3/(mol*s)'), n=4.2, Ea=(20862,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + HO2 <=> CH3COO + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: CH3COOH + HO2 <=> CH3COO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3235,
+    label = "HO2_r3 + C2H4O2-2 <=> H2O2-2 + C2H3O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.02e-06,'cm^3/(mol*s)'), n=5.3, Ea=(15153,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + HO2 <=> CH2COOH + H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: CH3COOH + HO2 <=> CH2COOH+ H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3236,
+    label = "CH3_r3 + C2H4O2 <=> CH4p + C2H3O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(93,'cm^3/(mol*s)'), n=3, Ea=(10773,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + CH3 <=> CH3COO + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: CH3COOH + CH3 <=> CH3COO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3237,
+    label = "CH3_r3 + C2H4O2-2 <=> CH4p + C2H3O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.2139,'cm^3/(mol*s)'), n=4, Ea=(8222,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + CH3 <=> CH2COOH + CH4 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: CH3COOH + CH3 <=> CH2COOH+ CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3238,
+    label = "H + C3H6O2-8 <=> H2_p + C3H5O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.62e+06,'cm^3/(mol*s)'), n=2.3, Ea=(14796,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + H <=> C2H5COO+ H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5COOH + H <=> C2H5COO+ H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3239,
+    label = "H + C3H6O2-9 <=> H2_p + C3H5O2-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(8940,'cm^3/(mol*s)'), n=2.9, Ea=(4402,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + H <=> C2H4COOH-1+ H2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5COOH + H <=> C2H4COOH-1+ H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3240,
+    label = "H + C3H6O2-10 <=> H2_p + C3H5O2-10",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(165600,'cm^3/(mol*s)'), n=2.6, Ea=(8360,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + H <=> C2H4COOH-2+ H2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5COOH + H <=> C2H4COOH-2+ H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3241,
+    label = "OH + C3H6O2-8 <=> H2O_p + C3H5O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.000118,'cm^3/(mol*s)'), n=4.8, Ea=(-4029,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + OH <=> C2H5COO+ H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5COOH + OH <=> C2H5COO+ H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3242,
+    label = "OH + C3H6O2-9 <=> H2O_p + C3H5O2-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1868,'cm^3/(mol*s)'), n=2.9, Ea=(-1260,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + OH <=> C2H4COOH-1+ H2O by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5COOH + OH <=> C2H4COOH-1+ H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3243,
+    label = "OH + C3H6O2-10 <=> H2O_p + C3H5O2-10",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0129,'cm^3/(mol*s)'), n=4.4, Ea=(-2859,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + OH <=> C2H4COOH-2+ H2O by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5COOH + OH <=> C2H4COOH-2+ H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3244,
+    label = "HO2_r3 + C3H6O2-8 <=> H2O2-2 + C3H5O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0141,'cm^3/(mol*s)'), n=4.2, Ea=(20862,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + HO2 <=> C2H5COO+ H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5COOH + HO2 <=> C2H5COO+ H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3245,
+    label = "HO2_r3 + C3H6O2-9 <=> H2O2-2 + C3H5O2-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.032e-06,'cm^3/(mol*s)'), n=5.4, Ea=(11311,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + HO2 <=> C2H4COOH-1+ H2O2 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5COOH + HO2 <=> C2H4COOH-1+ H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3246,
+    label = "HO2_r3 + C3H6O2-10 <=> H2O2-2 + C3H5O2-10",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.511e-06,'cm^3/(mol*s)'), n=5.5, Ea=(14219,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + HO2 <=> C2H4COOH-2+ H2O2 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5COOH + HO2 <=> C2H4COOH-2+ H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3247,
+    label = "CH3_r3 + C3H6O2-8 <=> CH4p + C3H5O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(132,'cm^3/(mol*s)'), n=3, Ea=(10421,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + CH3 <=> C2H5COO+ CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: C2H5COOH + CH3 <=> C2H5COO+ CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3248,
+    label = "CH3_r3 + C3H6O2-9 <=> CH4p + C3H5O2-9",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.1182,'cm^3/(mol*s)'), n=3.9, Ea=(6066,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + CH3 <=> C2H4COOH-1+ CH4 by Mendes et al. with A multipled by 2""",
+    longDesc =
+"""
+Original entry: C2H5COOH + CH3 <=> C2H4COOH-1+ CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3249,
+    label = "CH3_r3 + C3H6O2-10 <=> CH4p + C3H5O2-10",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.2256,'cm^3/(mol*s)'), n=4, Ea=(9691,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """C2H5COOH + CH3 <=> C2H4COOH-2+ CH4 by Mendes et al. with A multipled by 3""",
+    longDesc =
+"""
+Original entry: C2H5COOH + CH3 <=> C2H4COOH-2+ CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3250,
+    label = "H + C4H8O2-8 <=> H2_p + C4H7O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(741000,'cm^3/(mol*s)'), n=2.4, Ea=(14252,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + H <=> iC3H7COO + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + H <=> iC3H7COO + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3251,
+    label = "H + C4H8O2-9 <=> H2_p + C4H7O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(50400,'cm^3/(mol*s)'), n=2.6, Ea=(3048,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + H <=> iC3H6COOH-1 + H2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + H <=> iC3H6COOH-1 + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3252,
+    label = "H + C4H8O2-10 <=> H2_p + C4H7O2-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(624000,'cm^3/(mol*s)'), n=2.6, Ea=(8512,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + H <=> iC3H6COOH-2 + H2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + H <=> iC3H6COOH-2 + H2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3253,
+    label = "OH + C4H8O2-8 <=> H2O_p + C4H7O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.000839,'cm^3/(mol*s)'), n=4.5, Ea=(-3943,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + OH <=> iC3H7COO + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + OH <=> iC3H7COO + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3254,
+    label = "OH + C4H8O2-9 <=> H2O_p + C4H7O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5570,'cm^3/(mol*s)'), n=2.7, Ea=(-1843,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + OH <=> iC3H6COOH-1 + H2O by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + OH <=> iC3H6COOH-1 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3255,
+    label = "OH + C4H8O2-10 <=> H2O_p + C4H7O2-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.0258,'cm^3/(mol*s)'), n=4.4, Ea=(-2332,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + OH <=> iC3H6COOH-2 + H2O by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + OH <=> iC3H6COOH-2 + H2O
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3256,
+    label = "HO2_r3 + C4H8O2-8 <=> H2O2-2 + C4H7O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.00803,'cm^3/(mol*s)'), n=4.3, Ea=(20170,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + HO2 <=> iC3H7COO + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + HO2 <=> iC3H7COO + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3257,
+    label = "HO2_r3 + C4H8O2-9 <=> H2O2-2 + C4H7O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(5.37e-06,'cm^3/(mol*s)'), n=5.2, Ea=(9206,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + HO2 <=> iC3H6COOH-1 + H2O2 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + HO2 <=> iC3H6COOH-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3258,
+    label = "HO2_r3 + C4H8O2-10 <=> H2O2-2 + C4H7O2-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(1.806e-05,'cm^3/(mol*s)'), n=5.2, Ea=(14642,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + HO2 <=> iC3H6COOH-2 + H2O2 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + HO2 <=> iC3H6COOH-2 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3259,
+    label = "CH3_r3 + C4H8O2-8 <=> CH4p + C4H7O2-8",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(184,'cm^3/(mol*s)'), n=2.9, Ea=(10167,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + CH3 <=> iC3H7COO + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + CH3 <=> iC3H7COO + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3260,
+    label = "CH3_r3 + C4H8O2-9 <=> CH4p + C4H7O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.42,'cm^3/(mol*s)'), n=3.6, Ea=(5264,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + CH3 <=> iC3H6COOH-1 + CH4 by Mendes et al.""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + CH3 <=> iC3H6COOH-1 + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3261,
+    label = "CH3_r3 + C4H8O2-10 <=> CH4p + C4H7O2-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.822,'cm^3/(mol*s)'), n=3.9, Ea=(9694,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iC3H7COOH + CH3 <=> iC3H6COOH-2 + CH4 by Mendes et al. with A multipled by 6""",
+    longDesc =
+"""
+Original entry: iC3H7COOH + CH3 <=> iC3H6COOH-2 + CH4
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2014). Theoretical chemical kinetic
+study of the H-atom abstraction reactions from aldehydes and acids by H atoms
+and OH, HO2, and CH3 radicals. The Journal of Physical Chemistry A, 118(51),
+12089-12104.
+""",
+)
+
+entry(
+    index = 3262,
+    label = "HO2_r3 + C3H6O2-6 <=> H2O2-2 + C3H5O2-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.001041,'cm^3/(mol*s)'), n=4.61, Ea=(15689,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """ME + HO2 <=> ME-1 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: ME + HO2 <=> ME-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3263,
+    label = "HO2_r3 + C3H6O2-7 <=> H2O2-2 + C3H5O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.12e-06,'cm^3/(mol*s)'), n=5.23, Ea=(13893.1,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """ME + HO2 <=> M-1E + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: ME + HO2 <=> M-1E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3264,
+    label = "HO2_r3 + C4H8O2-5 <=> H2O2-2 + C4H7O2-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.001482,'cm^3/(mol*s)'), n=4.39, Ea=(11931.9,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MP + HO2 <=> MP-1 + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: MP + HO2 <=> MP-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3265,
+    label = "HO2_r3 + C4H8O2-6 <=> H2O2-2 + C4H7O2-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.000831,'cm^3/(mol*s)'), n=4.61, Ea=(14848.9,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MP + HO2 <=> MP-2 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MP + HO2 <=> MP-2 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+
+entry(
+    index = 3266,
+    label = "HO2_r3 + C4H8O2-7 <=> H2O2-2 + C4H7O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.89e-05,'cm^3/(mol*s)'), n=4.94, Ea=(13314.9,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MP + HO2 <=> M-1P + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MP + HO2 <=> M-1P + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+
+entry(
+    index = 3267,
+    label = "HO2_r3 + C5H10O2-13 <=> H2O2-2 + C5H9O2-13",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.94,'cm^3/(mol*s)'), n=3.63, Ea=(16877.6,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + HO2 <=> MB-3 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MB + HO2 <=> MB-3 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+
+entry(
+    index = 3268,
+    label = "HO2_r3 + C5H10O2-12 <=> H2O2-2 + C5H9O2-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0075,'cm^3/(mol*s)'), n=4.28, Ea=(12049.2,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + HO2 <=> MB-2 + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: MB + HO2 <=> MB-2 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3269,
+    label = "HO2_r3 + C5H10O2-11 <=> H2O2-2 + C5H9O2-11",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.001622,'cm^3/(mol*s)'), n=4.39, Ea=(11643.8,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + HO2 <=> MB-1 + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: MB + HO2 <=> MB-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3270,
+    label = "HO2_r3 + C5H10O2-14 <=> H2O2-2 + C5H9O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0001476,'cm^3/(mol*s)'), n=4.76, Ea=(13684.5,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MB + HO2 <=> M-1B + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MB + HO2 <=> M-1B + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3271,
+    label = "HO2_r3 + C6H12O2-5 <=> H2O2-2 + C6H11O2-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(268.5,'cm^3/(mol*s)'), n=3.1, Ea=(17139.9,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MPent + HO2 <=> MPent-4 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MPent + HO2 <=> MPent-4 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3272,
+    label = "HO2_r3 + C6H12O2-6 <=> H2O2-2 + C6H11O2-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.118,'cm^3/(mol*s)'), n=3.62, Ea=(13611,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MPent + HO2 <=> MPent-3 + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: MPent + HO2 <=> MPent-3 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3273,
+    label = "HO2_r3 + C6H12O2-7 <=> H2O2-2 + C6H11O2-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.78e-05,'cm^3/(mol*s)'), n=4.85, Ea=(10970.2,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MPent + HO2 <=> MPent-2 + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: MPent + HO2 <=> MPent-2 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3274,
+    label = "HO2_r3 + C6H12O2-8 <=> H2O2-2 + C6H11O2-8",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.00306,'cm^3/(mol*s)'), n=4.22, Ea=(11051.7,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MPent + HO2 <=> MPent-1 + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: MPent + HO2 <=> MPent-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3275,
+    label = "HO2_r3 + C6H12O2-9 <=> H2O2-2 + C6H11O2-9",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(9.15e-06,'cm^3/(mol*s)'), n=5.07, Ea=(13225.5,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MPent + HO2 <=> M-1Pent + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MPent + HO2 <=> M-1Pent + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3276,
+    label = "HO2_r3 + C5H10O2-15 <=> H2O2-2 + C5H9O2-15",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0568,'cm^3/(mol*s)'), n=3.86, Ea=(10058.2,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MiB + HO2 <=> MiB-1 + H2O2 by Mendes et al. with A multiplied by 1""",
+    longDesc =
+"""
+Original entry: MiB + HO2 <=> MiB-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3277,
+    label = "HO2_r3 + C5H10O2-16 <=> H2O2-2 + C5H9O2-16",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.0093,'cm^3/(mol*s)'), n=4.3, Ea=(15063.4,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MiB + HO2 <=> MiB-2 + H2O2 by Mendes et al. with A multiplied by 6""",
+    longDesc =
+"""
+Original entry: MiB + HO2 <=> MiB-2 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3278,
+    label = "HO2_r3 + C5H10O2-17 <=> H2O2-2 + C5H9O2-17",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(9.06e-06,'cm^3/(mol*s)'), n=5.15, Ea=(12844,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """MiB + HO2 <=> M-1iB + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: MiB + HO2 <=> M-1iB + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3279,
+    label = "HO2_r3 + C4H8O2-2 <=> H2O2-2 + C4H7O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00417,'cm^3/(mol*s)'), n=4.4, Ea=(15611.9,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EE + HO2 <=> EE-1 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: EE + HO2 <=> EE-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3280,
+    label = "HO2_r3 + C4H8O2-3 <=> H2O2-2 + C4H7O2-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(6.52e-05,'cm^3/(mol*s)'), n=4.86, Ea=(11087.5,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EE + HO2 <=> E-1E + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: EE + HO2 <=> E-1E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3281,
+    label = "HO2_r3 + C4H8O2-4 <=> H2O2-2 + C4H7O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0369,'cm^3/(mol*s)'), n=4.31, Ea=(18713.6,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """EE + HO2 <=> E-2E + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: EE + HO2 <=> E-2E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3282,
+    label = "HO2_r3 + C5H10O2-4 <=> H2O2-2 + C5H9O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.02091,'cm^3/(mol*s)'), n=4.25, Ea=(16009.3,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + HO2 <=> PE-1 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: PE + HO2 <=> PE-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3283,
+    label = "HO2_r3 + C5H10O2-5 <=> H2O2-2 + C5H9O2-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.8e-05,'cm^3/(mol*s)'), n=4.86, Ea=(10372.1,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + HO2 <=> P-1E + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: PE + HO2 <=> P-1E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3284,
+    label = "HO2_r3 + C5H10O2-6 <=> H2O2-2 + C5H9O2-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(26.4,'cm^3/(mol*s)'), n=3.3, Ea=(16140.4,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + HO2 <=> P-2E + H2O2 by Mendes et al. with A multiplied by 2""",
+    longDesc =
+"""
+Original entry: PE + HO2 <=> P-2E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3285,
+    label = "HO2_r3 + C5H10O2-7 <=> H2O2-2 + C5H9O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.000417,'cm^3/(mol*s)'), n=4.87, Ea=(16221.9,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """PE + HO2 <=> P-3E + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: PE + HO2 <=> P-3E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3286,
+    label = "HO2_r3 + C5H10O2-8 <=> H2O2-2 + C5H9O2-8",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00306,'cm^3/(mol*s)'), n=4.39, Ea=(15552.2,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPE + HO2 <=> iPE-1 + H2O2 by Mendes et al. with A multiplied by 3""",
+    longDesc =
+"""
+Original entry: iPE + HO2 <=> iPE-1 + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3287,
+    label = "HO2_r3 + C5H10O2-9 <=> H2O2-2 + C5H9O2-9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(0.0516,'cm^3/(mol*s)'), n=3.94, Ea=(11504.7,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPE + HO2 <=> iP-1E + H2O2 by Mendes et al. with A multiplied by 1""",
+    longDesc =
+"""
+Original entry: iPE + HO2 <=> iP-1E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3288,
+    label = "HO2_r3 + C5H10O2-10 <=> H2O2-2 + C5H9O2-10",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(23.4,'cm^3/(mol*s)'), n=3.52, Ea=(19021.6,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """iPE + HO2 <=> iP-2E + H2O2 by Mendes et al. with A multiplied by 6""",
+    longDesc =
+"""
+Original entry: iPE + HO2 <=> iP-2E + H2O2
+
+Mendes, J., Zhou, C. W., & Curran, H. J. (2013). Theoretical and kinetic study
+of the hydrogen atom abstraction reactions of esters with HO2 radicals.
+The Journal of Physical Chemistry A, 117(51), 14006-14018.
+""",
+)
+
+entry(
+    index = 3289,
+    label = "O2 + C2H4O2-2 <=> HO2_p23 + C2H3O2-2",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(676083,'cm^3/(mol*s)'), n=2.26, Ea=(50639,'cal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """CH3COOH + O2 <=> CH2COOH + HO2 by Cavallotti et al.""",
+    longDesc =
+"""
+Original entry: CH3COOH + O2 <=> CH2COOH + HO2
+
+Cavallotti, C., Pelucchi, M., & Frassoldati, A. (2019). Analysis of acetic
+acid gas phase reactivity: Rate constant estimation and kinetic simulations.
+Proceedings of the Combustion Institute, 37(1), 539-546.
+""",
+)
+
+entry(
+    index = 3290,
+    label = "O_rad + C3H6O2-6 <=> OH_p23 + C3H5O2-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(23000,'cm^3/(mol*s)'), n=2.93, Ea=(7.04,'kcal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """ME + O <=> ME-1 + OH by Tan et al.""",
+    longDesc =
+"""
+Original entry: ME + O <=> ME-1 + OH
+
+Tan, T., Yang, X., Krauter, C. M., Ju, Y., & Carter, E. A. (2015). Ab initio
+kinetics of hydrogen abstraction from methyl acetate by hydrogen, methyl,
+oxygen, hydroxyl, and hydroperoxy radicals. The Journal of Physical Chemistry
+A, 119(24), 6377-6390.
+""",
+)
+
+entry(
+    index = 3291,
+    label = "O_rad + C3H6O2-7 <=> OH_p23 + C3H5O2-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(23500,'cm^3/(mol*s)'), n=2.96, Ea=(5.4,'kcal/mol'), T0=(1,'K')),
+    rank = 5,
+    shortDesc = """ME + O <=> M-1E + OH by Tan et al.""",
+    longDesc =
+"""
+Original entry: ME + O <=> M-1E + OH
+
+Tan, T., Yang, X., Krauter, C. M., Ju, Y., & Carter, E. A. (2015). Ab initio
+kinetics of hydrogen abstraction from methyl acetate by hydrogen, methyl,
+oxygen, hydroxyl, and hydroperoxy radicals. The Journal of Physical Chemistry
+A, 119(24), 6377-6390.
+""",
+)
+
+entry(
+    index = 3292,
+    label = "HO2_r3 + C6H12O2-10 <=> H2O2-2 + C6H11O2-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.58233e-05,'cm^3/(mol*s)'), n=4.92033, Ea=(41.628,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.2454, dn = +|- 0.0291624, dEa = +|- 0.149378 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OCC(C)C + [O]O <=> CC(=O)O[CH]C(C)C + OO
+""",
+)
+
+entry(
+    index = 3293,
+    label = "OH + C6H12O2-10 <=> H2O_p + C6H11O2-10",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(15.0667,'cm^3/(mol*s)'), n=3.39586, Ea=(-17.2663,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.07024, dn = +|- 0.0090204, dEa = +|- 0.0462049 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OCC(C)C + [OH] <=> CC(=O)O[CH]C(C)C + O
+""",
+)
+
+entry(
+    index = 3294,
+    label = "OH + C6H12O2-11 <=> H2O_p + C6H11O2-11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(22.326,'cm^3/(mol*s)'), n=3.27057, Ea=(-19.3775,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03525, dn = +|- 0.00460338, dEa = +|- 0.0235797 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OCC(C)C + [OH] <=> C[C](C)COC(C)=O + O
+""",
+)
+
+entry(
+    index = 3295,
+    label = "OH + C6H12O2-12 <=> H2O_p + C6H11O2-12",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(945.446,'cm^3/(mol*s)'), n=3.04932, Ea=(0.228708,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.05378, dn = +|- 0.00696118, dEa = +|- 0.035657 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OCC(C)C + [OH] <=> O + [CH2]C(=O)OCC(C)C
+""",
+)
+
+entry(
+    index = 3296,
+    label = "OH + C6H12O2-13 <=> H2O_p + C6H11O2-13",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(4.27249e-06,'cm^3/(mol*s)'), n=5.36313, Ea=(-21.2065,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.21871, dn = +|- 0.0262836, dEa = +|- 0.134632 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OCC(C)C + [OH] <=> O + [CH2]C(C)COC(C)=O
+""",
+)
+
+entry(
+    index = 3297,
+    label = "HO2_r3 + C6H12O2-4 <=> H2O2-2 + C6H11O2-14",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.13294e-06,'cm^3/(mol*s)'), n=5.23368, Ea=(39.7385,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.24115, dn = +|- 0.0287085, dEa = +|- 0.147053 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCCCOC(C)=O + [O]O <=> CCC[CH]OC(C)=O + OO
+""",
+)
+
+entry(
+    index = 3298,
+    label = "OH + C6H12O2-4 <=> H2O_p + C6H11O2-14",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(82.8014,'cm^3/(mol*s)'), n=3.17994, Ea=(-16.1473,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08094, dn = +|- 0.0103431, dEa = +|- 0.0529803 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCCCOC(C)=O + [OH] <=> CCC[CH]OC(C)=O + O
+""",
+)
+
+entry(
+    index = 3299,
+    label = "OH + C6H12O2-3 <=> H2O_p + C6H11O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.656415,'cm^3/(mol*s)'), n=3.81408, Ea=(-17.9205,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.14008, dn = +|- 0.0174209, dEa = +|- 0.0892347 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCCCOC(C)=O + [OH] <=> CC[CH]COC(C)=O + O
+""",
+)
+
+entry(
+    index = 3300,
+    label = "OH + C6H12O2 <=> H2O_p + C6H11O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.06165e-07,'cm^3/(mol*s)'), n=5.77048, Ea=(-18.7,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.16084, dn = +|- 0.0198186, dEa = +|- 0.101516 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCCCOC(C)=O + [OH] <=> O + [CH2]CCCOC(C)=O
+""",
+)
+
+entry(
+    index = 3301,
+    label = "OH + C6H12O2-14 <=> H2O_p + C6H11O2-17",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1662.76,'cm^3/(mol*s)'), n=2.95419, Ea=(0.267608,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04142, dn = +|- 0.00539335, dEa = +|- 0.0276262 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCCCOC(C)=O + [OH] <=> O + [CH2]C(=O)OCCCC
+""",
+)
+
+entry(
+    index = 3302,
+    label = "OH + C6H12O2-2 <=> H2O_p + C6H11O2-18",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.48389e-05,'cm^3/(mol*s)'), n=5.11217, Ea=(-23.8697,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.18942, dn = +|- 0.0230509, dEa = +|- 0.118073 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCCCOC(C)=O + [OH] <=> C[CH]CCOC(C)=O + O
+""",
+)
+
+entry(
+    index = 3303,
+    label = "OH + C6H12O2-15 <=> H2O_p + C6H11O2-19",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(915.237,'cm^3/(mol*s)'), n=2.79265, Ea=(-18.4301,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.03616, dn = +|- 0.00471985, dEa = +|- 0.0241763 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCC(C)OC(C)=O + [OH] <=> CC[C](C)OC(C)=O + O
+""",
+)
+
+entry(
+    index = 3304,
+    label = "OH + C6H12O2-16 <=> H2O_p + C6H11O2-20",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.88381,'cm^3/(mol*s)'), n=3.58073, Ea=(-15.489,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08506, dn = +|- 0.0108482, dEa = +|- 0.0555675 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCC(C)OC(C)=O + [OH] <=> C[CH]C(C)OC(C)=O + O
+""",
+)
+
+entry(
+    index = 3305,
+    label = "OH + C6H12O2-17 <=> H2O_p + C6H11O2-21",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(10.0556,'cm^3/(mol*s)'), n=3.61276, Ea=(-11.5338,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.11468, dn = +|- 0.0144264, dEa = +|- 0.0738957 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCC(C)OC(C)=O + [OH] <=> O + [CH2]C(CC)OC(C)=O
+""",
+)
+
+entry(
+    index = 3306,
+    label = "OH + C6H12O2-18 <=> H2O_p + C6H11O2-22",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(937.658,'cm^3/(mol*s)'), n=3.06576, Ea=(0.647058,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.08022, dn = +|- 0.0102542, dEa = +|- 0.0525247 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCC(C)OC(C)=O + [OH] <=> O + [CH2]C(=O)OC(C)CC
+""",
+)
+
+entry(
+    index = 3307,
+    label = "OH + C6H12O2-19 <=> H2O_p + C6H11O2-23",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(9.1266e-05,'cm^3/(mol*s)'), n=4.96903, Ea=(-21.3375,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.1227, dn = +|- 0.01538, dEa = +|- 0.0787803 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CCC(C)OC(C)=O + [OH] <=> O + [CH2]CC(C)OC(C)=O
+""",
+)
+
+entry(
+    index = 3308,
+    label = "OH + C6H12O2-20 <=> H2O_p + C6H11O2-24",
+    degeneracy = 9.0,
+    kinetics = Arrhenius(A=(2.6383,'cm^3/(mol*s)'), n=3.91157, Ea=(-8.54858,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.1733, dn = +|- 0.0212382, dEa = +|- 0.108788 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OC(C)(C)C + [OH] <=> O + [CH2]C(C)(C)OC(C)=O
+""",
+)
+
+entry(
+    index = 3309,
+    label = "OH + C6H12O2-21 <=> H2O_p + C6H11O2-25",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1981.73,'cm^3/(mol*s)'), n=2.96995, Ea=(-0.871665,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 200 data points; dA = *|/ 1.04405, dn = +|- 0.00572861, dEa = +|- 0.0293434 kJ/mol"""),
+    rank = 5,
+    shortDesc = """Calculated at CBS-QB3 + 1DSHR by Xiaorui Dong (RMG GitHub).""",
+    longDesc =
+"""
+Original entry: CC(=O)OC(C)(C)C + [OH] <=> O + [CH2]C(=O)OC(C)(C)C
+""",
+)
+
+entry(
+    index = 3310,
+    label = "HCO_r3 + CH4O2 <=> CH2O-2 + CH3O2-2",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(1.28353e-07,'cm^3/(mol*s)'), n=5.50561, Ea=(3.3939,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OOH + CHO <=> CH2O + CH3OO
+""",
+)
+
+entry(
+    index = 3311,
+    label = "H + C4H10O-17 <=> H2_p + C4H9O-17",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(811800,'cm^3/(mol*s)'), n=2.301, Ea=(4.906,'kcal/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + H <=> MPrO3J + H2
+""",
+)
+
+entry(
+    index = 3312,
+    label = "OH + C3H8O-6 <=> H2O_p + C3H7O-6",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(746.731,'cm^3/(mol*s)'), n=2.98774, Ea=(-17.2981,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCH2CH3 + OH <=> CH3OCHCH3 + H2O
+""",
+)
+
+entry(
+    index = 3313,
+    label = "OH + C3H8O-5 <=> H2O_p + C3H7O-5",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(31.4925,'cm^3/(mol*s)'), n=3.49534, Ea=(-12.5385,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCH2CH3 + OH <=> CH2OCH2CH3 + H2O
+""",
+)
+
+entry(
+    index = 3314,
+    label = "OH + C3H8O-7 <=> H2O_p + C3H7O-7",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(45.7161,'cm^3/(mol*s)'), n=3.42939, Ea=(-1.79649,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3OCH2CH3 + OH <=> CH3OCH2CH2 + H2O
+""",
+)
+
+entry(
+    index = 3315,
+    label = "HO2_r3 + C4H10O-14 <=> H2O2-2 + C4H9O-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00552,'cm^3/(mol*s)'), n=4.29, Ea=(46084.5,'J/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + HO2 <=> MPrO-1J + H2O2
+""",
+)
+
+entry(
+    index = 3316,
+    label = "HO2_r3 + C4H10O-15 <=> H2O2-2 + C4H9O-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0343,'cm^3/(mol*s)'), n=4.08, Ea=(38103.1,'J/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + HO2 <=> MPO1J + H2O2
+""",
+)
+
+entry(
+    index = 3317,
+    label = "HO2_r3 + C4H10O-16 <=> H2O2-2 + C4H9O-16",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.00752,'cm^3/(mol*s)'), n=4.28, Ea=(54714.4,'J/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + HO2 <=> CH3OCH2CHCH3 + H2O2
+""",
+)
+
+entry(
+    index = 3318,
+    label = "HO2_r3 + C4H10O-17 <=> H2O2-2 + C4H9O-17",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.145,'cm^3/(mol*s)'), n=3.9, Ea=(69380.3,'J/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + HO2 <=> MPrO3J + H2O2
+""",
+)
+
+entry(
+    index = 3319,
+    label = "OH + C3H8b <=> H2O_p + CH2CH2CH3",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(1.19441e+07,'cm^3/(mol*s)'), n=1.90987, Ea=(2.76409,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: propane + OH <=> C3H7 + H2O
+""",
+)
+
+entry(
+    index = 3320,
+    label = "OH + C3H8 <=> H2O_p + CH3CHCH3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.33534e+07,'cm^3/(mol*s)'), n=1.5755, Ea=(0.863578,'kJ/mol'), T0=(1,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: propane + OH <=> ipropyl + H2O
+""",
+)
+
+entry(
+    index = 3321,
+    label = "H + C4H10O-14 <=> H2_p + C4H9O-14",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(127000,'cm^3/(mol*s)'), n=2.516, Ea=(2.07,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + H <=> MPrO-1J + H2
+""",
+)
+
+entry(
+    index = 3322,
+    label = "H + C4H10O-15 <=> H2_p + C4H9O-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(483000,'cm^3/(mol*s)'), n=2.347, Ea=(0.472,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + H <=> MPO1J + H2
+""",
+)
+
+entry(
+    index = 3323,
+    label = "H + C4H10O-16 <=> H2_p + C4H9O-16",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(663000,'cm^3/(mol*s)'), n=2.313, Ea=(2.968,'kcal/mol'), T0=(1,'K'), Tmin=(303.03,'K'), Tmax=(2500,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + H <=> CH3OCH2CHCH3 + H2
+""",
+)
+
+entry(
+    index = 3324,
+    label = "HO2_r3 + C3H6O-4 <=> H2O2-2 + C3H5O-4",
+    degeneracy = 1.0,
+
+    kinetics = Arrhenius(A=(0.0234,'cm^3/(mol*s)'), n=4.397, Ea=(2.808,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: HO2 + propanal <=> H2O2 + CC[C]=O
+""",
+)
+
+entry(
+    index = 3325,
+    label = "HO2_r3 + C3H6O <=> H2O2-2 + C3H5O-5",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(4.921e-06,'cm^3/(mol*s)'), n=5.059, Ea=(4.214,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: HO2 + propanal <=> H2O2 + C[CH]C=O
+""",
+)
+
+entry(
+    index = 3326,
+    label = "HO2_r3 + C3H6O-5 <=> H2O2-2 + C3H5O-6",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.715e-06,'cm^3/(mol*s)'), n=5.318, Ea=(8.947,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: HO2 + propanal <=> H2O2 + [CH2]CC=O
+""",
+)
+
+entry(
+    index = 3327,
+    label = "O2 + C4H10O-15 <=> HO2_p23 + C4H9O-15",
+    degeneracy = 4.0,
+
+    kinetics = Arrhenius(A=(471.8,'cm^3/(mol*s)'), n=3.38, Ea=(45.981,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + O2 <=> HO2 + MPO1J
+""",
+)
+
+entry(
+    index = 3328,
+    label = "CH3_r3 + C4H10O-14 <=> CH4p + C4H9O-14",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(0.0025,'cm^3/(mol*s)'), n=4.375, Ea=(6.241,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + CH3 <=> CH4 + MPrO-1J
+""",
+)
+
+entry(
+    index = 3329,
+    label = "CH3O2 + C4H10O-15 <=> CH4O2-2 + C4H9O-15",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(5.582e-05,'cm^3/(mol*s)'), n=5.074, Ea=(6.681,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + CH3OO <=> CH3OOH + MPO1J
+""",
+)
+
+entry(
+    index = 3330,
+    label = "O2 + C3H4O <=> HO2_p23 + C3H3O",
+    degeneracy = 6.0,
+
+    kinetics = Arrhenius(A=(0.03352,'cm^3/(mol*s)'), n=3.603, Ea=(3.286,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: CH3CHCHO + O2 <=> CH2CHCHO + HO2
+""",
+)
+
+entry(
+    index = 3331,
+    label = "CH3O2 + C4H10O-14 <=> CH4O2-2 + C4H9O-14",
+    degeneracy = 3.0,
+
+    kinetics = Arrhenius(A=(0.0001946,'cm^3/(mol*s)'), n=4.82, Ea=(10.017,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + CH3OO <=> MPrO-1J + CH3OOH
+""",
+)
+
+entry(
+    index = 3332,
+    label = "C3H7O2-3 + C4H10O-15 <=> C3H8O2-3 + C4H9O-15",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(7.255e-09,'cm^3/(mol*s)'), n=6.168, Ea=(31.79,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + CH3CH2CH2OO <=> CCCOO + MPO1J
+""",
+)
+
+entry(
+    index = 3333,
+    label = "C3H7O2-3 + C4H10O-16 <=> C3H8O2-3 + C4H9O-16",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(1.273e-06,'cm^3/(mol*s)'), n=6.133, Ea=(33.873,'kcal/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + CH3CH2CH2OO <=> CCCOO + CH3OCH2CHCH3
+""",
+)
+
+entry(
+    index = 3334,
+    label = "C3H7O4 + C3H6O2-9 <=> C3H8O4 + C3H5O2-9",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(1.6459e-10,'cm^3/(mol*s)'), n=6.19885, Ea=(44.3692,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: Propionic + CC(OO)CO[O] <=> CC(COO)OO + C[CH]C(=O)O
+""",
+)
+
+entry(
+    index = 3335,
+    label = "C4H9O5 + C3H6O2-9 <=> C4H10O5 + C3H5O2-9",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(3.3825e-07,'cm^3/(mol*s)'), n=5.09097, Ea=(34.6751,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO1Q-1QJ + Propionic <=> C[CH]C(=O)O + CCC(OO)OCOO
+""",
+)
+
+entry(
+    index = 3336,
+    label = "C4H9O3 + C4H10O-15 <=> C4H10O3 + C4H9O-15",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(0.104788,'cm^3/(mol*s)'), n=4.2832, Ea=(13.3035,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + CH3CH2CH2OCH2OO <=> CCCOCOO + MPO1J
+""",
+)
+
+entry(
+    index = 3337,
+    label = "C4H9O3-2 + C4H10O-15 <=> C4H10O3-2 + C4H9O-15",
+    degeneracy = 2.0,
+
+    kinetics = Arrhenius(A=(0.104788,'cm^3/(mol*s)'), n=4.2832, Ea=(13.3035,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K')),
+    rank = 3,
+    longDesc =
+"""
+Johnson et al., Oxidation and pyrolysis of methyl propyl ether, 2021, 10.1002/kin.21489Original entry: MPO1Q-1J <=> MPO1-1OCYC + OH
+Original entry: MPO + MPO1QJ <=> CCC(OO)OC + MPO1J
+""",
+)
+
+
+entry(
+    index = 3338,
+    label = "HO2_r3 + C2H6O-3 <=> H2O2-2 + C2H5O-4",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.000528,'cm^3/(mol*s)'), n=4.64, Ea=(10.556,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry Curran'],
+        title = 'Rate Constant Calculations of H-Atom Abstraction Reactions from Ethers by HO2 Radicals',
+        journal = 'J. Phys. Chem. A',
+        volume = '118',
+        pages = '1300-1308',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3OCH3 + HO2 <=> CH3OCH2J + H2O2
+Mendes:JPCA118(2014)1300-1308. CCSD(T)/cc-pVTZ method with zero-point corrections. DME+HO2 k(alpha').
+""",
+)
+
+entry(
+    index = 3339,
+    label = "HO2_r3 + C3H8O-5 <=> H2O2-2 + C3H7O-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.000585,'cm^3/(mol*s)'), n=4.57, Ea=(10.649,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry Curran'],
+        title = 'Rate Constant Calculations of H-Atom Abstraction Reactions from Ethers by HO2 Radicals',
+        journal = 'J. Phys. Chem. A',
+        volume = '118',
+        pages = '1300-1308',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3OC2H5 + HO2 <=> CH2OC2H5J + H2O2
+Mendes:JPCA118(2014)1300-1308. CCSD(T)/cc-pVTZ method with zero-point corrections. EME+HO2 k(alpha').
+""",
+)
+
+entry(
+    index = 3340,
+    label = "HO2_r3 + C3H8O-6 <=> H2O2-2 + C3H7O-6",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0191,'cm^3/(mol*s)'), n=4.23, Ea=(9.024,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry Curran'],
+        title = 'Rate Constant Calculations of H-Atom Abstraction Reactions from Ethers by HO2 Radicals',
+        journal = 'J. Phys. Chem. A',
+        volume = '118',
+        pages = '1300-1308',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3OC2H5 + HO2 <=> CH3C2H4b + H2O2
+Mendes:JPCA118(2014)1300-1308. CCSD(T)/cc-pVTZ method with zero-point corrections. EME+HO2 k(alpha).
+""",
+)
+
+entry(
+    index = 3341,
+    label = "HO2_r3 + C3H8O-7 <=> H2O2-2 + C3H7O-7",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.32e-06,'cm^3/(mol*s)'), n=5.12, Ea=(14.872,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry Curran'],
+        title = 'Rate Constant Calculations of H-Atom Abstraction Reactions from Ethers by HO2 Radicals',
+        journal = 'J. Phys. Chem. A',
+        volume = '118',
+        pages = '1300-1308',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3OC2H5 + HO2 <=> CH3C2H4a + H2O2
+Mendes:JPCA118(2014)1300-1308. CCSD(T)/cc-pVTZ method with zero-point corrections. EME+HO2 k(beta).
+""",
+)
+
+entry(
+    index = 3342,
+    label = "H + C4H10O-14 <=> H2_p + C4H9O-14",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(5.73e+08,'cm^3/(mol*s)'), n=1.71, Ea=(5.437,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + H <=> C2H5OC2H4b + H2
+""",
+)
+
+entry(
+    index = 3343,
+    label = "H + C4H10O-15 <=> H2_p + C4H9O-15",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(2.35e+08,'cm^3/(mol*s)'), n=1.93, Ea=(10.743,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + H <=> C2H5OC2H4a + H2
+""",
+)
+
+entry(
+    index = 3344,
+    label = "OH + C4H10O-14 <=> H2O_p + C4H9O-14",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(1.19e+10,'cm^3/(mol*s)'), n=0.98, Ea=(0.568,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + OH <=> C2H5OC2H4b + H2O
+""",
+)
+
+entry(
+    index = 3345,
+    label = "OH + C4H10O-15 <=> H2O_p + C4H9O-15",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(2.75e+09,'cm^3/(mol*s)'), n=1.3, Ea=(4.138,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + OH <=> C2H5OC2H4a + H2O
+""",
+)
+
+entry(
+    index = 3346,
+    label = "CH3_r3 + C4H10O-14 <=> CH4p + C4H9O-14",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(13500,'cm^3/(mol*s)'), n=2.75, Ea=(11.054,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + CH3 <=> C2H5OC2H4b + CH4
+""",
+)
+
+entry(
+    index = 3347,
+    label = "CH3_r3 + C4H10O-15 <=> CH4p + C4H9O-15",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(23800,'cm^3/(mol*s)'), n=2.88, Ea=(15.042,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + CH3 <=> C2H5OC2H4a + CH4
+""",
+)
+
+entry(
+    index = 3348,
+    label = "HO2_r3 + C4H10O-14 <=> H2O2-2 + C4H9O-14",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(0.000895,'cm^3/(mol*s)'), n=4.6, Ea=(4.32,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + HO2 <=> C2H5OC2H4b + H2O2
+""",
+)
+
+entry(
+    index = 3349,
+    label = "HO2_r3 + C4H10O-15 <=> H2O2-2 + C4H9O-15",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.000731,'cm^3/(mol*s)'), n=4.7, Ea=(13.032,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + HO2 <=> C2H5OC2H4a + H2O2
+""",
+)
+
+entry(
+    index = 3350,
+    label = "O_rad + C4H10O-14 <=> OH_p23 + C4H9O-14",
+    degeneracy = 4.0,
+    kinetics = Arrhenius(A=(3.38e+07,'cm^3/(mol*s)'), n=2, Ea=(0.403,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + O_rad <=> C2H5OC2H4b + OH
+""",
+)
+
+entry(
+    index = 3351,
+    label = "O_rad + C4H10O-15 <=> OH_p23 + C4H9O-15",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(5.4e+07,'cm^3/(mol*s)'), n=2.3, Ea=(7.107,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['E. Hu', 'Y. Chen', 'Z. Zhang', 'J.Y. Chen', 'Z. Huang'],
+        title = 'Ab initio calculation and kinetic modeling study of diethyl ether ignition with application toward a skeletal mechanism for CI engine modeling',
+        journal = 'Fuel',
+        volume = '209',
+        pages = '509-520',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + O_rad <=> C2H5OC2H4a + OH
+""",
+)
+
+entry(
+    index = 3374,
+    label = "C2H3O2-3 + C4H10O-14 <=> C2H4O2-3 + C4H9O-14",
+    degeneracy = 8.0,
+    kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(17.69,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C2H5OC2H5 + CH3CO2 <=> C2H5OC2H4b + CH3COOH
+!Eble et al. 2017
+""",
+)
+entry(
+    index = 3375,
+    label = "H + C4H8O-4 <=> H2_p + C4H7O-8b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.205e+07,'cm^3/(mol*s)'), n=2.225, Ea=(6.9378,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Sebastien Thion', 'Pascal Dievart', 'Pierre Van Cauwenberghe', 'Guillaume Dayma', 'Zeynep Serinyel', 'Philippe Dagaut'],
+        title = 'An experimental study in a jet-stirred reactor and a comprehensive kinetic mechanism for the oxidation of methyl ethyl ketone',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36',
+        pages = '459-467',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: c2h5coch3 + H <=> c2h5coch2 + H2
+TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+""",
+)
+
+entry(
+    index = 3376,
+    label = "H + C4H8O-5 <=> H2_p + C4H7O-9b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.988e+06,'cm^3/(mol*s)'), n=2.226, Ea=(4.0838,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Sebastien Thion', 'Pascal Dievart', 'Pierre Van Cauwenberghe', 'Guillaume Dayma', 'Zeynep Serinyel', 'Philippe Dagaut'],
+        title = 'An experimental study in a jet-stirred reactor and a comprehensive kinetic mechanism for the oxidation of methyl ethyl ketone',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36',
+        pages = '459-467',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: c2h5coch3 + H <=> ch3chcoch3 + H2
+TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+""",
+)
+
+entry(
+    index = 3377,
+    label = "H + C4H8O-6 <=> H2_p + C4H7O-10b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(7.347e+06,'cm^3/(mol*s)'), n=2.329, Ea=(8.7809,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Sebastien Thion', 'Pascal Dievart', 'Pierre Van Cauwenberghe', 'Guillaume Dayma', 'Zeynep Serinyel', 'Philippe Dagaut'],
+        title = 'An experimental study in a jet-stirred reactor and a comprehensive kinetic mechanism for the oxidation of methyl ethyl ketone',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36',
+        pages = '459-467',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: c2h5coch3 + H <=> ch2ch2coch3 + H2
+TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+""",
+)
+
+entry(
+    index = 3378,
+    label = "CH3_r3 + C4H8O-4 <=> CH4p + C4H7O-8b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(20.36,'cm^3/(mol*s)'), n=3.441, Ea=(9.3561,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Sebastien Thion', 'Pascal Dievart', 'Pierre Van Cauwenberghe', 'Guillaume Dayma', 'Zeynep Serinyel', 'Philippe Dagaut'],
+        title = 'An experimental study in a jet-stirred reactor and a comprehensive kinetic mechanism for the oxidation of methyl ethyl ketone',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36',
+        pages = '459-467',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 11,
+    longDesc = 
+"""
+Original entry: c2h5coch3 + CH3 <=> c2h5coch2 + CH4
+TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+""",
+)
+
+entry(
+    index = 3379,
+    label = "CH3_r3 + C4H8O-5 <=> CH4p + C4H7O-9b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.997,'cm^3/(mol*s)'), n=3.42, Ea=(6.8581,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Sebastien Thion', 'Pascal Dievart', 'Pierre Van Cauwenberghe', 'Guillaume Dayma', 'Zeynep Serinyel', 'Philippe Dagaut'],
+        title = 'An experimental study in a jet-stirred reactor and a comprehensive kinetic mechanism for the oxidation of methyl ethyl ketone',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36',
+        pages = '459-467',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 11,
+    longDesc = 
+"""
+Original entry: c2h5coch3 + CH3 <=> ch3chcoch3 + CH4
+TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+""",
+)
+
+entry(
+    index = 3380,
+    label = "CH3_r3 + C4H8O-6 <=> CH4p + C4H7O-10b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.602,'cm^3/(mol*s)'), n=3.539, Ea=(11.2283,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Sebastien Thion', 'Pascal Dievart', 'Pierre Van Cauwenberghe', 'Guillaume Dayma', 'Zeynep Serinyel', 'Philippe Dagaut'],
+        title = 'An experimental study in a jet-stirred reactor and a comprehensive kinetic mechanism for the oxidation of methyl ethyl ketone',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '36',
+        pages = '459-467',
+        year = '2017',
+    ),
+    referenceType = "theory",
+    rank = 11,
+    longDesc = 
+"""
+Original entry: c2h5coch3 + CH3 <=> ch2ch2coch3 + CH4
+TST + Eckart Tunnelling + Hindered Rotors with G3//MP2/aug-cc-pVDZ energetics and frequencies
+""",
+)
+
+entry(
+    index = 3381,
+    label = "H + C3H6O2 <=> H2_p + C3H5O2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(2.16e+10,'cm^3/(mol*s)'), n=1.2, Ea=(6.4,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EF + H <=> EF1J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3382,
+    label = "H + C3H6O2-2 <=> H2_p + C3H5O2-2",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.74e+10,'cm^3/(mol*s)'), n=1.2, Ea=(9.97,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EF + H <=> EF2J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3383,
+    label = "H + C3H6O2-3 <=> H2_p + C3H5O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.9e+11,'cm^3/(mol*s)'), n=0.96, Ea=(7.66,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EF + H <=> EF0J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3384,
+    label = "H + C4H8O2-12 <=> H2_p + C4H7O2-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.42e+10,'cm^3/(mol*s)'), n=1.22, Ea=(6.07,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + H <=> EA1J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3385,
+    label = "H + C4H8O2-11 <=> H2_p + C4H7O2-11",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.21e+10,'cm^3/(mol*s)'), n=1.19, Ea=(9.89,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + H <=> EA2J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3386,
+    label = "H + C4H8O2-13 <=> H2_p + C4H7O2-13",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.44e+10,'cm^3/(mol*s)'), n=1.12, Ea=(7.58,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + H <=> EA1'J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3387,
+    label = "H + C5H10O2-4b <=> H2_p + C5H9O2-4b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.73e+10,'cm^3/(mol*s)'), n=1.24, Ea=(5.99,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EP + H <=> EP1J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3388,
+    label = "H + C5H10O2-5b <=> H2_p + C5H9O2-5b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.45e+10,'cm^3/(mol*s)'), n=1.21, Ea=(9.87,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EP + H <=> EP2J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3389,
+    label = "H + C5H10O2-6b <=> H2_p + C5H9O2-6b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.69e+10,'cm^3/(mol*s)'), n=1.21, Ea=(4.87,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EP + H <=> EP1'J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3390,
+    label = "H + C5H10O2-7b <=> H2_p + C5H9O2-7b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.28e+11,'cm^3/(mol*s)'), n=1.19, Ea=(9.32,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EP + H <=> EP2'J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3391,
+    label = "H + C6H12O2-5b <=> H2_p + C6H11O2-5b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.44e+10,'cm^3/(mol*s)'), n=1.25, Ea=(5.97,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EB + H <=> EB1J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3392,
+    label = "H + C6H12O2-6b <=> H2_p + C6H11O2-6b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.83e+10,'cm^3/(mol*s)'), n=1.22, Ea=(9.86,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EB + H <=> EB2J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3393,
+    label = "H + C6H12O2-7b <=> H2_p + C6H11O2-7b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(9.12e+09,'cm^3/(mol*s)'), n=1.22, Ea=(4.77,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EB + H <=> EB1'J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3394,
+    label = "H + C6H12O2-8b <=> H2_p + C6H11O2-8b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.43e+10,'cm^3/(mol*s)'), n=1.2, Ea=(6.05,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EB + H <=> EB2'J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3395,
+    label = "H + C6H12O2-9b <=> H2_p + C6H11O2-9b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(6.07e+10,'cm^3/(mol*s)'), n=1.18, Ea=(8.6,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['Quan-De Wang', 'Xing-Jian Wang', 'Zi-Wu Liu', 'Guo-Jun Kang'],
+        title = 'Theoretical and kinetic study of the hydrogen atom abstraction reactions of ethyl esters with hydrogen radicals',
+        journal = 'Chemical Physics Letters',
+        volume = '616',
+        pages = '109-114',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EB + H <=> EB3'J + H2
+TST + CCSD(T)/CBS//B3LYP/6-311G(d, p)///High pressure limit
+""",
+)
+
+entry(
+    index = 3396,
+    label = "OH + C6H10O3 <=> H2O_p + C6H9O3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(3.5,'cm^3/(mol*s)'), n=3.79, Ea=(-1.77,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + OH <=> ML1J + H2O
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3397,
+    label = "OH + C6H10O3-2 <=> H2O_p + C6H9O3-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(287,'cm^3/(mol*s)'), n=3.06, Ea=(-2.32,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + OH <=> ML3J + H2O
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3398,
+    label = "OH + C6H10O3-3 <=> H2O_p + C6H9O3-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3230,'cm^3/(mol*s)'), n=2.89, Ea=(-1.5,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + OH <=> ML4J + H2O
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3399,
+    label = "OH + C6H10O3-4 <=> H2O_p + C6H9O3-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4060,'cm^3/(mol*s)'), n=2.84, Ea=(0.065,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + OH <=> ML6J + H2O
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3400,
+    label = "CH3_r3 + C6H10O3 <=> CH4p + C6H9O3",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(534,'cm^3/(mol*s)'), n=3.22, Ea=(11.05,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + CH3 <=> ML1J + CH4
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3401,
+    label = "CH3_r3 + C6H10O3-2 <=> CH4p + C6H9O3-2",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(54.6,'cm^3/(mol*s)'), n=3.13, Ea=(8.68,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + CH3 <=> ML3J + CH4
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3402,
+    label = "CH3_r3 + C6H10O3-3 <=> CH4p + C6H9O3-3",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(14.1,'cm^3/(mol*s)'), n=3.29, Ea=(8.33,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + CH3 <=> ML4J + CH4
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3403,
+    label = "CH3_r3 + C6H10O3-4 <=> CH4p + C6H9O3-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(37.1,'cm^3/(mol*s)'), n=3.12, Ea=(9.98,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['S. Thion', 'A. M. Zaras', 'M. Szori', 'P. Dagaut'],
+        title = 'Theoretical kinetic study for methyl levulinate: oxidation by OH and CH3 radicals and further unimolecular decomposition pathways',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '17',
+        pages = '23384-23391',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: ML + CH3 <=> ML6J + CH4
+TST + G3//MP2/aug-cc-pVDZ
+""",
+)
+
+entry(
+    index = 3404,
+    label = "H + C2H4O2-4 <=> H2_p + C2H3O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5170,'cm^3/(mol*s)'), n=3.11, Ea=(8,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + H <=> MF1J + H2
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3405,
+    label = "H + C2H4O2-5 <=> H2_p + C2H3O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(3600,'cm^3/(mol*s)'), n=3.05, Ea=(7.61,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + H <=> MF0J + H2
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3406,
+    label = "CH3_r3 + C2H4O2-4 <=> CH4p + C2H3O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.48e-07,'cm^3/(mol*s)'), n=5.7, Ea=(8.68,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + CH3 <=> MF1J + CH4
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3407,
+    label = "CH3_r3 + C2H4O2-5 <=> CH4p + C2H3O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.54e-05,'cm^3/(mol*s)'), n=5.02, Ea=(8.03,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + CH3 <=> MF0J + CH4
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3408,
+    label = "O_rad + C2H4O2-4 <=> OH_p23 + C2H3O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.218,'cm^3/(mol*s)'), n=4.22, Ea=(6.86,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + O <=> MF1J + OH
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3409,
+    label = "O_rad + C2H4O2-5 <=> OH_p23 + C2H3O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(288,'cm^3/(mol*s)'), n=3.32, Ea=(7.28,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + O <=> MF0J + OH
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3410,
+    label = "HO2_r3 + C2H4O2-4 <=> H2O2-2 + C2H3O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00175,'cm^3/(mol*s)'), n=4.81, Ea=(15.72,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + HO2 <=> MF1J + H2O2
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3411,
+    label = "HO2_r3 + C2H4O2-5 <=> H2O2-2 + C2H3O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.06,'cm^3/(mol*s)'), n=3.68, Ea=(15.76,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + HO2 <=> MF0J + H2O2
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3412,
+    label = "OH + C2H4O2-4 <=> H2O_p + C2H3O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(8.74,'cm^3/(mol*s)'), n=3.64, Ea=(0.64,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + OH <=> MF1J + H2O
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3413,
+    label = "OH + C2H4O2-5 <=> H2O_p + C2H3O2-5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.26e+06,'cm^3/(mol*s)'), n=2.06, Ea=(2.75,'kcal/mol'), T0=(300,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Michele Pavone', 'David B. Krisiloff', 'Emily A. Carter'],
+        title = 'Correction to “Ab Initio Reaction Kinetics of Hydrogen Abstraction from Methyl Formate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals”',
+        journal = 'J. Phys. Chem. A',
+        volume = '119',
+        pages = '8431-8443',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MF + OH <=> MF0J + H2O
+TST + MRSDCI+DS(MRACPF)/cc-pVZ//DFT-B3LYP/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3414,
+    label = "H + C3H6O2-4 <=> H2_p + C3H5O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(42400,'cm^3/(mol*s)'), n=2.84, Ea=(6.93,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + H <=> MA1J + H2
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3415,
+    label = "H + C3H6O2-5 <=> H2_p + C3H5O2-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(111000,'cm^3/(mol*s)'), n=2.68, Ea=(7.09,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + H <=> MA1'J + H2
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3416,
+    label = "CH3_r3 + C3H6O2-4 <=> CH4p + C3H5O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.3,'cm^3/(mol*s)'), n=3.99, Ea=(9.15,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + CH3 <=> MA1J + CH4
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3417,
+    label = "CH3_r3 + C3H6O2-5 <=> CH4p + C3H5O2-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.672,'cm^3/(mol*s)'), n=3.8, Ea=(8.25,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + CH3 <=> MA1'J + CH4
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3418,
+    label = "O_rad + C3H6O2-4 <=> OH_p23 + C3H5O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(23500,'cm^3/(mol*s)'), n=2.96, Ea=(5.4,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + O <=> MA1J + OH
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3419,
+    label = "O_rad + C3H6O2-5 <=> OH_p23 + C3H5O2-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(23000,'cm^3/(mol*s)'), n=2.96, Ea=(5.4,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + O <=> MA1'J + OH
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3420,
+    label = "OH + C3H6O2-4 <=> H2O_p + C3H5O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(11,'cm^3/(mol*s)'), n=3.7, Ea=(-1.17,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + OH <=> MA1J + H2O
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3421,
+    label = "OH + C3H6O2-5 <=> H2O_p + C3H5O2-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(36.2,'cm^3/(mol*s)'), n=3.48, Ea=(0,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + OH <=> MA1'J + H2O
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3422,
+    label = "HO2_r3 + C3H6O2-4 <=> H2O2-2 + C3H5O2-4",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.46e-06,'cm^3/(mol*s)'), n=5.53, Ea=(13.72,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + HO2 <=> MA1J + H2O2
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3423,
+    label = "HO2_r3 + C3H6O2-5 <=> H2O2-2 + C3H5O2-5",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.36e-05,'cm^3/(mol*s)'), n=5.04, Ea=(15.28,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Caroline M. Krauter', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab Initio Kinetics of Hydrogen Abstraction from Methyl Acetate by Hydrogen, Methyl, Oxygen, Hydroxyl, and Hydroperoxy Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '119',
+        pages = '6377-6390',
+        year = '2015',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MA + HO2 <=> MA1'J + H2O2
+TST + CCSD(T)/CBS(T-Q)
+""",
+)
+
+entry(
+    index = 3424,
+    label = "H + C4H8O2-14 <=> H2_p + C4H7O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(17.3,'cm^3/(mol*s)'), n=3.73, Ea=(1.513,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + H <=> MP1J + H2
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3425,
+    label = "H + C4H8O2-15 <=> H2_p + C4H7O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.11e+06,'cm^3/(mol*s)'), n=2.53, Ea=(8.272,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + H <=> MP1'J + H2
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3426,
+    label = "H + C4H8O2-16 <=> H2_p + C4H7O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(17.2,'cm^3/(mol*s)'), n=3.81, Ea=(4.724,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + H <=> MP2'J + H2
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3427,
+    label = "CH3_r3 + C4H8O2-14 <=> CH4p + C4H7O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(5.9e-05,'cm^3/(mol*s)'), n=4.96, Ea=(3.611,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + CH3 <=> MP1J + CH4
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3428,
+    label = "CH3_r3 + C4H8O2-15 <=> CH4p + C4H7O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.000873,'cm^3/(mol*s)'), n=4.68, Ea=(8.452,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + CH3 <=> MP1'J + CH4
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3429,
+    label = "CH3_r3 + C4H8O2-16 <=> CH4p + C4H7O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.1e-05,'cm^3/(mol*s)'), n=5.21, Ea=(6.79,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + CH3 <=> MP2'J + CH4
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3430,
+    label = "O_rad + C4H8O2-14 <=> OH_p23 + C4H7O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(18.6,'cm^3/(mol*s)'), n=3.71, Ea=(2.84,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + O <=> MP1J + OH
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3431,
+    label = "O_rad + C4H8O2-15 <=> OH_p23 + C4H7O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(5.39,'cm^3/(mol*s)'), n=3.87, Ea=(3.225,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + O <=> MP1'J + OH
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3432,
+    label = "O_rad + C4H8O2-16 <=> OH_p23 + C4H7O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.949,'cm^3/(mol*s)'), n=4.15, Ea=(3.001,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + O <=> MP2'J + OH
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3433,
+    label = "OH + C4H8O2-14 <=> H2O_p + C4H7O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(139,'cm^3/(mol*s)'), n=3.18, Ea=(-1.663,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + OH <=> MP1J + H2O
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3434,
+    label = "OH + C4H8O2-15 <=> H2O_p + C4H7O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(14,'cm^3/(mol*s)'), n=3.69, Ea=(-0.693,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + OH <=> MP1'J + H2O
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3435,
+    label = "OH + C4H8O2-16 <=> H2O_p + C4H7O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.45,'cm^3/(mol*s)'), n=3.92, Ea=(-1.664,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + OH <=> MP2'J + H2O
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3436,
+    label = "HO2_r3 + C4H8O2-14 <=> H2O2-2 + C4H7O2-14",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.68e-07,'cm^3/(mol*s)'), n=5.6, Ea=(9.878,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + HO2 <=> MP1J + H2O2
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3437,
+    label = "HO2_r3 + C4H8O2-15 <=> H2O2-2 + C4H7O2-15",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.2e-08,'cm^3/(mol*s)'), n=6.1, Ea=(11.855,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + HO2 <=> MP1'J + H2O2
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3438,
+    label = "HO2_r3 + C4H8O2-16 <=> H2O2-2 + C4H7O2-16",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.39e-05,'cm^3/(mol*s)'), n=5.16, Ea=(14.217,'kcal/mol'), T0=(250,'K')),
+    reference = Article(
+        authors = ['Ting Tan', 'Xueliang Yang', 'Yiguang Ju', 'Emily A. Carter'],
+        title = 'Ab initio kinetics studies of hydrogen atom abstraction from methyl propanoate',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '18',
+        pages = '4594-4607',
+        year = '2016',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MP + HO2 <=> MP2'J + H2O2
+TST + CCSD(T)
+""",
+)
+
+entry(
+    index = 3439,
+    label = "OH + C4H8O2-12 <=> H2O_p + C4H7O2-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.34,'cm^3/(mol*s)'), n=3.66, Ea=(-4.095,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + OH <=> EA1J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3440,
+    label = "OH + C4H8O2-11 <=> H2O_p + C4H7O2-11",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.27,'cm^3/(mol*s)'), n=3.62, Ea=(-0.273,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + OH <=> EA2J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3441,
+    label = "OH + C4H8O2-13 <=> H2O_p + C4H7O2-13",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(1.51,'cm^3/(mol*s)'), n=3.68, Ea=(-1.257,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + OH <=> EA1'J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3442,
+    label = "OH + C5H10O2-8b <=> H2O_p + C5H9O2-8b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00611,'cm^3/(mol*s)'), n=4.28, Ea=(-3.443,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MB + OH <=> MB1J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3443,
+    label = "OH + C5H10O2-9b <=> H2O_p + C5H9O2-9b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(487,'cm^3/(mol*s)'), n=2.94, Ea=(-2.107,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MB + OH <=> MB1'J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3444,
+    label = "OH + C5H10O2-10b <=> H2O_p + C5H9O2-10b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.388,'cm^3/(mol*s)'), n=3.76, Ea=(-4.89,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MB + OH <=> MB2'J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3445,
+    label = "OH + C5H10O2-11b <=> H2O_p + C5H9O2-11b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(14600,'cm^3/(mol*s)'), n=2.61, Ea=(0.75,'kcal/mol'), T0=(200,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical Study of the Rate Constants for the Hydrogen Atom Abstraction Reactions of Esters with •OH Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '118',
+        pages = '4889-4899',
+        year = '2014',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: MB + OH <=> MB3'J + H2O
+TST + CCSD(T)/cc-pVXZ
+""",
+)
+
+entry(
+    index = 3446,
+    label = "HO2_r3 + C5H10O2-8b <=> H2O2-2 + C5H9O2-8b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(4.92e-05,'cm^3/(mol*s)'), n=4.76, Ea=(13.68,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3CH2CH2COOCH3 + HO2 <=> CH3CH2CH2COOCH2 + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3447,
+    label = "HO2_r3 + C5H10O2-9b <=> H2O2-2 + C5H9O2-9b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.000811,'cm^3/(mol*s)'), n=4.39, Ea=(11.64,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3CH2CH2COOCH3 + HO2 <=> CH3CH2CHCOOCH3 + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3448,
+    label = "HO2_r3 + C5H10O2-10b <=> H2O2-2 + C5H9O2-10b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.00375,'cm^3/(mol*s)'), n=4.28, Ea=(12.05,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3CH2CH2COOCH3 + HO2 <=> CH3CHCH2COOCH3 + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3449,
+    label = "HO2_r3 + C5H10O2-11b <=> H2O2-2 + C5H9O2-11b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.98,'cm^3/(mol*s)'), n=5.63, Ea=(16.88,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: CH3CH2CH2COOCH3 + HO2 <=> CH2CH2CH2COOCH3 + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3450,
+    label = "HO2_r3 + C4H8O2-12 <=> H2O2-2 + C4H7O2-12",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(3.26e-05,'cm^3/(mol*s)'), n=4.86, Ea=(11.09,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + HO2 <=> EA1J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3451,
+    label = "HO2_r3 + C4H8O2-11 <=> H2O2-2 + C4H7O2-11",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.0123,'cm^3/(mol*s)'), n=4.31, Ea=(18.72,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + HO2 <=> EA2J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3452,
+    label = "HO2_r3 + C4H8O2-13 <=> H2O2-2 + C4H7O2-13",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00139,'cm^3/(mol*s)'), n=4.4, Ea=(15.61,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EA + HO2 <=> EA1'J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3453,
+    label = "HO2_r3 + C5H10O2-12b <=> H2O2-2 + C5H9O2-12b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.9e-05,'cm^3/(mol*s)'), n=4.86, Ea=(10.37,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: PA + HO2 <=> PA1J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3454,
+    label = "HO2_r3 + C5H10O2-13b <=> H2O2-2 + C5H9O2-13b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(13.2,'cm^3/(mol*s)'), n=3.3, Ea=(16.14,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: PA + HO2 <=> PA2J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3455,
+    label = "HO2_r3 + C5H10O2-14b <=> H2O2-2 + C5H9O2-14b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.000139,'cm^3/(mol*s)'), n=4.87, Ea=(16.22,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: PA + HO2 <=> PA3J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3456,
+    label = "HO2_r3 + C5H10O2-15b <=> H2O2-2 + C5H9O2-15b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00697,'cm^3/(mol*s)'), n=4.25, Ea=(16.01,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Hydrogen Atom Abstraction Reactions of Esters with HȮ2 Radicals',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '14006-14018',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: PA + HO2 <=> PA1'J + H2O2
+TST + Eckhart + CCSD(T)/cc-pVTZ
+""",
+)
+
+entry(
+    index = 3457,
+    label = "OH + C3H6O-3 <=> H2O_p + C3H5O-4b",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(22.1,'cm^3/(mol*s)'), n=3.29, Ea=(-1,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Chong-Wen Zhou', 'John M. Simmie', 'Henry J. Curran'],
+        title = 'Ab initio and kinetic study of the reaction of ketones with ȮH for T = 500–2000 K. Part I: hydrogen-abstraction from H3CC(O)CH3–x(CH3)x, x = 0 ↦ 2',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '13',
+        pages = '11175-11192',
+        year = '2011',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: DMK + OH <=> DMK1J + H2O
+VCR-TST + G3MP2BH&H
+""",
+)
+
+entry(
+    index = 3458,
+    label = "OH + C4H8O-5 <=> H2O_p + C4H7O-9b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(118,'cm^3/(mol*s)'), n=3.15, Ea=(-3.05,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Chong-Wen Zhou', 'John M. Simmie', 'Henry J. Curran'],
+        title = 'Ab initio and kinetic study of the reaction of ketones with ȮH for T = 500–2000 K. Part I: hydrogen-abstraction from H3CC(O)CH3–x(CH3)x, x = 0 ↦ 2',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '13',
+        pages = '11175-11192',
+        year = '2011',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EMK + OH <=> EMK1J + H2O
+VCR-TST + G3MP2BH&H
+""",
+)
+
+entry(
+    index = 3459,
+    label = "OH + C4H8O-6 <=> H2O_p + C4H7O-10b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.45,'cm^3/(mol*s)'), n=3.81, Ea=(-2.9,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Chong-Wen Zhou', 'John M. Simmie', 'Henry J. Curran'],
+        title = 'Ab initio and kinetic study of the reaction of ketones with ȮH for T = 500–2000 K. Part I: hydrogen-abstraction from H3CC(O)CH3–x(CH3)x, x = 0 ↦ 2',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '13',
+        pages = '11175-11192',
+        year = '2011',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EMK + OH <=> EMK2J + H2O
+VCR-TST + G3MP2BH&H
+""",
+)
+
+entry(
+    index = 3460,
+    label = "OH + C4H8O-4 <=> H2O_p + C4H7O-8b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(133,'cm^3/(mol*s)'), n=3.08, Ea=(-0.94,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Chong-Wen Zhou', 'John M. Simmie', 'Henry J. Curran'],
+        title = 'Ab initio and kinetic study of the reaction of ketones with ȮH for T = 500–2000 K. Part I: hydrogen-abstraction from H3CC(O)CH3–x(CH3)x, x = 0 ↦ 2',
+        journal = 'Physical Chemistry Chemical Physics',
+        volume = '13',
+        pages = '11175-11192',
+        year = '2011',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EMK + OH <=> EMK1'J + H2O
+VCR-TST + G3MP2BH&H
+""",
+)
+
+entry(
+    index = 3461,
+    label = "HO2_r3 + C3H6O-3 <=> H2O2-2 + C3H5O-4b",
+    degeneracy = 6.0,
+    kinetics = Arrhenius(A=(0.000662,'cm^3/(mol*s)'), n=4.51, Ea=(16.63,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Reactions of Ketones with HȮ2 Radicals. Part I: Abstraction Reaction Channels',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '4515-4525',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: DMK + HO2 <=> DMK1J + H2O2
+TST + CCSD(T)/cc-pVTZ//MP2/6-311G(d,p)
+""",
+)
+
+entry(
+    index = 3462,
+    label = "HO2_r3 + C4H8O-5 <=> H2O2-2 + C4H7O-9b",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(0.0421,'cm^3/(mol*s)'), n=3.93, Ea=(13.39,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Reactions of Ketones with HȮ2 Radicals. Part I: Abstraction Reaction Channels',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '4515-4525',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EMK + HO2 <=> EMK1J + H2O2
+TST + CCSD(T)/cc-pVTZ//MP2/6-311G(d,p)
+""",
+)
+
+entry(
+    index = 3463,
+    label = "HO2_r3 + C4H8O-6 <=> H2O2-2 + C4H7O-10b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(2.06e-05,'cm^3/(mol*s)'), n=4.91, Ea=(14.08,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Reactions of Ketones with HȮ2 Radicals. Part I: Abstraction Reaction Channels',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '4515-4525',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EMK + HO2 <=> EMK2J + H2O2
+TST + CCSD(T)/cc-pVTZ//MP2/6-311G(d,p)
+""",
+)
+
+entry(
+    index = 3464,
+    label = "HO2_r3 + C4H8O-4 <=> H2O2-2 + C4H7O-8b",
+    degeneracy = 3.0,
+    kinetics = Arrhenius(A=(0.00186,'cm^3/(mol*s)'), n=4.32, Ea=(16.39,'kcal/mol'), T0=(500,'K')),
+    reference = Article(
+        authors = ['Jorge Mendes', 'Chong-Wen Zhou', 'Henry J. Curran'],
+        title = 'Theoretical and Kinetic Study of the Reactions of Ketones with HȮ2 Radicals. Part I: Abstraction Reaction Channels',
+        journal = 'The Journal of Physical Chemistry A',
+        volume = '117',
+        pages = '4515-4525',
+        year = '2013',
+    ),
+    referenceType = "theory",
+    rank = 3,
+    longDesc = 
+"""
+Original entry: EMK + HO2 <=> EMK1'J + H2O2
+TST + CCSD(T)/cc-pVTZ//MP2/6-311G(d,p)
+""",
+)
+

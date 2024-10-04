@@ -860,6 +860,39 @@ entry(
     kinetics = None,
 )
 
+entry(
+    index = 48,
+    label = "ester1OO->12D",
+    group = 
+"""
+1 *2 C  u0 {2,S} {3,S}
+2 *1 C  u0 {1,S} {5,S} {6,S}
+3 *3 O  u0 {1,S} {4,S}
+4 *4 O  u1 {3,S}
+5 *5 H  u0 {2,S}
+6    CO u0 {2,S} {7,S}
+7    O  u0 {6,S} {8,S}
+8    C  u0 {7,S}
+""",
+    kinetics = None,
+)
+
+entry(
+    index = 49,
+    label = "ester2OO->12D",
+    group = 
+"""
+1 *2 C  u0 {2,S} {5,S}
+2 *1 C  u0 {1,S} {3,S} {6,S}
+3 *3 O  u0 {2,S} {4,S}
+4 *4 O  u1 {3,S}
+5 *5 H  u0 {1,S}
+6    CO u0 {2,S} {7,S}
+7    O  u0 {6,S} {8,S}
+8    C  u0 {7,S}
+""",
+    kinetics = None,
+)
 tree(
 """
 L1: R2OO
@@ -872,6 +905,8 @@ L1: R2OO
         L3: R2OO_2H_HNd
         L3: R2OO_2H_HDe
             L4: R2OO_2H_HCd
+            L4: ester1OO->12D
+            L4: ester2OO->12D
         L3: R2OO_2H_NdNd
         L3: R2OO_2H_NdDe
         L3: R2OO_2H_DeDe

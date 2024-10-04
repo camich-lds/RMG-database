@@ -7,7 +7,7 @@ longDesc = """
 
 """
 
-template(reactants=["Root"], products=["four_ring"], ownReverse=False)
+template(reactants=["2+2_cycloaddition_Root"], products=["four_ring"], ownReverse=False)
 
 reverse = "Four_Ring_Cleavage"
 reversible = True
@@ -25,7 +25,7 @@ recipe(actions=[
 
 entry(
     index = 0,
-    label = "Root",
+    label = "2+2_cycloaddition_Root",
     group = 
 """
 1 *1 [Cd,Cdd,CO,CS]         u0 {2,D}
@@ -116,7 +116,7 @@ entry(
 
 tree(
 """
-L1: Root
+L1: 2+2_cycloaddition_Root
     L2: Root_1COCSCdCdd->Cd
         L3: Root_1COCSCdCdd->Cd_3COCSCdCdd->CO
         L3: Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO

@@ -2583,6 +2583,24 @@ Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
+# entry(
+#     index = 171,
+#     label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_N-2R->C_N-3R!H->N_2OS->O",
+#     kinetics = ArrheniusEP(
+#         A = (8.21491e+9, 'cm^3/(mol*s)'),
+#         n = 0.94,
+#         alpha = 0,
+#         E0 = (2.365, 'kcal/mol'),
+#         Tmin = (300, 'K'),
+#         Tmax = (1500, 'K'),
+#     ), 
+#     rank = 10,
+#     shortDesc = u"""AramcoMech2.0: REF:LIGHTFOOT ET AL. J. CHEM. SOC. FARA TRANS. 1991, 87(19), 3213--3220.""",
+#     longDesc = 
+# u"""
+# """,
+# )
+
 entry(
     index = 172,
     label = "Root_N-1R->H_N-1CNOS->N_N-1COS->O_1CS->C_N-1C-inRing_Ext-2R-R_Ext-2R-R_N-3R!H->O",
@@ -2883,3 +2901,231 @@ Total Standard Deviation in ln(k): 11.5401827615
 """,
 )
 
+# entry(
+#     index = 192,
+#     label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R->OC",
+#     kinetics = ArrheniusEP(
+#         A = (3.1505E+23, 'cm^3/(mol*s)'),
+#         n = -3.3600,
+#         alpha = 0,
+#         E0 = (3.0349, 'kcal/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (1500, 'K'),
+#     ), 
+#     rank = 10,
+#     shortDesc = u"""Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed""",
+#     longDesc = 
+# u"""
+# Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed.
+# Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products, Tran et al., 2019
+# """,
+# )
+
+# entry(
+#     index = 193,
+#     label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->OC",
+#     kinetics = ArrheniusEP(
+#         A = (8.205E+15, 'cm^3/(mol*s)'),
+#         n = -0.9900,
+#         alpha = 0,
+#         E0 = (2.76558, 'kcal/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (1500, 'K'),
+#     ), 
+#     rank = 10,
+#     shortDesc = u"""Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed""",
+#     longDesc = 
+# u"""
+# Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed.
+# Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products, Tran et al., 2019
+# """,
+# )
+# entry(
+#     index = 193,
+#     label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R_Ext-2R-R->OC",
+#     kinetics = ArrheniusEP(
+#         A = (8.205E+15, 'cm^3/(mol*s)'),
+#         n = -0.9900,
+#         alpha = 0,
+#         E0 = (2.76558, 'kcal/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (1500, 'K'),
+#     ), 
+#     rank = 10,
+#     shortDesc = u"""Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed""",
+#     longDesc = 
+# u"""
+# Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed.
+# Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products, Tran et al., 2019
+# """,
+# )
+
+entry(
+    index = 192,
+    label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-4R!H-R->O2",
+    kinetics = ArrheniusEP(
+        A = (6.301E+23, 'cm^3/(mol*s)'),
+        n = -3.3600,
+        alpha = 0,
+        E0 = (3.0349, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (1500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed""",
+    longDesc = 
+u"""
+Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed.
+Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products, Tran et al., 2019
+""",
+)
+
+entry(
+    index = 193,
+    label = "Root_N-1R->H_N-1CNOS->N_1COS->O_Ext-1O-R_Ext-2R-R_Ext-2R-R_4R!H->O2",
+    kinetics = ArrheniusEP(
+        A = (1.641E+16, 'cm^3/(mol*s)'),
+        n = -0.9900,
+        alpha = 0,
+        E0 = (2.76558, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (1500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed""",
+    longDesc = 
+u"""
+Rule added for ether oxidation !Sakai:PCI36(2017)195-202! reversed.
+Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products, Tran et al., 2019
+""",
+)
+
+entry(
+    index = 194,
+    label = "ethyl-esterC1->O2",
+    kinetics = ArrheniusEP(
+        A = (1.48E+12, 'cm^3/(mol*s)'),
+        n = 0.00,
+        alpha = 0,
+        E0 = (-0.61, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ester oxidation. QRRK + MSC + CBS-QB3""",
+    longDesc = 
+u"""
+Rule added for ester oxidation.
+reference = Article(
+    authors = ["Xuan T. Le", "Tam V. T. Mai", "Artur Ratkiewicz", "Lam K. Huynh"],
+    title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+    journal = "The Journal of Physical Chemistry A",
+    volume = "119",
+    pages = "3689-3703",
+    year = "2015",
+),""",
+)
+
+entry(
+    index = 195,
+    label = "ethyl-esterC2->O2",
+    kinetics = ArrheniusEP(
+        A = (1.48E+12, 'cm^3/(mol*s)'),
+        n = 0.00,
+        alpha = 0,
+        E0 = (-0.61, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ester oxidation. QRRK + MSC + CBS-QB3""",
+    longDesc = 
+u"""
+Rule added for ester oxidation.
+reference = Article(
+    authors = ["Xuan T. Le", "Tam V. T. Mai", "Artur Ratkiewicz", "Lam K. Huynh"],
+    title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+    journal = "The Journal of Physical Chemistry A",
+    volume = "119",
+    pages = "3689-3703",
+    year = "2015",
+),""",
+)
+
+entry(
+    index = 196,
+    label = "ethyl-esterCalpha->O2",
+    kinetics = ArrheniusEP(
+        A = (1.48E+12, 'cm^3/(mol*s)'),
+        n = 0.00,
+        alpha = 0,
+        E0 = (-0.61, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ester oxidation. QRRK + MSC + CBS-QB3""",
+    longDesc = 
+u"""
+Rule added for ester oxidation.
+reference = Article(
+    authors = ["Xuan T. Le", "Tam V. T. Mai", "Artur Ratkiewicz", "Lam K. Huynh"],
+    title = 'Mechanism and Kinetics of Low-Temperature Oxidation of a Biodiesel Surrogate: Methyl Propanoate Radicals with Oxygen Molecule',
+    journal = "The Journal of Physical Chemistry A",
+    volume = "119",
+    pages = "3689-3703",
+    year = "2015",
+),""",
+)
+
+entry(
+    index = 197,
+    label = "ketoneC1->O2",
+    kinetics = ArrheniusEP(
+        A = (1E+12, 'cm^3/(mol*s)'),
+        n = 0.00,
+        alpha = 0,
+        E0 = (0.00, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ketone oxidation. G3 + Rice–Ramsperger–Kassel (QRRK) + G3MP2B3 + B3LYP/6-311g(d,p)///High pressure limit""",
+    longDesc = 
+u"""
+Rule added for ketone oxidation.
+reference = Article(
+    authors = ["N. Sebbar", "J . W. Bozzelli", "H. Bockhorn"],
+    title = 'Thermochemistry and Kinetics for 2-Butanone-3yl Radical (CH3C(=O)CH•CH3) Reactions with O2',
+    journal = "Zeitschrift für Physikalische Chemie",
+    volume = "225",
+    pages = "993-1018",
+    year = "2011",
+),""",
+)
+
+entry(
+    index = 198,
+    label = "ketoneCalpha->O2",
+    kinetics = ArrheniusEP(
+        A = (3E+12, 'cm^3/(mol*s)'),
+        n = 0.00,
+        alpha = 0,
+        E0 = (0.00, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2500, 'K'),
+    ), 
+    rank = 10,
+    shortDesc = u"""Rule added for ketone oxidation. G3 + Rice–Ramsperger–Kassel (QRRK) + G3MP2B3 + B3LYP/6-311g(d,p)///High pressure limit""",
+    longDesc = 
+u"""
+Rule added for ketone oxidation.
+reference = Article(
+    authors = ["N. Sebbar", "J . W. Bozzelli", "H. Bockhorn"],
+    title = 'Thermochemistry and Kinetics for 2-Butanone-1-yl Radical (CH2·C(═O)CH2CH3) Reactions with O2',
+    journal = "The Journal of Physical Chemistry A",
+    volume = "118",
+    pages = "21-37",
+    year = "2014",
+),""",
+)

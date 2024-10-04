@@ -58061,7 +58061,6 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
-Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
 Original entry: R1 + C2H2 <=> W1
 """,
 )
@@ -58090,7 +58089,6 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
-Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
 Original entry: Pentacyl-C2H + H <=> W1
 """,
 )
@@ -59383,7 +59381,6 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
-Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
 Original entry: Acepentacyl + H <=> W2
 """,
 )
@@ -59412,8 +59409,139 @@ entry(
     longDesc =
 u"""
 Quantum chemistry calculations at the G3(MP2,CC)//B3LYP/6-311G(d,p) level.
-Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Pentacyl
 Original entry: Acepentacyl + H <=> W4
+""",
+)
+
+entry(
+    index = 3030,
+    label = "C4H9O-6b <=> C2H4 + C2H5O-7",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(A=(1.6e+12,'s^-1'), n=0.41, Ea=(24.3,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C2H5OC2H4-B<=>C2H5O+C2H4
+!Calculation!CBS-QB3
+""",
+)
+
+entry(
+    index = 3031,
+    label = "C4H9O-7b <=> C2H4O-5 + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(7.4e+13,'s^-1'), n=-0.1, Ea=(22.8,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C2H5OC2H4-A<=>C2H5+CH3CHO
+!Calculation!CBS-QB3
+""",
+)
+
+entry(
+    index = 3032,
+    label = "C4H9O-8b <=> C4H8Ob + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.5e+07,'s^-1'), n=1.78, Ea=(30.7,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C4H9Oa <=> H + C4H8O
+!Calculation!CBS-QB3
+""",
+)
+
+entry(
+    index = 3033,
+    label = "C4H9O-9b <=> C4H8O-2b + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(9.8e+07,'s^-1'), n=1.77, Ea=(35.7,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C4H9Ob <=> H + C4H8O
+!Calculation!CBS-QB3
+""",
+)
+
+entry(
+    index = 3034,
+    label = "C4H9O3b <=> C4H8O-2b + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.13e+10,'s^-1'), n=0.69, Ea=(14.6044,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C4H8OaOOHb <=> HO2 + C4H8O
+Sakai:PCI35(2015)161-169:pQOOH14hs:*co
+""",
+)
+
+entry(
+    index = 3035,
+    label = "C4H9O3-2b <=> C4H8Ob + HO2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(4.02e+11,'s^-1'), n=0.48, Ea=(16.81,'kcal/mol'), T0=(1,'K')),
+    reference = Article(
+        authors = ['L.S. Tran', 'O. Herbinet', 'Y. Li', 'J. Wullenkord', 'M. Zeng', 'E. Brauer', 'F. Qi', 'K. Kohse-Hoinghaus', 'F. Battin-Leclerc'],
+        title = 'Low-temperature gas-phase oxidation of diethyl ether: Fuel reactivity and fuel-specific products',
+        journal = 'Proceedings of the Combustion Institute',
+        volume = '37',
+        pages = '511-519',
+        year = '2019',
+    ),
+    referenceType = "theory",
+    rank = 10,
+    longDesc = 
+"""
+Original entry: C4H8ObOOHa <=> HO2 + C4H8O
+Sakai:PCI35(2015)161-169:pQOOH14hs:*co
 """,
 )
 
